@@ -2,7 +2,7 @@
   "images" : [
     {
       "extent" : "full-screen",
-      "filename" : "LaunchImage-1200-Portrait-2688h@3x.png",
+      "filename" : "启动页_iOS_1242x2688.png",
       "idiom" : "iphone",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
@@ -11,7 +11,7 @@
     },
     {
       "extent" : "full-screen",
-      "filename" : "LaunchImage-1200-Portrait-1792h@2x.png",
+      "filename" : "启动页_iOS_828x1792.png",
       "idiom" : "iphone",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
@@ -20,7 +20,7 @@
     },
     {
       "extent" : "full-screen",
-      "filename" : "LaunchImage-1100-Portrait-2436h@3x.png",
+      "filename" : "启动页_iOS_1125x2436.png",
       "idiom" : "iphone",
       "minimum-system-version" : "11.0",
       "orientation" : "portrait",
@@ -29,7 +29,7 @@
     },
     {
       "extent" : "full-screen",
-      "filename" : "LaunchImage-800-Portrait-736h@3x.png",
+      "filename" : "启动页_iOS_1242x2208.png",
       "idiom" : "iphone",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
@@ -38,7 +38,7 @@
     },
     {
       "extent" : "full-screen",
-      "filename" : "LaunchImage-800-667h@2x.png",
+      "filename" : "启动页_iOS_750x1334.png",
       "idiom" : "iphone",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",

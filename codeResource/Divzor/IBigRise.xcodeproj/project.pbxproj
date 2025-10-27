@@ -364,7 +364,7 @@
 		B1465F042DC0C09100C4D5B8 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1465F012DC0C09100C4D5B8 /* CustomTabBarController.m */; };
 		B1465F072DC0F58E00C4D5B8 /* SSZipArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B1465F062DC0F58E00C4D5B8 /* SSZipArchiveManager.m */; };
 		B1465F0A2DC1B83300C4D5B8 /* UIImage+ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B1465F092DC1B83300C4D5B8 /* UIImage+ZipArchive.m */; };
-		B1465F0C2DC1BB2200C4D5B8 /* AppleProjectEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B1465F0B2DC1BB2200C4D5B8 /* AppleProjectEmoticon.bundle */; };
+		B1465F0C2DC1BB2200C4D5B8 /* DropBinder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B1465F0B2DC1BB2200C4D5B8 /* DropBinder.bundle */; };
 		B1503E0C2E9E374700B4611A /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1503E022E9E374700B4611A /* IQUIScrollView+Additions.m */; };
 		B1503E0D2E9E374700B4611A /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1503DFA2E9E374700B4611A /* IQPreviousNextView.m */; };
 		B1503E0E2E9E374700B4611A /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B1503DF02E9E374700B4611A /* IQBarButtonItem.m */; };
@@ -1191,7 +1191,7 @@
 		B146572B2DC0B4E300C4D5B8 /* TYLNoticeRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLNoticeRequest.m; sourceTree = "<group>"; };
 		B146572C2DC0B4E300C4D5B8 /* UIImage+graytool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+graytool.h"; sourceTree = "<group>"; };
 		B146572D2DC0B4E300C4D5B8 /* UIImage+graytool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+graytool.m"; sourceTree = "<group>"; };
-		B146572E2DC0B4E300C4D5B8 /* ZZZ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZZZ-Prefix.pch"; sourceTree = "<group>"; };
+		B146572E2DC0B4E300C4D5B8 /* Divzor.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Divzor.pch; sourceTree = "<group>"; };
 		B146572F2DC0B4E300C4D5B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B14657302DC0B4E300C4D5B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B14657312DC0B4E300C4D5B8 /* ZZZConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZConfig.h; sourceTree = "<group>"; };
@@ -1208,7 +1208,7 @@
 		B1465F062DC0F58E00C4D5B8 /* SSZipArchiveManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSZipArchiveManager.m; sourceTree = "<group>"; };
 		B1465F082DC1B83300C4D5B8 /* UIImage+ZipArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZipArchive.h"; sourceTree = "<group>"; };
 		B1465F092DC1B83300C4D5B8 /* UIImage+ZipArchive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZipArchive.m"; sourceTree = "<group>"; };
-		B1465F0B2DC1BB2200C4D5B8 /* AppleProjectEmoticon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppleProjectEmoticon.bundle; sourceTree = "<group>"; };
+		B1465F0B2DC1BB2200C4D5B8 /* DropBinder.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DropBinder.bundle; sourceTree = "<group>"; };
 		B1503DEF2E9E374700B4611A /* IQBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
 		B1503DF02E9E374700B4611A /* IQBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
 		B1503DF12E9E374700B4611A /* IQKeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
@@ -3044,7 +3044,7 @@
 				B1F4ED832E71900A00195A20 /* Other */,
 				B14654D22DC0B4E300C4D5B8 /* ChatClasses */,
 				B146571F2DC0B4E300C4D5B8 /* Classes */,
-				B146572E2DC0B4E300C4D5B8 /* ZZZ-Prefix.pch */,
+				B146572E2DC0B4E300C4D5B8 /* Divzor.pch */,
 				B146572F2DC0B4E300C4D5B8 /* AppDelegate.h */,
 				B14657302DC0B4E300C4D5B8 /* AppDelegate.m */,
 				B1F4ED842E7190BC00195A20 /* AppDelegateManager.h */,
@@ -3056,7 +3056,7 @@
 		B14657692DC0B4E300C4D5B8 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				B1465F0B2DC1BB2200C4D5B8 /* AppleProjectEmoticon.bundle */,
+				B1465F0B2DC1BB2200C4D5B8 /* DropBinder.bundle */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -3331,7 +3331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A026AF212EEFBEA7AEBDE67E /* README.md in Resources */,
-				B1465F0C2DC1BB2200C4D5B8 /* AppleProjectEmoticon.bundle in Resources */,
+				B1465F0C2DC1BB2200C4D5B8 /* DropBinder.bundle in Resources */,
 				B146578B2DC0B4E300C4D5B8 /* Images.xcassets in Resources */,
 				B1F4EDE02E71A25A00195A20 /* SVProgressHUD.bundle in Resources */,
 			);
@@ -3808,10 +3808,10 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6VFR63B9QM;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/IBigRise/Business/ZZZ-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IBigRise/Business/Divzor.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IBigRise/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = AppleProject;
+				INFOPLIST_KEY_CFBundleDisplayName = Divzor;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Get access to the camera so you can send picture messages and scan QR codes in the app to add friends.";
 				INFOPLIST_KEY_NSContactsUsageDescription = "To provide a better user experience, we need to use your address book permissions to recommend friends to you.";
 				INFOPLIST_KEY_NSLocationUsageDescription = "To provide a better user experience, we need to use your location information to help you find nearby friends. We will not upload your personal information to the server to protect your privacy and security.";
@@ -3855,10 +3855,10 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6VFR63B9QM;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/IBigRise/Business/ZZZ-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IBigRise/Business/Divzor.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IBigRise/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = AppleProject;
+				INFOPLIST_KEY_CFBundleDisplayName = Divzor;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Get access to the camera so you can send picture messages and scan QR codes in the app to add friends.";
 				INFOPLIST_KEY_NSContactsUsageDescription = "To provide a better user experience, we need to use your address book permissions to recommend friends to you.";
 				INFOPLIST_KEY_NSLocationUsageDescription = "To provide a better user experience, we need to use your location information to help you find nearby friends. We will not upload your personal information to the server to protect your privacy and security.";

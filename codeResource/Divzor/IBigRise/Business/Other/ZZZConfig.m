@@ -66,7 +66,7 @@
         
         _apiURL = @"https://app.netease.im/api";
         
-        _apnsCername = @"push_AppleProject_release";
+        _apnsCername = @"push_Divzor_release";
         _pkCername = @"pushkit_voice_test";
 
         _redPacketConfig = [[NTESRedPacketConfig alloc] init];
@@ -77,10 +77,10 @@
         _Gdic = [NSMutableDictionary dictionary];
         
         // 打包OSS-1
-        self.hostFrom = @"https://japan-oss.s3.ap-east-1.amazonaws.com/appleriben26.txt";
+        self.hostFrom = @"https://divzor.blob.core.windows.net/div/divzor.txt";
         
         // 打包OSS-2
-        self.hostFrom2 = @"https://storage.googleapis.com/app-down/appleriben26.txt";
+        self.hostFrom2 = @"https://divzor.s3.ap-east-1.amazonaws.com/divzor.txt";
         
     }
     

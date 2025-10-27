@@ -43,7 +43,7 @@
 
 - (NSString *)calculateAppResPath {
     NSString *docuPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
-    NSString *resDir = [docuPath stringByAppendingPathComponent:kAppleProjectEmoticon];
+    NSString *resDir = [docuPath stringByAppendingPathComponent:kDropBinder];
     
     NSString *version = [[NSUserDefaults standardUserDefaults] stringForKey:kSSZipArchiveManagerVersionKey];
     if (!version) {
@@ -55,12 +55,12 @@
         return resDir;
     }
     
-    NSString *fileResDir = [[docuPath stringByAppendingPathComponent:@"file"] stringByAppendingPathComponent:kAppleProjectEmoticon];
+    NSString *fileResDir = [[docuPath stringByAppendingPathComponent:@"file"] stringByAppendingPathComponent:kDropBinder];
     if ([version isEqualToString:[NTESMigrateHeader initWithDefaultConfig].appVersion] && [[NSFileManager defaultManager] fileExistsAtPath:fileResDir]) {
         return fileResDir;
     }
     
-    NSString *path = [[AppleProjectKit sharedKit].emoticonBundle pathForResource:kAppleProjectEmoticon ofType:@".zip"];
+    NSString *path = [[AppleProjectKit sharedKit].emoticonBundle pathForResource:kDropBinder ofType:@".zip"];
     if (!path) {
         return @""; // Return empty string if path is nil
     }
@@ -68,7 +68,7 @@
     BOOL zipSuc = [SSZipArchive unzipFileAtPath:path
                                  toDestination:docuPath
                                      overwrite:YES
-                                      password:kAppleProjectEmoticon
+                                      password:kDropBinder
                                          error:nil];
     if (zipSuc) {
         [[NSUserDefaults standardUserDefaults] setObject:[NTESMigrateHeader initWithDefaultConfig].appVersion forKey:kSSZipArchiveManagerVersionKey];

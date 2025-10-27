@@ -69,8 +69,8 @@ win;})
 #define RGB_COLOR_String(string)  [UIColor colorWithHexString:string]
 
 //颜色
-#define ThemeColor                  RGB_COLOR_String(@"#2BBCFB") // 主题色
-#define DeepBtnColor                RGB_COLOR_String(@"#39AE02") // 按钮厚度色
+#define ThemeColor                  RGB_COLOR_String(@"#8A53F8") // 主题色
+#define DeepBtnColor                RGB_COLOR_String(@"#6D2EEB") // 按钮厚度色
 #define Nav_Color                   RGB_COLOR_String(@"866343")  //导航栏通用颜色
 #define Tabbar_Color                RGB_COLOR_String(@"ffffff")  //tabbar通用颜色
 #define CommonBGView_Color          RGB_COLOR_String(@"F9F9F9")  //view通用背景色
