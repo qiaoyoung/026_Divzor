@@ -1,0 +1,37 @@
+platform :ios, '13.0'
+
+target "IBigRise" do
+     pod 'TZImagePickerController'
+     pod 'SDWebImage'
+     pod 'SDWebImageFLPlugin'
+     pod 'YYImage'
+     pod 'YYImage/WebP'
+     pod 'Masonry'
+     pod 'YYText'
+     pod 'FMDB'
+     pod 'Reachability'
+     pod 'YYModel'
+     pod 'FLAnimatedImage'
+     pod 'LEEAlert'
+     pod 'MJExtension'
+     pod 'SSZipArchive'
+     
+#     pod 'IQKeyboardManager'
+#     pod 'SVProgressHUD'
+#     pod 'UCZProgressView'
+#     pod 'FFDropDownMenu'
+#     pod 'TXScrollLabelView'
+#     pod 'AFNetworking', :git => 'https://github.com/NewAFNetworking/AFNetworking.git'
+#     pod 'Toast'
+#     pod 'NIMSDK_LITE', '9.20.12'
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['COMPILER_INDEX_STORE_ENABLE'] = 'NO'
+    end
+  end
+end
+

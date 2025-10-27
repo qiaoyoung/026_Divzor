@@ -1,0 +1,50 @@
+//
+//  ZZZ-Prefix.pch
+//  NIMDemo
+//
+//  Created by ght on 15-1-27.
+//  Copyright (c) 2015年 Netease. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import "NTESGlobalMacro.h"
+#import "AppleProjectKit.h"
+#import "NSString+NTES.h"
+#import "HttpManager.h"
+#import "HttpManager+Addtionals.h"
+#import "UIColor+Util.h"
+#import <Masonry/Masonry.h>
+#import "Masonry.h"
+#import "NIMUserDefaults.h"
+#import "SVProgressHUD.h"
+#import <YYText/YYText.h>
+#import "UIImage+KIAdditions.h"
+#import "UserManager.h"
+#import <NIMSDK/NIMSDK.h>
+#import "SNWeakStrongMacro.h"
+
+//扩展
+#import "UIViewController+KIAdditions.h"
+#import "SVProgressHUD+ZC.h"
+#import "NSDictionary+KIAdditions.h"
+#import "NIMUserDefaults+Util.h"
+#import "UIView+KIAdditions.h"
+#import "NSDateFormatter+KIAdditions.h"
+#import "NSDate+KIAdditions.h"
+#import "UIViewController+KIAdditions.h"
+#import "UIButton+ImageTitleSpacing.h"
+#import "UIDevice+VGAddition.h"
+#import "NTESCustomAttachmentDefines.h"
+#import "ZMONCustomLoadingView.h"
+#import <SDWebImage/SDWebImage.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "HttpInterfacedConst.h"
+#import "NSString+AppleProjectKit.h"
+#import "NSDictionaryExtend.h"
+#import "UIDevice+VGAddition.h"
+#import "SNGradientHelper.h"
+#import "UIImage+graytool.h"
+#import "UIView+NTES.h"
+#import "UIView+Toast.h"
+
+#endif

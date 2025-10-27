@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>qualityListCollector</key>
+    <string>StackTerminalTemplate</string>
+    <key>balancerContinue</key>
+    <string>StageUntilCreator</string>
+    <key>vocalSyncFacade</key>
+    <string>CreatorModifyHumane</string>
+    <key>worthPromptCatalogerSync</key>
+    <string>LocalizeCoordinatorShow</string>
+    <key>dialogSmartStyler</key>
+    <string>OwnerColorWide</string>
+    <key>topmostAssetAdd</key>
+    <string>EnqueueParseStencil</string>
+</dict>
+</plist>

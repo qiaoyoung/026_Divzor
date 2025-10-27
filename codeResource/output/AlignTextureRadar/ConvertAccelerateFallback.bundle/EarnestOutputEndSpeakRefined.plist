@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>dominantDelegateResize</key>
+    <string>AlertComplexCluster</string>
+    <key>directHandler</key>
+    <string>UpgradeDisplayHelix</string>
+    <key>toTerseBridgeStyler</key>
+    <string>MatchExpertSync</string>
+    <key>implementAccurateLock</key>
+    <string>ProgramFallsGrave</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>lineDecode</key>
+    <string>DataSourceSkyRoyal</string>
+    <key>watchHeaven</key>
+    <string>ViewportPresentLedgeSpriteStone</string>
+    <key>floraEndless</key>
+    <string>OwnerCacheHub</string>
+    <key>scrollFix</key>
+    <string>BinderPushWarehouse</string>
+    <key>scenarioHumble</key>
+    <string>TempleWithoutSummit</string>
+</dict>
+</plist>
