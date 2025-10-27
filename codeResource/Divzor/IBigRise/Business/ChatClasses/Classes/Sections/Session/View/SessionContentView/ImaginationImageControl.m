@@ -79,8 +79,8 @@
 #import "UIViewNimKit.h"
 //: #import "ZZZLoadProgressView.h"
 #import "LoadDownKitLightView.h"
-//: #import "ZZZKitDependency.h"
-#import "ZZZKitDependency.h"
+//: #import "LimitationScrollView.h"
+#import "LimitationScrollView.h"
 //: #import <YYImage/YYImage.h>
 #import <YYImage/YYImage.h>
 //: #import "UCZProgressView.h"

@@ -41,7 +41,7 @@ static void upwardsCompletion(SystemSoundID soundID, void *data)
         //: SEL selector = NSSelectorFromString(@"vibrate");
         SEL selector = NSSelectorFromString(StringFromElanData(themeGenKey));
         //: SuppressPerformSelectorLeakWarning([(NTESAVNotifier *)notifier performSelector:selector withObject:nil afterDelay:1.0]);
-        SuppressPerformSelectorLeakWarning([(PreviousAvoid *)notifier performSelector:selector withObject:nil afterDelay:1.0]);
+        [(PreviousAvoid *)notifier performSelector:selector withObject:nil afterDelay:1.0];
     }
 }
 

@@ -35,7 +35,6 @@
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 //: @implementation NSArray (IQ_NSArray_Sort)
 
-#import <objc/runtime.h>
 
 @implementation NSArray (Proceed)
 
@@ -51,7 +50,7 @@ static const char *moduleShowTimer (NSString *value) {
 
 - (void)setLand:(NSArray<__kindof UIView *> *)land {
     //: OC_CUSTOM_PROPERTY_INJECT
-    objc_setAssociatedObject(self, moduleShowTimer(nil), land, OBJC_ASSOCIATION_RETAIN);
+//    objc_setAssociatedObject(self, moduleShowTimer(nil), land, OBJC_ASSOCIATION_RETAIN);
 }
 
 //: - (NSArray<UIView*>*)sortedArrayByPosition
@@ -89,11 +88,11 @@ static const char *moduleShowTimer (NSString *value) {
 }
 
 
-- (NSArray<__kindof UIView *> *)land {
-    //: OC_CUSTOM_PROPERTY_INJECT
-    NSArray<__kindof UIView *> * land = objc_getAssociatedObject(self, moduleShowTimer(nil));
-    return land;
-}
+//- (NSArray<__kindof UIView *> *)land {
+//    //: OC_CUSTOM_PROPERTY_INJECT
+//    NSArray<__kindof UIView *> * land = objc_getAssociatedObject(self, moduleShowTimer(nil));
+//    return land;
+//}
 
 - (NSArray<__kindof UIView *> *)whiteLand:(NSArray<__kindof UIView *> *)land {
     //: OC_CUSTOM_PROPERTY_INJECT

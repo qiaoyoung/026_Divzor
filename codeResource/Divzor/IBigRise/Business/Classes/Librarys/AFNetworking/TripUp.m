@@ -524,7 +524,7 @@ typedef void (^AFURLSessionTaskCompletionHandler)(NSURLResponse *response, id re
 //: @property (nonatomic, weak) AFURLSessionManager *manager;
 @property (nonatomic, weak) TripUp *sizeVisual;
 //: @property (nonatomic, strong) NSURLSessionTaskMetrics *sessionTaskMetrics API_AVAILABLE(ios(10), macosx(10.12), watchos(3), tvos(10));
-@property (nonatomic, strong) NSURLSessionTaskMetrics *calendar//: @property (nonatomic, copy) AFURLSessionTaskProgressBlock downloadProgressBlock;
+@property (nonatomic, strong) NSURLSessionTaskMetrics *calendar;//: @property (nonatomic, copy) AFURLSessionTaskProgressBlock downloadProgressBlock;
 @property (nonatomic, copy) AFURLSessionTaskProgressBlock on;
 //: @property (nonatomic, copy) AFURLSessionTaskCompletionHandler completionHandler;
 @property (nonatomic, copy) AFURLSessionTaskCompletionHandler completion;
@@ -1101,7 +1101,7 @@ static NSString * const screenSoundSettings (NSString *value) {
 //: @property (readwrite, nonatomic, copy) AFURLSessionDownloadTaskDidResumeBlock downloadTaskDidResume;
 @property (readwrite, nonatomic, copy) AFURLSessionDownloadTaskDidResumeBlock byLemonResumeBlock;
 //: @property (readwrite, nonatomic, copy) AFURLSessionTaskDidFinishCollectingMetricsBlock taskDidFinishCollectingMetrics API_AVAILABLE(ios(10), macosx(10.12), watchos(3), tvos(10));
-@property (readwrite, nonatomic, copy) AFURLSessionTaskDidFinishCollectingMetricsBlock disturbingAPI_AVAILABLE(ios(10), macosx(10.12), watchos(3), tvos(10));
+@property (readwrite, nonatomic, copy) AFURLSessionTaskDidFinishCollectingMetricsBlock disturbing API_AVAILABLE(ios(10), macosx(10.12), watchos(3), tvos(10));
 
 //: @property (readwrite, nonatomic, copy) AFURLSessionDataTaskDidReceiveResponseBlock dataTaskDidReceiveResponse;
 @property (readwrite, nonatomic, copy) AFURLSessionDataTaskDidReceiveResponseBlock receiveDataChoreEvent;
@@ -1137,7 +1137,7 @@ API_UNAVAILABLE(macos);
 //: @property (readwrite, nonatomic, copy) AFURLSessionTaskDidCompleteBlock taskDidComplete;
 @property (readwrite, nonatomic, copy) AFURLSessionTaskDidCompleteBlock imaginationOutside;
 //: @property (readwrite, nonatomic, copy) AFURLSessionDidFinishEventsForBackgroundURLSessionBlock didFinishEventsForBackgroundURLSession API_UNAVAILABLE(macos);
-@property (readwrite, nonatomic, copy) AFURLSessionDidFinishEventsForBackgroundURLSessionBlock expression//: @end
+@property (readwrite, nonatomic, copy) AFURLSessionDidFinishEventsForBackgroundURLSessionBlock expression;//: @end
 @end
 
 //: @implementation AFURLSessionManager

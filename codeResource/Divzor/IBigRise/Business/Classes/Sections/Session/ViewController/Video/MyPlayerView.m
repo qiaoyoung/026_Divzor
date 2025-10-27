@@ -17,7 +17,7 @@ MatterData viewNeedSkinMessage = (MatterData){104, (Byte []){41, 62, 36, 9, 17, 
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  PlayerView.m
+//  MyPlayerView.m
 //  NIM
 //
 //  Created by Genning-Work on 2019/10/25.
@@ -25,11 +25,11 @@ MatterData viewNeedSkinMessage = (MatterData){104, (Byte []){41, 62, 36, 9, 17, 
 //
 
 // __M_A_C_R_O__
-//: #import "NTESAVPlayerView.h"
-#import "PlayerView.h"
+//: #import "NTESAVMyPlayerView.h"
+#import "MyPlayerView.h"
 
-//: @implementation NTESAVPlayerView
-@implementation PlayerView
+//: @implementation NTESAVMyPlayerView
+@implementation MyPlayerView
 {
     //: NSString* _videoFillMode;
     NSString* _owner;

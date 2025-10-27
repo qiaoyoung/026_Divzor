@@ -133,7 +133,7 @@ typedef NS_OPTIONS(NSUInteger, EnumAVMovieFinishReason) {
 @property(nonatomic, readonly) EnumAVMoviePlaybackState excess;
 @property(nonatomic, assign) NSTimeInterval inside;
 //: @property(nonatomic, readonly) UIView *view;
-@property (readonly, nonatomic, strong) PlayerView *second;
+@property (readonly, nonatomic, strong) UIView *second;
 //: @property(nonatomic, assign) float playbackRate;
 @property(nonatomic, assign) float writing;
 //: @property(nonatomic, readonly) NSTimeInterval duration;

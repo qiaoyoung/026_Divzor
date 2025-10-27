@@ -1786,7 +1786,7 @@ RecognizeDelegate>
             //: if (selector && [self respondsToSelector:selector]) {
             if (selector && [self respondsToSelector:selector]) {
                 //: SuppressPerformSelectorLeakWarning([self performSelector:selector withObject:message]);
-                SuppressPerformSelectorLeakWarning([self performSelector:selector withObject:message]);
+                [self performSelector:selector withObject:message];
                 //: handled = YES;
                 handled = YES;
             }
@@ -3616,10 +3616,10 @@ RecognizeDelegate>
     //: item.itemId = object.message.messageId;
     item.button = object.message.messageId;
 
-    //: ZZZVideoViewController *playerViewController = [[ZZZVideoViewController alloc] initWithVideoViewItem:item];
-    StatementViewController *playerViewController = [[StatementViewController alloc] initWithConfirmPerceptBounce:item];
-    //: [self.navigationController pushViewController:playerViewController animated:YES];
-    [self.navigationController pushViewController:playerViewController animated:YES];
+    //: ZZZVideoViewController *MyPlayerViewController = [[ZZZVideoViewController alloc] initWithVideoViewItem:item];
+    StatementViewController *MyPlayerViewController = [[StatementViewController alloc] initWithConfirmPerceptBounce:item];
+    //: [self.navigationController pushViewController:MyPlayerViewController animated:YES];
+    [self.navigationController pushViewController:MyPlayerViewController animated:YES];
     //: if(![[NSFileManager defaultManager] fileExistsAtPath:object.coverPath]){
     if(![[NSFileManager defaultManager] fileExistsAtPath:object.coverPath]){
         //如果封面图下跪了，点进视频的时候再去下一把封面图

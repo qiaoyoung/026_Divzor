@@ -694,7 +694,7 @@
 //: @interface NTESSessionListViewController ()<NIMLoginManagerDelegate,NTESListHeaderDelegate,NIMEventSubscribeManagerDelegate,UIViewControllerPreviewingDelegate,NIMChatExtendManagerDelegate, NIMConversationManagerDelegate,NIMSystemNotificationManagerDelegate>
 @interface WarningViewController ()<NIMLoginManagerDelegate,OutsideDelegate,NIMEventSubscribeManagerDelegate,UIViewControllerPreviewingDelegate,NIMChatExtendManagerDelegate, NIMConversationManagerDelegate,NIMSystemNotificationManagerDelegate>
 
-@property (nonatomic, strong) SinkPlaceForefrontView *carte
+@property (nonatomic, strong) SinkPlaceForefrontView *carte;
 /** 下拉菜单 */
 
 //: @property (nonatomic, strong) NSString *creatTeam;

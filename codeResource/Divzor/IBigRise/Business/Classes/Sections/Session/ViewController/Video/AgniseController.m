@@ -284,8 +284,8 @@ typedef struct {
 // __M_A_C_R_O__
 //: #import "ZZZAVMoivePlayerController.h"
 #import "AgniseController.h"
-//: #import "NTESAVPlayerView.h"
-#import "PlayerView.h"
+//: #import "NTESAVMyPlayerView.h"
+#import "MyPlayerView.h"
 
 //: static NSString *kErrorDomain = @"IJKAVMoviePlayer";
 static NSString *widgetHistoricalName = @"IJKAVMoviePlayer";
@@ -382,10 +382,10 @@ static dispatch_once_t k_recordingFormat;
 @property (nonatomic, strong) AVURLAsset *pointAdvantage;
 //: @property (nonatomic, strong) id timeObserve; 
 @property (nonatomic, strong) id identity;
-@property (nonatomic, strong) PlayerView *board;
+@property (nonatomic, strong) MyPlayerView *board;
 @property (nonatomic, strong) id timeInputSight;//监听播放进度
-//: @property (nonatomic, strong) NTESAVPlayerView *view;
-@property (nonatomic, strong) PlayerView *second;
+//: @property (nonatomic, strong) NTESAVMyPlayerView *view;
+@property (nonatomic, strong) MyPlayerView *second;
 @property (nonatomic, assign) NSInteger dark;
 //: @property (nonatomic, assign) BOOL isPreparedToPlay;
 @property (nonatomic, assign) BOOL positionDoing;
@@ -482,7 +482,7 @@ static dispatch_once_t k_recordingFormat;
 
 //: @end
 
-- (void)setSecond:(PlayerView *)second {
+- (void)setSecond:(MyPlayerView *)second {
     //: OC_CUSTOM_PROPERTY_INJECT
     _second = second;
 }
@@ -1026,8 +1026,8 @@ static dispatch_once_t k_recordingFormat;
         //: _playUrl = aUrl;
         _resume = aUrl;
 	[self setTop:self.inside];
-        //: _view = [[NTESAVPlayerView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        _board = [[PlayerView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        //: _view = [[NTESAVMyPlayerView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        _board = [[MyPlayerView alloc] initWithFrame:[UIScreen mainScreen].bounds];
         //: _isPrerolling = NO;
         _handle = NO;
 	[self setIdentity:_timeInputSight];
@@ -1701,7 +1701,7 @@ static dispatch_once_t k_recordingFormat;
 }
 
 
-- (PlayerView *)talk:(PlayerView *)second {
+- (MyPlayerView *)talk:(MyPlayerView *)second {
     //: OC_CUSTOM_PROPERTY_INJECT
     _second = second;
     return second;

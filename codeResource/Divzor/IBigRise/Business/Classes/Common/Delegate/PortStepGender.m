@@ -144,7 +144,7 @@ Byte coreEverUtility[] = {19, 11, 86, 10, 34, 76, 61, 199, 235, 208, 203, 201, 1
     //: if ([vc respondsToSelector:sel]) {
     if ([vc respondsToSelector:sel]) {
         //: SuppressPerformSelectorLeakWarning(use = (BOOL)[vc performSelector:sel]);
-        SuppressPerformSelectorLeakWarning(use = (BOOL)[vc performSelector:sel]);
+        use = (BOOL)[vc performSelector:sel];
     }
     //: return use;
     return use;
@@ -309,7 +309,7 @@ Byte coreEverUtility[] = {19, 11, 86, 10, 34, 76, 61, 199, 235, 208, 203, 201, 1
     //: if ([vc respondsToSelector:sel]) {
     if ([vc respondsToSelector:sel]) {
         //: SuppressPerformSelectorLeakWarning(use = (BOOL)[vc performSelector:sel]);
-        SuppressPerformSelectorLeakWarning(use = (BOOL)[vc performSelector:sel]);
+        use = (BOOL)[vc performSelector:sel];
     }
     //: return use;
     return use;

@@ -19,8 +19,9 @@ IB_DESIGNABLE
 @interface BoardWayView : UIView
 
 //: @property (nonatomic) UIBlurEffect *blurEffect NS_AVAILABLE_IOS(8_0); 
-@property (nonatomic) UIBlurEffect *withoutBlurEffect@property (nonatomic) IBInspectable UIColor *hide;// UI_APPEARANCE_SELECTOR;
-//: @property (nonatomic) IBInspectable UIColor *textColor; 
+@property (nonatomic) UIBlurEffect *withoutBlurEffect;
+@property (nonatomic) IBInspectable UIColor *hide;// UI_APPEARANCE_SELECTOR;
+//: @property (nonatomic) IBInspectable UIColor *textColor;
 @property (nonatomic) IBInspectable UIColor *yardObserver;
 
 //: @property (nonatomic) IBInspectable CGFloat progress;

@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  PlayerView.h
+//  MyPlayerView.h
 //  NIM
 //
 //  Created by Genning-Work on 2019/10/25.
@@ -17,8 +17,8 @@
 //: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
-//: @interface NTESAVPlayerView : UIView
-@interface PlayerView : UIView
+//: @interface NTESAVMyPlayerView : UIView
+@interface MyPlayerView : UIView
 
 //: @property (nonatomic, strong) AVPlayer* player;
 @property (nonatomic, strong) AVPlayer* validated;

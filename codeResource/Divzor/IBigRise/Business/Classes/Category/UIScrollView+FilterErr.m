@@ -571,7 +571,7 @@ static char coreThemePlatform;
 //: - (void)setScrollViewContentInsetForLoading {
 - (void)transition {
     //: CGFloat offset = ((self.scrollView.contentOffset.y * -1) > (0) ? (self.scrollView.contentOffset.y * -1) : (0));
-    CGFloat offset = ((self.centerView.contentOffset.month * -1) > (0) ? (self.centerView.contentOffset.month * -1) : (0));
+    CGFloat offset = ((self.centerView.contentOffset.y * -1) > (0) ? (self.centerView.contentOffset.y * -1) : (0));
     //: UIEdgeInsets currentInsets = self.scrollView.contentInset;
     UIEdgeInsets currentInsets = self.centerView.contentInset;
     //: switch (self.position) {
@@ -781,7 +781,7 @@ static char coreThemePlatform;
             //: case EnumPullToRefreshPositionTop:
             case EnumPullToRefreshPositionTop:
                 //: scrollOffsetThreshold = self.frame.origin.y - self.originalTopInset;
-                scrollOffsetThreshold = self.frame.origin.month - self.derivative;
+                scrollOffsetThreshold = self.frame.origin.y - self.derivative;
                 //: break;
                 break;
             //: case EnumPullToRefreshPositionBottom:
@@ -797,19 +797,19 @@ static char coreThemePlatform;
             //: self.state = EnumPullToRefreshStateLoading;
             self.likelyResigned = EnumPullToRefreshStateLoading;
         //: else if(contentOffset.y < scrollOffsetThreshold && self.scrollView.isDragging && self.state == EnumPullToRefreshStateStopped && self.position == EnumPullToRefreshPositionTop)
-        else if(contentOffset.month < scrollOffsetThreshold && self.centerView.isDragging && self.likelyResigned == EnumPullToRefreshStateStopped && self.referDecideRefreshPosition == EnumPullToRefreshPositionTop)
+        else if(contentOffset.y < scrollOffsetThreshold && self.centerView.isDragging && self.likelyResigned == EnumPullToRefreshStateStopped && self.referDecideRefreshPosition == EnumPullToRefreshPositionTop)
             //: self.state = EnumPullToRefreshStateTriggered;
             self.likelyResigned = EnumPullToRefreshStateTriggered;
         //: else if(contentOffset.y >= scrollOffsetThreshold && self.state != EnumPullToRefreshStateStopped && self.position == EnumPullToRefreshPositionTop)
-        else if(contentOffset.month >= scrollOffsetThreshold && self.likelyResigned != EnumPullToRefreshStateStopped && self.referDecideRefreshPosition == EnumPullToRefreshPositionTop)
+        else if(contentOffset.y >= scrollOffsetThreshold && self.likelyResigned != EnumPullToRefreshStateStopped && self.referDecideRefreshPosition == EnumPullToRefreshPositionTop)
             //: self.state = EnumPullToRefreshStateStopped;
             self.likelyResigned = EnumPullToRefreshStateStopped;
         //: else if(contentOffset.y > scrollOffsetThreshold && self.scrollView.isDragging && self.state == EnumPullToRefreshStateStopped && self.position == EnumPullToRefreshPositionBottom)
-        else if(contentOffset.month > scrollOffsetThreshold && self.centerView.isDragging && self.likelyResigned == EnumPullToRefreshStateStopped && self.referDecideRefreshPosition == EnumPullToRefreshPositionBottom)
+        else if(contentOffset.y > scrollOffsetThreshold && self.centerView.isDragging && self.likelyResigned == EnumPullToRefreshStateStopped && self.referDecideRefreshPosition == EnumPullToRefreshPositionBottom)
             //: self.state = EnumPullToRefreshStateTriggered;
             self.likelyResigned = EnumPullToRefreshStateTriggered;
         //: else if(contentOffset.y <= scrollOffsetThreshold && self.state != EnumPullToRefreshStateStopped && self.position == EnumPullToRefreshPositionBottom)
-        else if(contentOffset.month <= scrollOffsetThreshold && self.likelyResigned != EnumPullToRefreshStateStopped && self.referDecideRefreshPosition == EnumPullToRefreshPositionBottom)
+        else if(contentOffset.y <= scrollOffsetThreshold && self.likelyResigned != EnumPullToRefreshStateStopped && self.referDecideRefreshPosition == EnumPullToRefreshPositionBottom)
             //: self.state = EnumPullToRefreshStateStopped;
             self.likelyResigned = EnumPullToRefreshStateStopped;
     //: } else {
@@ -823,7 +823,7 @@ static char coreThemePlatform;
             //: case EnumPullToRefreshPositionTop:
             case EnumPullToRefreshPositionTop:
                 //: offset = ((self.scrollView.contentOffset.y * -1) > (0.0f) ? (self.scrollView.contentOffset.y * -1) : (0.0f));
-                offset = ((self.centerView.contentOffset.month * -1) > (0.0f) ? (self.centerView.contentOffset.month * -1) : (0.0f));
+                offset = ((self.centerView.contentOffset.y * -1) > (0.0f) ? (self.centerView.contentOffset.y * -1) : (0.0f));
                 //: offset = ((offset) < (self.originalTopInset + self.bounds.size.height) ? (offset) : (self.originalTopInset + self.bounds.size.height));
                 offset = ((offset) < (self.derivative + self.bounds.size.height) ? (offset) : (self.derivative + self.bounds.size.height));
                 //: contentInset = self.scrollView.contentInset;
@@ -977,7 +977,7 @@ static char coreThemePlatform;
         //: CGPoint origin = CGPointMake(roundf((self.bounds.size.width-viewBounds.size.width)/2), roundf((self.bounds.size.height-viewBounds.size.height)/2));
         CGPoint origin = CGPointMake(roundf((self.bounds.size.width-viewBounds.size.width)/2), roundf((self.bounds.size.height-viewBounds.size.height)/2));
         //: [customView setFrame:CGRectMake(origin.x, origin.y, viewBounds.size.width, viewBounds.size.height)];
-        [customView setFrame:CGRectMake(origin.x, origin.month, viewBounds.size.width, viewBounds.size.height)];
+        [customView setFrame:CGRectMake(origin.x, origin.y, viewBounds.size.width, viewBounds.size.height)];
     }
     //: else {
     else {
@@ -1209,7 +1209,7 @@ static char coreThemePlatform;
         case EnumPullToRefreshPositionTop:
 
             //: if((fabs(self.scrollView.contentOffset.y) < 1.19209290e-7F)) {
-            if((fabs(self.centerView.contentOffset.month) < 1.19209290e-7F)) {
+            if((fabs(self.centerView.contentOffset.y) < 1.19209290e-7F)) {
                 //: [self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x, -self.frame.size.height) animated:YES];
                 [self.centerView setContentOffset:CGPointMake(self.centerView.contentOffset.x, -self.frame.size.height) animated:YES];
                 //: self.wasTriggeredByUser = NO;
@@ -1227,11 +1227,11 @@ static char coreThemePlatform;
         case EnumPullToRefreshPositionBottom:
 
             //: if(((fabs(self.scrollView.contentOffset.y) < 1.19209290e-7F) && self.scrollView.contentSize.height < self.scrollView.bounds.size.height)
-            if(((fabs(self.centerView.contentOffset.month) < 1.19209290e-7F) && self.centerView.contentSize.height < self.centerView.bounds.size.height)
+            if(((fabs(self.centerView.contentOffset.y) < 1.19209290e-7F) && self.centerView.contentSize.height < self.centerView.bounds.size.height)
                //: || (fabs((self.scrollView.contentOffset.y) - (self.scrollView.contentSize.height - self.scrollView.bounds.size.height)) < 1.19209290e-7F)) {
-               || (fabs((self.centerView.contentOffset.month) - (self.centerView.contentSize.height - self.centerView.bounds.size.height)) < 1.19209290e-7F)) {
+               || (fabs((self.centerView.contentOffset.y) - (self.centerView.contentSize.height - self.centerView.bounds.size.height)) < 1.19209290e-7F)) {
                 //: [self.scrollView setContentOffset:(CGPoint){.y = ((self.scrollView.contentSize.height - self.scrollView.bounds.size.height) > (0.0f) ? (self.scrollView.contentSize.height - self.scrollView.bounds.size.height) : (0.0f)) + self.frame.size.height} animated:YES];
-                [self.scrollView setContentOffset:(CGPoint){.month = ((self.scrollView.contentSize.height - self.scrollView.bounds.size.height) > (0.0f) ? (self.scrollView.contentSize.height - self.scrollView.bounds.size.height) : (0.0f)) + self.frame.size.height} animated:YES];
+                [self.centerView setContentOffset:(CGPoint){.y = ((self.centerView.contentSize.height - self.centerView.bounds.size.height) > (0.0f) ? (self.centerView.contentSize.height - self.centerView.bounds.size.height) : (0.0f)) + self.frame.size.height} animated:YES];
                 //: self.wasTriggeredByUser = NO;
                 self.screen = NO;
 	[self setLengthShaft:self.shaft];

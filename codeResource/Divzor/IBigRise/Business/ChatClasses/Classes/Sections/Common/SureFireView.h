@@ -13,8 +13,8 @@
 #import <UIKit/UIKit.h>
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "ZZZKitDependency.h"
-#import "ZZZKitDependency.h"
+//: #import "LimitationScrollView.h"
+#import "LimitationScrollView.h"
 
 //: @interface ZZZAvatarImageView : UIControl
 @interface SureFireView : UIControl

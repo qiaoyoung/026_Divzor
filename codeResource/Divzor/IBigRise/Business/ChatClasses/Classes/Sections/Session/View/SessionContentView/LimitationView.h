@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZSessionMessageContentView.h"
 #import "JumpBasicControl.h"
-//: #import "ZZZKitDependency.h"
-#import "ZZZKitDependency.h"
+//: #import "LimitationScrollView.h"
+#import "LimitationScrollView.h"
 
 //: @interface ZZZSessionNetChatNotifyContentView : ZZZSessionMessageContentView
 @interface LimitationView : JumpBasicControl

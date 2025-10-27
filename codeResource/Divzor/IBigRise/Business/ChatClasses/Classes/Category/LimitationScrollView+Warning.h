@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "ZZZKitDependency.h"
-#import "ZZZKitDependency.h"
+//: #import "LimitationScrollView.h"
+#import "LimitationScrollView.h"
 
 //: @interface MyAttributedLabel (AppleProjectKit)
 @interface LimitationScrollView (Warning)

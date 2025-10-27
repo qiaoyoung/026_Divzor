@@ -300,7 +300,7 @@
 		B14658D22DC0B4E300C4D5B8 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B146566A2DC0B4E300C4D5B8 /* ShareViewController.m */; };
 		B14658D52DC0B4E300C4D5B8 /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14656712DC0B4E300C4D5B8 /* BoardView.m */; };
 		B14658DE2DC0B4E300C4D5B8 /* GenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14656852DC0B4E300C4D5B8 /* GenderView.m */; };
-		B14658DF2DC0B4E300C4D5B8 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14656872DC0B4E300C4D5B8 /* PlayerView.m */; };
+		B14658DF2DC0B4E300C4D5B8 /* MyPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14656872DC0B4E300C4D5B8 /* MyPlayerView.m */; };
 		B14658E02DC0B4E300C4D5B8 /* UIImage+Rear.m in Sources */ = {isa = PBXBuildFile; fileRef = B14656892DC0B4E300C4D5B8 /* UIImage+Rear.m */; };
 		B14658E12DC0B4E300C4D5B8 /* AgniseController.m in Sources */ = {isa = PBXBuildFile; fileRef = B146568B2DC0B4E300C4D5B8 /* AgniseController.m */; };
 		B14658E22DC0B4E300C4D5B8 /* StatementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B146568D2DC0B4E300C4D5B8 /* StatementViewController.m */; };
@@ -503,7 +503,6 @@
 		B14653872DC0B4E300C4D5B8 /* MemberFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemberFactory.m; sourceTree = "<group>"; };
 		B14653882DC0B4E300C4D5B8 /* ResignSubmit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResignSubmit.h; sourceTree = "<group>"; };
 		B14653892DC0B4E300C4D5B8 /* ResignSubmit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResignSubmit.m; sourceTree = "<group>"; };
-		B146538A2DC0B4E300C4D5B8 /* ZZZKitDependency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZKitDependency.h; sourceTree = "<group>"; };
 		B146538B2DC0B4E300C4D5B8 /* DittyBagExtraInfoFrequency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DittyBagExtraInfoFrequency.h; sourceTree = "<group>"; };
 		B146538C2DC0B4E300C4D5B8 /* DittyBagExtraInfoFrequency.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittyBagExtraInfoFrequency.m; sourceTree = "<group>"; };
 		B146538D2DC0B4E300C4D5B8 /* OutsideEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutsideEffectView.h; sourceTree = "<group>"; };
@@ -1073,8 +1072,8 @@
 		B14656712DC0B4E300C4D5B8 /* BoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
 		B14656842DC0B4E300C4D5B8 /* GenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenderView.h; sourceTree = "<group>"; };
 		B14656852DC0B4E300C4D5B8 /* GenderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenderView.m; sourceTree = "<group>"; };
-		B14656862DC0B4E300C4D5B8 /* PlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
-		B14656872DC0B4E300C4D5B8 /* PlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		B14656862DC0B4E300C4D5B8 /* MyPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPlayerView.h; sourceTree = "<group>"; };
+		B14656872DC0B4E300C4D5B8 /* MyPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPlayerView.m; sourceTree = "<group>"; };
 		B14656882DC0B4E300C4D5B8 /* UIImage+Rear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rear.h"; sourceTree = "<group>"; };
 		B14656892DC0B4E300C4D5B8 /* UIImage+Rear.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rear.m"; sourceTree = "<group>"; };
 		B146568A2DC0B4E300C4D5B8 /* AgniseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgniseController.h; sourceTree = "<group>"; };
@@ -1418,7 +1417,6 @@
 				B14653872DC0B4E300C4D5B8 /* MemberFactory.m */,
 				B14653882DC0B4E300C4D5B8 /* ResignSubmit.h */,
 				B14653892DC0B4E300C4D5B8 /* ResignSubmit.m */,
-				B146538A2DC0B4E300C4D5B8 /* ZZZKitDependency.h */,
 				B146538B2DC0B4E300C4D5B8 /* DittyBagExtraInfoFrequency.h */,
 				B146538C2DC0B4E300C4D5B8 /* DittyBagExtraInfoFrequency.m */,
 				B146538D2DC0B4E300C4D5B8 /* OutsideEffectView.h */,
@@ -2786,8 +2784,8 @@
 			children = (
 				B14656842DC0B4E300C4D5B8 /* GenderView.h */,
 				B14656852DC0B4E300C4D5B8 /* GenderView.m */,
-				B14656862DC0B4E300C4D5B8 /* PlayerView.h */,
-				B14656872DC0B4E300C4D5B8 /* PlayerView.m */,
+				B14656862DC0B4E300C4D5B8 /* MyPlayerView.h */,
+				B14656872DC0B4E300C4D5B8 /* MyPlayerView.m */,
 				B14656882DC0B4E300C4D5B8 /* UIImage+Rear.h */,
 				B14656892DC0B4E300C4D5B8 /* UIImage+Rear.m */,
 				B146568A2DC0B4E300C4D5B8 /* AgniseController.h */,
@@ -3711,7 +3709,7 @@
 				B14658D22DC0B4E300C4D5B8 /* ShareViewController.m in Sources */,
 				B14658D52DC0B4E300C4D5B8 /* BoardView.m in Sources */,
 				B14658DE2DC0B4E300C4D5B8 /* GenderView.m in Sources */,
-				B14658DF2DC0B4E300C4D5B8 /* PlayerView.m in Sources */,
+				B14658DF2DC0B4E300C4D5B8 /* MyPlayerView.m in Sources */,
 				B14658E02DC0B4E300C4D5B8 /* UIImage+Rear.m in Sources */,
 				B14658E12DC0B4E300C4D5B8 /* AgniseController.m in Sources */,
 				B14658E22DC0B4E300C4D5B8 /* StatementViewController.m in Sources */,

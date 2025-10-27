@@ -169,7 +169,7 @@ static const char *viewInstanceSettings (NSString *value) {
 
 - (void)setCover:(fcolor_t)cover {
     //: OC_CUSTOM_PROPERTY_INJECT
-    objc_setAssociatedObject(self, viewInstanceSettings(nil), cover, OBJC_ASSOCIATION_RETAIN);
+    objc_setAssociatedObject(self, viewInstanceSettings(nil), @(cover), OBJC_ASSOCIATION_RETAIN);
 }
 
 //: -(fcolor_t)alpha {
@@ -219,7 +219,8 @@ static const char *viewInstanceSettings (NSString *value) {
 
 - (fcolor_t)cover {
     //: OC_CUSTOM_PROPERTY_INJECT
-    fcolor_t cover = objc_getAssociatedObject(self, viewInstanceSettings(nil));
+    NSNumber *num = objc_getAssociatedObject(self, viewInstanceSettings(nil));
+    fcolor_t cover = num.doubleValue;
     return cover;
 }
 
@@ -458,7 +459,7 @@ static const char *appMovePreference (NSString *value) {
 
 - (void)setCursive:(ecolor_t)cursive {
     //: OC_CUSTOM_PROPERTY_INJECT
-    objc_setAssociatedObject(self, appMovePreference(nil), cursive, OBJC_ASSOCIATION_RETAIN);
+    objc_setAssociatedObject(self, appMovePreference(nil), @(cursive), OBJC_ASSOCIATION_RETAIN);
 }
 
 //: - (NSString *)stringValue {

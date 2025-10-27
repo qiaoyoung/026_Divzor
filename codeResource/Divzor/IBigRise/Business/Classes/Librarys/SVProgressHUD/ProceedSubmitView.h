@@ -126,7 +126,8 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Thickness of the ring shown in the HUD.
 /// @discussion Default: 2 pt.
 //: @property (assign, nonatomic) CGFloat ringThickness __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) CGFloat noThickness@property (strong, nonatomic, nonnull) UIColor *conversation __attribute__((annotate("ui_appearance_selector")));
+@property (assign, nonatomic) CGFloat noThickness;
+@property (strong, nonatomic, nonnull) UIColor *conversation __attribute__((annotate("ui_appearance_selector")));
 
 /// The interval in seconds to wait before displaying the HUD. If the HUD is displayed before this time elapses, this timer is reset.
 /// @discussion Default: 0 seconds.
@@ -137,7 +138,9 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Duration of the fade-in animation when showing the HUD.
 /// @discussion Default: 0.15.
 //: @property (assign, nonatomic) NSTimeInterval fadeInAnimationDuration __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) NSTimeInterval delayPad @property (assign, nonatomic) BOOL powerVideo @property (strong, nonatomic, nonnull) UIImage *move__attribute__((annotate("ui_appearance_selector")));
+@property (assign, nonatomic) NSTimeInterval delayPad;
+@property (assign, nonatomic) BOOL powerVideo;
+@property (strong, nonatomic, nonnull) UIImage *move __attribute__((annotate("ui_appearance_selector")));
 
 /// Defines the animation type used when the HUD is displayed.
 /// @discussion Default: SVProgressHUDAnimationTypeFlat.
@@ -147,7 +150,8 @@ __attribute__((annotate("ui_appearance_selector")));
 /// A specific view for extensions. This property is only used if #define SV_APP_EXTENSIONS is set.
 /// @discussion Default: nil.
 //: @property (strong, nonatomic, nonnull) UIView *viewForExtension __attribute__((annotate("ui_appearance_selector")));
-@property (strong, nonatomic, nonnull) UIView *apply @property (assign, nonatomic) UIOffset dayOffset /// The minimum size for the HUD. Useful for maintaining a consistent size when the message might cause resizing.
+@property (strong, nonatomic, nonnull) UIView *apply;
+@property (assign, nonatomic) UIOffset dayOffset; /// The minimum size for the HUD. Useful for maintaining a consistent size when the message might cause resizing.
 /// @discussion Default: CGSizeZero.
 //: @property (assign, nonatomic) CGSize minimumSize __attribute__((annotate("ui_appearance_selector")));
 @property (assign, nonatomic) CGSize logging;
@@ -197,7 +201,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// @discussion Default: [UIColor blackColor].
 //: @property (strong, nonatomic, nonnull) UIColor *foregroundColor __attribute__((annotate("ui_appearance_selector")));
 @property (strong, nonatomic, nonnull) UIColor *klick;
-@property (assign, nonatomic) CGFloat radiusVia /// The minimum amount of time in seconds the HUD will display.
+@property (assign, nonatomic) CGFloat radiusVia; /// The minimum amount of time in seconds the HUD will display.
 /// @discussion Default: 5.0 seconds.
 //: @property (assign, nonatomic) NSTimeInterval minimumDismissTimeInterval;
 @property (assign, nonatomic) NSTimeInterval timeMaker;
@@ -213,14 +217,14 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Background color of the HUD.
 /// @discussion Default: [UIColor whiteColor].
 //: @property (strong, nonatomic, nonnull) UIColor *backgroundColor __attribute__((annotate("ui_appearance_selector")));
-@property (strong, nonatomic, nonnull) UIColor *backgroundColor
+@property (strong, nonatomic, nonnull) UIColor *backgroundColor;
 @property (assign, nonatomic) CGSize blueBecome
 __attribute__((annotate("ui_appearance_selector")));
 
 /// The image displayed when showing success messages.
 /// @discussion Default: checkmark from SF Symbols (iOS 13+) or the bundled success image provided by Freepik.
 //: @property (strong, nonatomic, nonnull) UIImage *successImage __attribute__((annotate("ui_appearance_selector")));
-@property (strong, nonatomic, nonnull) UIImage *daySame//: @property (class, strong, nonatomic, readonly, nonnull) NSBundle *imageBundle;
+@property (strong, nonatomic, nonnull) UIImage *daySame;//: @property (class, strong, nonatomic, readonly, nonnull) NSBundle *imageBundle;
 @property (class, strong, nonatomic, readonly, nonnull) NSBundle *imageBundle;
  __attribute__((annotate("ui_appearance_selector")));
 
@@ -233,7 +237,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Radius of the ring shown in the HUD when there's no associated text.
 /// @discussion Default: 24 pt.
 //: @property (assign, nonatomic) CGFloat ringNoTextRadius __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) CGFloat appearRadius //: @property (assign, nonatomic) SVProgressHUDStyle defaultStyle __attribute__((annotate("ui_appearance_selector")));
+@property (assign, nonatomic) CGFloat appearRadius; //: @property (assign, nonatomic) SVProgressHUDStyle defaultStyle __attribute__((annotate("ui_appearance_selector")));
 @property (assign, nonatomic) SVProgressHUDStyle begin
 __attribute__((annotate("ui_appearance_selector")));
 
@@ -246,7 +250,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Duration of the fade-out animation when hiding the HUD.
 /// @discussion Default: 0.15.
 //: @property (assign, nonatomic) NSTimeInterval fadeOutAnimationDuration __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) NSTimeInterval sheet
+@property (assign, nonatomic) NSTimeInterval sheet;
 /// Indicates if haptic feedback should be used.
 /// @discussion Default: NO.
 //: @property (assign, nonatomic) BOOL hapticsEnabled;
