@@ -1,6 +1,8 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  IQKeyboardManagerConstants.h
-//  https://github.com/hackiftekhar/IQKeyboardManager
+//  https://github.com/hackiftekhar/PlacePrevious
 //  Copyright (c) 2013-24 Iftekhar Qurashi.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,15 +22,13 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
-
-#ifndef IQKeyboardManagerConstants_h
-#define IQKeyboardManagerConstants_h
-
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-
 ///-----------------------------------
 /// @name IQAutoToolbarManageBehavior
 ///-----------------------------------
+
+// __M_A_C_R_O__
 
 /**
  `IQAutoToolbarBySubviews`
@@ -40,10 +40,15 @@
  `IQAutoToolbarByPosition`
  Creates Toolbar according to the y,x position of textField in it's superview coordinate.
  */
+//: typedef NS_ENUM(NSInteger, IQAutoToolbarManageBehavior) {
 typedef NS_ENUM(NSInteger, IQAutoToolbarManageBehavior) {
+    //: IQAutoToolbarBySubviews,
     IQAutoToolbarBySubviews,
+    //: IQAutoToolbarByTag,
     IQAutoToolbarByTag,
+    //: IQAutoToolbarByPosition,
     IQAutoToolbarByPosition,
+//: };
 };
 
 /**
@@ -56,10 +61,15 @@ typedef NS_ENUM(NSInteger, IQAutoToolbarManageBehavior) {
  `IQPreviousNextDisplayModeAlwaysShow`
  Always show nextPrevious buttons, if there are more than 1 textField then both buttons will be visible but will be shown as disabled.
  */
+//: typedef NS_ENUM(NSUInteger, IQPreviousNextDisplayMode) {
 typedef NS_ENUM(NSUInteger, IQPreviousNextDisplayMode) {
+    //: IQPreviousNextDisplayModeDefault,
     IQPreviousNextDisplayModeDefault,
+    //: IQPreviousNextDisplayModeAlwaysHide,
     IQPreviousNextDisplayModeAlwaysHide,
+    //: IQPreviousNextDisplayModeAlwaysShow,
     IQPreviousNextDisplayModeAlwaysShow,
+//: };
 };
 
 /**
@@ -72,13 +82,18 @@ typedef NS_ENUM(NSUInteger, IQPreviousNextDisplayMode) {
  `IQEnableModeDisabled`
  setting is disabled.
  */
+//: typedef NS_ENUM(NSUInteger, IQEnableMode) {
 typedef NS_ENUM(NSUInteger, IQEnableMode) {
+    //: IQEnableModeDefault,
     IQEnableModeDefault,
+    //: IQEnableModeEnabled,
     IQEnableModeEnabled,
+    //: IQEnableModeDisabled,
     IQEnableModeDisabled,
+//: };
 };
 
-#endif
+
 
 /*
  

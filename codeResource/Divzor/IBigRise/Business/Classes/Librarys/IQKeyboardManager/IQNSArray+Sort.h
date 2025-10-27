@@ -1,6 +1,8 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  IQNSArray+Sort.h
-//  https://github.com/hackiftekhar/IQKeyboardManager
+//  https://github.com/hackiftekhar/PlacePrevious
 //  Copyright (c) 2013-24 Iftekhar Qurashi.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,15 +23,20 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: @class UIView;
 @class UIView;
 
 /**
  UIView.subviews sorting category.
  */
+//: NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
-@interface NSArray (IQ_NSArray_Sort)
+//: @interface NSArray (IQ_NSArray_Sort)
+@interface NSArray (Proceed)
 
 ///--------------
 /// @name Sorting
@@ -38,11 +45,15 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 /**
  Returns the array by sorting the UIView's by their tag property.
  */
-@property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> * sortedArrayByTag;
-
 /**
  Returns the array by sorting the UIView's by their tag property.
  */
-@property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> * sortedArrayByPosition;
+//: @property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> * sortedArrayByPosition;
+@property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> * polls;
+@property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> * custom;
 
+//: @property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> * sortedArrayByTag;
+@property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> * land;
+
+//: @end
 @end

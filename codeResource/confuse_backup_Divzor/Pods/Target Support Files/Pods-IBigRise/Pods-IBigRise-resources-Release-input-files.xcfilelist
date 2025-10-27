@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-IBigRise/Pods-IBigRise-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/FMDB/FMDB_Privacy.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/LEEAlert/LEEAlert.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/MJExtension/MJExtension.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/Reachability/Reachability_Privacy.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.bundle
+${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle
