@@ -820,7 +820,7 @@
 		B14655002DC0B4E300C4D5B8 /* UIView+GeneralSmart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+GeneralSmart.m"; sourceTree = "<group>"; };
 		B14655012DC0B4E300C4D5B8 /* UIViewController+Below.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Below.h"; sourceTree = "<group>"; };
 		B14655022DC0B4E300C4D5B8 /* UIViewController+Below.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Below.m"; sourceTree = "<group>"; };
-		B14655042DC0B4E300C4D5B8 /* SwizzlingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
+		B14655042DC0B4E300C4D5B8 /* OrchestratorMinimalDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrchestratorMinimalDown.h; sourceTree = "<group>"; };
 		B14655052DC0B4E300C4D5B8 /* UINavigationBar+General.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+General.h"; sourceTree = "<group>"; };
 		B14655062DC0B4E300C4D5B8 /* UINavigationBar+General.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+General.m"; sourceTree = "<group>"; };
 		B14655072DC0B4E300C4D5B8 /* UINavigationController+General.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+General.h"; sourceTree = "<group>"; };
@@ -2050,7 +2050,7 @@
 		B146550D2DC0B4E300C4D5B8 /* Addons */ = {
 			isa = PBXGroup;
 			children = (
-				B14655042DC0B4E300C4D5B8 /* SwizzlingDefine.h */,
+				B14655042DC0B4E300C4D5B8 /* OrchestratorMinimalDown.h */,
 				B14655052DC0B4E300C4D5B8 /* UINavigationBar+General.h */,
 				B14655062DC0B4E300C4D5B8 /* UINavigationBar+General.m */,
 				B14655072DC0B4E300C4D5B8 /* UINavigationController+General.h */,

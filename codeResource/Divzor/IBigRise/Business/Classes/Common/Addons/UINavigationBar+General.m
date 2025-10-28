@@ -13,8 +13,8 @@
 #import "UINavigationBar+General.h"
 //: #import "UIView+NTES.h"
 #import "UIView+GeneralSmart.h"
-//: #import "SwizzlingDefine.h"
-#import "SwizzlingDefine.h"
+//: #import "OrchestratorMinimalDown.h"
+#import "OrchestratorMinimalDown.h"
 
 //: @implementation UINavigationBar (Swizzling)
 @implementation UINavigationBar (General)

@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "UIView+Swizzling.h"
 #import "UIView+General.h"
-//: #import "SwizzlingDefine.h"
-#import "SwizzlingDefine.h"
+//: #import "OrchestratorMinimalDown.h"
+#import "OrchestratorMinimalDown.h"
 
 //: @implementation UIView (Swizzling)
 

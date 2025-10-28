@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "UINavigationController+Swizzling.h"
 #import "UINavigationController+General.h"
-//: #import "SwizzlingDefine.h"
-#import "SwizzlingDefine.h"
+//: #import "OrchestratorMinimalDown.h"
+#import "OrchestratorMinimalDown.h"
 //: #import "UIView+NTES.h"
 #import "UIView+GeneralSmart.h"
 
