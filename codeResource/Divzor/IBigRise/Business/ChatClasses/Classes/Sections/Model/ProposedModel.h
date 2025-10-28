@@ -21,7 +21,7 @@
  *  时间戳
  */
 //: @property (nonatomic, assign) NSTimeInterval messageTime;
-@property (nonatomic, assign) NSTimeInterval powerReceiver;
+@property (nonatomic, assign) NSTimeInterval of;
 
 /**
 *  Cell 高度

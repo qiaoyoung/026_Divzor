@@ -658,7 +658,7 @@ static NSArray * errShow() {
     //: _dispatch_once(&onceToken, ^{
     _dispatch_once(&onceToken, ^{
         //: _AFHTTPRequestSerializerObservedKeyPaths = @[NSStringFromSelector(@selector(allowsCellularAccess)), NSStringFromSelector(@selector(cachePolicy)), NSStringFromSelector(@selector(HTTPShouldHandleCookies)), NSStringFromSelector(@selector(HTTPShouldUsePipelining)), NSStringFromSelector(@selector(networkServiceType)), NSStringFromSelector(@selector(timeoutInterval))];
-        _AFHTTPRequestSerializerObservedKeyPaths = @[NSStringFromSelector(@selector(spareKeyed)), NSStringFromSelector(@selector(cacheDowned)), NSStringFromSelector(@selector(informationBased)), NSStringFromSelector(@selector(shouldDetailWorking)), NSStringFromSelector(@selector(dealMidded)), NSStringFromSelector(@selector(atPrimarying))];
+        _AFHTTPRequestSerializerObservedKeyPaths = @[NSStringFromSelector(@selector(spareKeyed)), NSStringFromSelector(@selector(cacheDowned)), NSStringFromSelector(@selector(informationBased)), NSStringFromSelector(@selector(shouldDetailWorking)), NSStringFromSelector(@selector(dealMidded)), NSStringFromSelector(@selector(timeoutInterval))];
     //: });
     });
 
@@ -974,15 +974,14 @@ static void *coreDeliveryUtility = &coreDeliveryUtility;
     return value;
 }
 
-//: - (void)setTimeoutInterval:(NSTimeInterval)timeoutInterval {
-- (void)setAtPrimarying:(NSTimeInterval)timeoutInterval {
+- (void)setTimeoutInterval:(NSTimeInterval)timeoutInterval {
     //: [self willChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
-    [self willChangeValueForKey:NSStringFromSelector(@selector(atPrimarying))];
+    [self willChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
     //: _timeoutInterval = timeoutInterval;
-    _atPrimarying = timeoutInterval;
+    _timeoutInterval = timeoutInterval;
 	[self setJump:_capacity];
     //: [self didChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
-    [self didChangeValueForKey:NSStringFromSelector(@selector(atPrimarying))];
+    [self didChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
 }
 
 //: - (void)observeValueForKeyPath:(NSString *)keyPath

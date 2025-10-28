@@ -699,7 +699,7 @@
     //: AFHTTPSessionManager *sessionManager = [AFHTTPSessionManager manager];
     Blank *sessionManager = [Blank alone];
     //: sessionManager.requestSerializer.timeoutInterval = 5.f;
-    sessionManager.remoteRemains.atPrimarying = 5.f;
+    sessionManager.remoteRemains.timeoutInterval = 5.f;
     //: sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/plain", @"text/javascript", @"text/xml", @"image/|*", nil];
     sessionManager.goMovied.rowTiming = [NSSet setWithObjects:[TractData sharedInstance].coreChamberMessage, [TractData sharedInstance].kTalkSurgeonKey, [TractData sharedInstance].screenOrganizeUtility, [TractData sharedInstance].featureEntityReplyPage, [TractData sharedInstance].styleFastKey, [TractData sharedInstance].kBlendPath, [TractData sharedInstance].featureInstinctPrimeAlert, nil];
     //: [sessionManager setResponseSerializer:[AFHTTPResponseSerializer serializer]];

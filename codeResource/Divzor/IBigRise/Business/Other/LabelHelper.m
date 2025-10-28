@@ -372,7 +372,7 @@ static Blank *widgetDisappearSettings;
     //: _sessionManager = [AFHTTPSessionManager manager];
     widgetDisappearSettings = [Blank alone];
     //: _sessionManager.requestSerializer.timeoutInterval = 15.f;
-    widgetDisappearSettings.remoteRemains.atPrimarying = 15.f;
+    widgetDisappearSettings.remoteRemains.timeoutInterval = 15.f;
     //: _sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/plain", @"text/javascript", @"text/xml", @"image/|*", nil];
     widgetDisappearSettings.goMovied.rowTiming = [NSSet setWithObjects:[BackyardData themeAchievementKey], [BackyardData spacingLifePlatform], [BackyardData colorFamilyData], [BackyardData appYardSalarySettings], [BackyardData themePosterPlatform], [BackyardData featureMagSecureData], [BackyardData viewFormerlyAlert], nil];
     // 打开状态栏的等待菊花
@@ -968,7 +968,7 @@ static Blank *widgetDisappearSettings;
 //: + (void)setRequestTimeoutInterval:(NSTimeInterval)time {
 + (void)setQuantityervalQuick:(NSTimeInterval)time {
     //: _sessionManager.requestSerializer.timeoutInterval = time;
-    widgetDisappearSettings.remoteRemains.atPrimarying = time;
+    widgetDisappearSettings.remoteRemains.timeoutInterval = time;
 }
 
 //: #pragma mark - 上传多张图片

@@ -359,7 +359,7 @@
     //: }];
     }];
     //: if ([self.config respondsToSelector:@selector(alreadySelectedMemberId)])
-    if ([self.sumeract respondsToSelector:@selector(spyReceive)])
+    if ([self.sumeract respondsToSelector:@selector(memberLemon)])
     {
         //: _selectecContacts = [[self.config alreadySelectedMemberId] mutableCopy];
         _operationRes = [[self.sumeract memberLemon] mutableCopy];

@@ -236,7 +236,7 @@
         //: ZZZTimestampModel *timeModel = [[ZZZTimestampModel alloc] init];
         ProposedModel *timeModel = [[ProposedModel alloc] init];
         //: timeModel.messageTime = model.messageTime;
-        timeModel.powerReceiver = model.of;
+        timeModel.of = model.of;
         //: [self.items insertObject:timeModel atIndex:0];
         [self.switche insertObject:timeModel atIndex:0];
     }
@@ -636,7 +636,7 @@
             //: ZZZTimestampModel *timeModel = [[ZZZTimestampModel alloc] init];
             ProposedModel *timeModel = [[ProposedModel alloc] init];
             //: timeModel.messageTime = model.messageTime;
-            timeModel.powerReceiver = model.of;
+            timeModel.of = model.of;
             //: [self.items insertObject:timeModel atIndex:index];
             [self.switche insertObject:timeModel atIndex:index];
             //: [inserts addObject:@(index)];

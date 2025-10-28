@@ -174,7 +174,7 @@ typedef struct {
 //        _progressLabel.text = [NSString stringWithFormat:@"%d%%", (int)(progress*100)];
 //        [_activity startAnimating];
         //: self.progressView.progress = progress;
-        self.exitView.numbereractionProgress = progress;
+        self.progressView.numbereractionProgress = progress;
     }
 
     //: [self setNeedsLayout];
@@ -231,26 +231,26 @@ typedef struct {
 //        [self addSubview:_activity];
 
         //: self.progressView = [[UCZProgressView alloc] initWithFrame:self.bounds];
-        self.exitView = [[BoardWayView alloc] initWithFrame:self.bounds];
+        self.progressView = [[BoardWayView alloc] initWithFrame:self.bounds];
         //: self.progressView.backgroundColor = [UIColor clearColor];
-        self.exitView.backgroundColor = [UIColor clearColor];
+        self.progressView.backgroundColor = [UIColor clearColor];
         //: self.progressView.translatesAutoresizingMaskIntoConstraints = NO;
-        self.exitView.translatesAutoresizingMaskIntoConstraints = NO;
+        self.progressView.translatesAutoresizingMaskIntoConstraints = NO;
 	[self setSeek:_above];
         //: self.progressView.showsText = YES;
-        self.exitView.installment = YES;
+        self.progressView.installment = YES;
 	[self setSeek:_above];
         //: self.progressView.tintColor = [UIColor colorWithHexString:@"#8A53F8"];
-        self.exitView.tintColor = [UIColor fraction:[[AliveData sharedInstance] featureViewPage]];
+        self.progressView.tintColor = [UIColor fraction:[[AliveData sharedInstance] featureViewPage]];
 	[self setSeek:_above];
 //        self.progressView.tintColor = RGB_COLOR_String(kCommonBGColor_All);
 //        self.progressView.tintColor = [UIColor colorWithPatternImage:[RecognizeYardSecurity getLinearGradientImage:RGB_COLOR_String(kCommonBGColor_begin) and:RGB_COLOR_String(kCommonBGColor_end) directionType:SNLinearGradientDirectionLevel]];
 
         //: [self addSubview:self.progressView];
-        [self addSubview:self.exitView];
+        [self addSubview:self.progressView];
 
         //: NSDictionary *views = NSDictionaryOfVariableBindings(_progressView);
-        NSDictionary *views = NSDictionaryOfVariableBindings(_exitView);
+        NSDictionary *views = NSDictionaryOfVariableBindings(_progressView);
         //: [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[_progressView]-0-|" options:0 metrics:nil views:views]];
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:[[AliveData sharedInstance] featureTiredKey] options:0 metrics:nil views:views]];
         //: [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_progressView]-0-|" options:0 metrics:nil views:views]];

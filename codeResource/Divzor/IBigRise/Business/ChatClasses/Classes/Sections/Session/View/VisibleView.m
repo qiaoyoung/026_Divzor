@@ -142,7 +142,7 @@ typedef struct {
         //: ZZZTimestampModel *model = (ZZZTimestampModel *)data;
         ProposedModel *model = (ProposedModel *)data;
         //: [_timeLabel setText:[ZZZKitUtil showTime:model.messageTime showDetail:YES]];
-        [_reachStart setText:[AdvancedKitUtil resistanceTime:model.powerReceiver tab:YES]];
+        [_reachStart setText:[AdvancedKitUtil resistanceTime:model.of tab:YES]];
     }
 }
 

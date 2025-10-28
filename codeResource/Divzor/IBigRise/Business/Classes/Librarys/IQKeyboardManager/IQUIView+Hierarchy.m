@@ -95,7 +95,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
         {
             //: parentController = parentParentController;
             parentController = parentParentController;
-	[self setAgree:self.middleAges];
+//	[self setAgree:self.middleAges];
             //: parentParentController = parentController.parentViewController;
             parentParentController = parentController.parentViewController;
 	[self setFactoidSeekGreenish:self.infoGreen];
@@ -229,7 +229,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 
         //: searchBar = [searchBar nextResponder];
         searchBar = [searchBar nextResponder];
-	[self setInsideRed:self.forwarding];
+//	[self setInsideRed:self.forwarding];
     }
 
     //: return nil;
@@ -289,7 +289,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
     {
         //: depth = [[self superview] depth] + 1;
         depth = [[self superview] delayDecision] + 1;
-	[self setAgree:self.middleAges];
+//	[self setAgree:self.middleAges];
     }
 
     //: return depth;
@@ -454,7 +454,7 @@ static const char *themeSecureDevice (NSString *value) {
         {
             //: _IQCanBecomeFirstResponder = [(UITextView*)self isEditable];
             _IQCanBecomeFirstResponder = [(UITextView*)self isEditable];
-	[self setInsideRed:self.forwarding];
+//	[self setInsideRed:self.forwarding];
         }
         //: else if ([self respondsToSelector:@selector(isEnabled)])
         else if ([self respondsToSelector:@selector(isEnabled)])
@@ -509,7 +509,7 @@ static const char *themeSecureDevice (NSString *value) {
     {
         //: toView = self.window;
         toView = self.window;
-	[self setInsideRed:self.forwarding];
+//	[self setInsideRed:self.forwarding];
     }
 
     //: CGAffineTransform myTransform = CGAffineTransformIdentity;
@@ -595,7 +595,7 @@ static const char *themeSecureDevice (NSString *value) {
 
         //: superview = superview.superview;
         superview = superview.superview;
-	[self setAgree:self.middleAges];
+//	[self setAgree:self.middleAges];
     }
 
     //: return nil;
@@ -625,7 +625,7 @@ static const char *widgetBoundaryError (NSString *value) {
     {
         //: nextResponder = [nextResponder nextResponder];
         nextResponder = [nextResponder nextResponder];
-	[self setInsideRed:self.forwarding];
+//	[self setInsideRed:self.forwarding];
 
         //: if ([nextResponder isKindOfClass:[UIViewController class]])
         if ([nextResponder isKindOfClass:[UIViewController class]])

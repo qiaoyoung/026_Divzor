@@ -298,7 +298,7 @@ typedef struct {
 @property (nonatomic, strong) NIMTeam *startingTeam;
 
 //: @property (nonatomic, strong) NIMSession *session;
-@property (nonatomic, strong) NIMSession *camera;
+@property (nonatomic, strong) NIMSession *session;
 
 //: @property (nonatomic, strong) NSMutableArray <ZZZTeamCardMemberItem *> *members;
 @property (nonatomic, strong) NSMutableArray <RecognizeItem *> *put;
@@ -1294,7 +1294,7 @@ typedef struct {
         //: _team = team;
         _startingTeam = team;
         //: _session = session;
-        _camera = session;
+        _session = session;
 	[self setJustify:self.icon];
         //: if (team.type == NIMTeamTypeSuper) {
         if (team.type == NIMTeamTypeSuper) {

@@ -109,7 +109,7 @@ typedef struct {
     self.whenView.delegate = self;
     //: self.textView.scrollEnabled = NO;
     self.whenView.scrollEnabled = NO;
-	[self setRefuse:self.basicData];
+//	[self setRefuse:self.basicData];
     //: self.textView.font = [UIFont systemFontOfSize:16];
     self.whenView.font = [UIFont systemFontOfSize:16];
 	[self setListen:self.reachChallengeListen];
@@ -279,7 +279,7 @@ typedef struct {
     CGPoint offset = self.contentOffset;
     //: self.textView.contentOffset = CGPointMake(offset.x, self.textView.contentSize.height - self.textView.frame.size.height);
     self.whenView.contentOffset = CGPointMake(offset.x, self.whenView.contentSize.height - self.whenView.frame.size.height);
-	[self setRefuse:self.basicData];
+//	[self setRefuse:self.basicData];
 }
 
 //: - (BOOL)textView:(UITextView *)textView shouldInteractWithTextAttachment:(NSTextAttachment *)textAttachment inRange:(NSRange)characterRange
@@ -484,7 +484,7 @@ typedef struct {
 {
     //: self.textView.inputView = inputView;
     self.whenView.inputView = inputView;
-	[self setRefuse:self.basicData];
+//	[self setRefuse:self.basicData];
 }
 
 //: - (void)fitToScrollView{
@@ -652,7 +652,7 @@ static const char *layoutSharedMessage (NSString *value) {
 {
     //: self.textView.font = font;
     self.whenView.font = font;
-	[self setRefuse:self.basicData];
+//	[self setRefuse:self.basicData];
 }
 
 - (NSAttributedString *)change {
@@ -787,10 +787,9 @@ static const char *kIndicatorPath (NSString *value) {
 
 
 //: - (BOOL)allowsEditingTextAttributes
-- (BOOL)basicData
+- (BOOL)allowsEditingTextAttributes
 {
-    //: return self.allowsEditingTextAttributes;
-    return [self balloting:self.basicData];
+    return self.allowsEditingTextAttributes;
 }
 
 static const char *commonTabTitle (NSString *value) {
@@ -922,12 +921,11 @@ static const char *componentThroughAlert (NSString *value) {
     [self that];
 }
 
-//: - (void)setAllowsEditingTextAttributes:(BOOL)allowsEditingTextAttributes
-- (void)setBasicData:(BOOL)allowsEditingTextAttributes
+- (void)setAllowsEditingTextAttributes:(BOOL)allowsEditingTextAttributes
 {
     //: self.textView.allowsEditingTextAttributes = allowsEditingTextAttributes;
     self.whenView.allowsEditingTextAttributes = allowsEditingTextAttributes;
-	[self setListen:self.reachChallengeListen];
+	
 }
 
 
@@ -954,7 +952,7 @@ static const char *componentThroughAlert (NSString *value) {
 {
     //: self.textView.dataDetectorTypes = dataDetectorTypes;
     self.whenView.dataDetectorTypes = dataDetectorTypes;
-	[self setRefuse:self.basicData];
+//	[self setRefuse:self.basicData];
 }
 
 

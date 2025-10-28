@@ -162,7 +162,7 @@ typedef NS_ENUM(NSUInteger, AFHTTPRequestQueryStringSerializationStyle) {
  @see NSMutableURLRequest -setTimeoutInterval:
  */
 //: @property (nonatomic, assign) NSTimeInterval timeoutInterval;
-@property (nonatomic, assign) NSTimeInterval atPrimarying;
+@property (nonatomic, assign) NSTimeInterval timeoutInterval;
 
 /**
  Whether created requests can continue transmitting data before receiving a response from an earlier transmission. `NO` by default

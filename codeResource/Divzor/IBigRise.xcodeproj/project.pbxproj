@@ -406,7 +406,7 @@
 		B1F4EDDD2E71A25A00195A20 /* ProceedSubmitView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F4EDD82E71A25A00195A20 /* ProceedSubmitView.m */; };
 		B1F4EDDE2E71A25A00195A20 /* DismissView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F4EDD32E71A25A00195A20 /* DismissView.m */; };
 		B1F4EDDF2E71A25A00195A20 /* LightRefreshLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F4EDDA2E71A25A00195A20 /* LightRefreshLayer.m */; };
-		B1F4EDE02E71A25A00195A20 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B1F4EDD72E71A25A00195A20 /* SVProgressHUD.bundle */; };
+		B1F4EDE02E71A25A00195A20 /* ProceedSubmitView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B1F4EDD72E71A25A00195A20 /* ProceedSubmitView.bundle */; };
 		B1F4EDE42E71A27700195A20 /* BoardWayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F4EDE22E71A27700195A20 /* BoardWayView.m */; };
 		B1F4EDE92E71A2A400195A20 /* UIView+Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F4EDE72E71A2A400195A20 /* UIView+Cloud.m */; };
 		B1F4EDEF2E71A2C600195A20 /* ClientScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F4EDEB2E71A2C600195A20 /* ClientScrollView.m */; };
@@ -1239,7 +1239,6 @@
 		B1F4ED8A2E719FF100195A20 /* PercentageWith.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PercentageWith.m; sourceTree = "<group>"; };
 		B1F4ED8D2E71A10D00195A20 /* ParticularVisible.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticularVisible.h; sourceTree = "<group>"; };
 		B1F4ED8E2E71A10D00195A20 /* ParticularVisible.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticularVisible.m; sourceTree = "<group>"; };
-		B1F4ED8F2E71A10D00195A20 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		B1F4ED902E71A10D00195A20 /* Blank.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Blank.h; sourceTree = "<group>"; };
 		B1F4ED912E71A10D00195A20 /* Blank.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Blank.m; sourceTree = "<group>"; };
 		B1F4ED922E71A10D00195A20 /* FactoryEffective.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryEffective.h; sourceTree = "<group>"; };
@@ -1288,7 +1287,7 @@
 		B1F4EDD42E71A25A00195A20 /* BroadcastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BroadcastView.h; sourceTree = "<group>"; };
 		B1F4EDD52E71A25A00195A20 /* BroadcastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroadcastView.m; sourceTree = "<group>"; };
 		B1F4EDD62E71A25A00195A20 /* ProceedSubmitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProceedSubmitView.h; sourceTree = "<group>"; };
-		B1F4EDD72E71A25A00195A20 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		B1F4EDD72E71A25A00195A20 /* ProceedSubmitView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProceedSubmitView.bundle; sourceTree = "<group>"; };
 		B1F4EDD82E71A25A00195A20 /* ProceedSubmitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProceedSubmitView.m; sourceTree = "<group>"; };
 		B1F4EDD92E71A25A00195A20 /* LightRefreshLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightRefreshLayer.h; sourceTree = "<group>"; };
 		B1F4EDDA2E71A25A00195A20 /* LightRefreshLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightRefreshLayer.m; sourceTree = "<group>"; };
@@ -2357,7 +2356,7 @@
 				B1F4EDEE2E71A2C600195A20 /* TXScrollLabelView */,
 				B1F4EDE82E71A2A400195A20 /* Toast */,
 				B1F4EDE32E71A27700195A20 /* UCZProgressView */,
-				B1F4EDDB2E71A25A00195A20 /* SVProgressHUD */,
+				B1F4EDDB2E71A25A00195A20 /* ProceedSubmitView */,
 				B1F4EDCB2E71A20900195A20 /* FFDropDownMenu */,
 				B14655362DC0B4E300C4D5B8 /* BaseView */,
 				B14655442DC0B4E300C4D5B8 /* imageCrop */,
@@ -3143,7 +3142,6 @@
 			children = (
 				B1F4ED8D2E71A10D00195A20 /* ParticularVisible.h */,
 				B1F4ED8E2E71A10D00195A20 /* ParticularVisible.m */,
-				B1F4ED8F2E71A10D00195A20 /* AFCompatibilityMacros.h */,
 				B1F4ED902E71A10D00195A20 /* Blank.h */,
 				B1F4ED912E71A10D00195A20 /* Blank.m */,
 				B1F4ED922E71A10D00195A20 /* FactoryEffective.h */,
@@ -3198,7 +3196,7 @@
 			path = FFDropDownMenu;
 			sourceTree = "<group>";
 		};
-		B1F4EDDB2E71A25A00195A20 /* SVProgressHUD */ = {
+		B1F4EDDB2E71A25A00195A20 /* ProceedSubmitView */ = {
 			isa = PBXGroup;
 			children = (
 				B1F4EDD22E71A25A00195A20 /* DismissView.h */,
@@ -3206,12 +3204,12 @@
 				B1F4EDD42E71A25A00195A20 /* BroadcastView.h */,
 				B1F4EDD52E71A25A00195A20 /* BroadcastView.m */,
 				B1F4EDD62E71A25A00195A20 /* ProceedSubmitView.h */,
-				B1F4EDD72E71A25A00195A20 /* SVProgressHUD.bundle */,
+				B1F4EDD72E71A25A00195A20 /* ProceedSubmitView.bundle */,
 				B1F4EDD82E71A25A00195A20 /* ProceedSubmitView.m */,
 				B1F4EDD92E71A25A00195A20 /* LightRefreshLayer.h */,
 				B1F4EDDA2E71A25A00195A20 /* LightRefreshLayer.m */,
 			);
-			path = SVProgressHUD;
+			path = ProceedSubmitView;
 			sourceTree = "<group>";
 		};
 		B1F4EDE32E71A27700195A20 /* UCZProgressView */ = {
@@ -3321,7 +3319,7 @@
 				A026AF212EEFBEA7AEBDE67E /* README.md in Resources */,
 				B1465F0C2DC1BB2200C4D5B8 /* DropBinder.bundle in Resources */,
 				B146578B2DC0B4E300C4D5B8 /* Images.xcassets in Resources */,
-				B1F4EDE02E71A25A00195A20 /* SVProgressHUD.bundle in Resources */,
+				B1F4EDE02E71A25A00195A20 /* ProceedSubmitView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

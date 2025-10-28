@@ -113,7 +113,7 @@
 @property (nonatomic,strong) UIFont *reachChallengeListen;
 
 //: @property (nonatomic,assign) BOOL allowsEditingTextAttributes;
-@property (nonatomic,assign) BOOL refuse;
+@property (nonatomic,assign) BOOL allowsEditingTextAttributes;
 
 @property (nonatomic,copy) NSAttributedString *accountUser;
 

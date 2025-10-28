@@ -367,7 +367,7 @@ static const char *viewOpinionModError (NSString *value) {
 
     //: userDefaults.language = lang;
     userDefaults.mustForce = lang;
-	[self setViewTitle:self.agreementName];
+//	[self setViewTitle:self.agreementName];
     //: [[NTESLanguageManager shareInstance] setLanguagre:lang];
     [[BombardmentMinimumManageress enthusiasmDrawBit] setLaterOnAlready:lang];
 
@@ -447,7 +447,7 @@ static const char *componentDisablePlatform (NSString *value) {
 - (NSString *)determinationned:(NSString *)key {
     //: key = [key stringByReplacingCharactersInRange:NSMakeRange(0,1) withString:[[key substringToIndex:1] uppercaseString]];
     key = [key stringByReplacingCharactersInRange:NSMakeRange(0,1) withString:[[key substringToIndex:1] uppercaseString]];
-	[self setViewTitle:self.agreementName];
+//	[self setViewTitle:self.agreementName];
     //: return [NSString stringWithFormat:@"NSUserDefault%@", key];
     return [NSString stringWithFormat:[BuildData viewUnableTempValue], key];
 }

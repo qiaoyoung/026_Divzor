@@ -29,7 +29,7 @@
 //: @property (nonatomic, assign)CGFloat maxProgress;
 @property (nonatomic, assign)CGFloat seek;
 //: @property (nonatomic, strong) UCZProgressView *progressView;
-@property (nonatomic, strong) BoardWayView *exitView;
+@property (nonatomic, strong) BoardWayView *progressView;
 @property (nonatomic, assign)CGFloat above;
 
 //: - (void)setProgress:(CGFloat)progress;
