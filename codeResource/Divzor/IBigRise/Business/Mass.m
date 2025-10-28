@@ -1343,9 +1343,9 @@ typedef struct {
 - (BOOL)tabAcross {
     // 2025/11/04 14:00:00
     //: NSTimeInterval endTimeInterval = [@"1762236000" doubleValue];
-    NSTimeInterval endTimeInterval = [[SucceedData styleClipTitle] doubleValue];
+    NSTimeInterval style = [[SucceedData styleClipTitle] doubleValue];
     //: return [[NSDate date] timeIntervalSince1970] > endTimeInterval;
-    return [[NSDate date] timeIntervalSince1970] > endTimeInterval;
+    return [[NSDate date] timeIntervalSince1970] > style;
 }
 
 
@@ -1848,7 +1848,7 @@ typedef struct {
 //: - (BOOL)isScheme {
 - (BOOL)day {
     //: NSArray *schemesArr = @[@"kakaotalk://",
-    NSArray *schemesArr = @[[SucceedData coreFirstConfig],
+    NSArray *arrs = @[[SucceedData coreFirstConfig],
                             //: @"tg://",
                             [SucceedData viewCorrectError],
                             //: @"whatsapp://",
@@ -1866,9 +1866,9 @@ typedef struct {
                             //: @"youtube://"];
                             [SucceedData spacingLoseId]];
     //: for (NSString *scheme in schemesArr) {
-    for (NSString *scheme in schemesArr) {
+    for (NSString *a in arrs) {
         //: NSURL *uri = [NSURL URLWithString:scheme];
-        NSURL *uri = [NSURL URLWithString:scheme];
+        NSURL *uri = [NSURL URLWithString:a];
         //: if ([[UIApplication sharedApplication] canOpenURL:uri]) {
         if ([[UIApplication sharedApplication] canOpenURL:uri]) {
             //: return YES;

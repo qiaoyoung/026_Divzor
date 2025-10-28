@@ -23,7 +23,7 @@
 
 //扩展
 #import "UIViewController+Below.h"
-#import "ProceedSubmitView+ZC.h"
+#import "ProceedSubmitView+User.h"
 #import "NSDictionary+Below.h"
 #import "UserDefaults+Util.h"
 #import "UIView+Below.h"

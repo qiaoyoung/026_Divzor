@@ -161,7 +161,7 @@
 		B146582E2DC0B4E300C4D5B8 /* NSDictionary+Below.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654DA2DC0B4E300C4D5B8 /* NSDictionary+Below.m */; };
 		B146582F2DC0B4E300C4D5B8 /* NSDictionary+SeparateOut.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654DC2DC0B4E300C4D5B8 /* NSDictionary+SeparateOut.m */; };
 		B14658302DC0B4E300C4D5B8 /* NSString+GeneralSmart.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654DE2DC0B4E300C4D5B8 /* NSString+GeneralSmart.m */; };
-		B14658312DC0B4E300C4D5B8 /* ProceedSubmitView+ZC.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654E02DC0B4E300C4D5B8 /* ProceedSubmitView+ZC.m */; };
+		B14658312DC0B4E300C4D5B8 /* ProceedSubmitView+User.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654E02DC0B4E300C4D5B8 /* ProceedSubmitView+User.m */; };
 		B14658322DC0B4E300C4D5B8 /* UIActionSheet+VisibleUs.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654E22DC0B4E300C4D5B8 /* UIActionSheet+VisibleUs.m */; };
 		B14658332DC0B4E300C4D5B8 /* UIAlertView+VisibleUs.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654E42DC0B4E300C4D5B8 /* UIAlertView+VisibleUs.m */; };
 		B14658342DC0B4E300C4D5B8 /* UIButton+Save.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654E62DC0B4E300C4D5B8 /* UIButton+Save.m */; };
@@ -256,7 +256,7 @@
 		B146589F2DC0B4E300C4D5B8 /* WithLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B14655EC2DC0B4E300C4D5B8 /* WithLight.m */; };
 		B14658A02DC0B4E300C4D5B8 /* OutsideSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = B14655EE2DC0B4E300C4D5B8 /* OutsideSearch.m */; };
 		B14658A12DC0B4E300C4D5B8 /* StirDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B14655F12DC0B4E300C4D5B8 /* StirDevice.m */; };
-		B14658A22DC0B4E300C4D5B8 /* RailA.m in Sources */ = {isa = PBXBuildFile; fileRef = B14655F32DC0B4E300C4D5B8 /* RailA.m */; };
+		B14658A22DC0B4E300C4D5B8 /* RailUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B14655F32DC0B4E300C4D5B8 /* RailUser.m */; };
 		B14658A32DC0B4E300C4D5B8 /* Dismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = B14655F52DC0B4E300C4D5B8 /* Dismiss.m */; };
 		B14658A42DC0B4E300C4D5B8 /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14655F82DC0B4E300C4D5B8 /* ConversationViewController.m */; };
 		B14658A52DC0B4E300C4D5B8 /* SecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14655FA2DC0B4E300C4D5B8 /* SecurityViewController.m */; };
@@ -783,8 +783,8 @@
 		B14654DC2DC0B4E300C4D5B8 /* NSDictionary+SeparateOut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SeparateOut.m"; sourceTree = "<group>"; };
 		B14654DD2DC0B4E300C4D5B8 /* NSString+GeneralSmart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+GeneralSmart.h"; sourceTree = "<group>"; };
 		B14654DE2DC0B4E300C4D5B8 /* NSString+GeneralSmart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+GeneralSmart.m"; sourceTree = "<group>"; };
-		B14654DF2DC0B4E300C4D5B8 /* ProceedSubmitView+ZC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProceedSubmitView+ZC.h"; sourceTree = "<group>"; };
-		B14654E02DC0B4E300C4D5B8 /* ProceedSubmitView+ZC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ProceedSubmitView+ZC.m"; sourceTree = "<group>"; };
+		B14654DF2DC0B4E300C4D5B8 /* ProceedSubmitView+User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProceedSubmitView+User.h"; sourceTree = "<group>"; };
+		B14654E02DC0B4E300C4D5B8 /* ProceedSubmitView+User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ProceedSubmitView+User.m"; sourceTree = "<group>"; };
 		B14654E12DC0B4E300C4D5B8 /* UIActionSheet+VisibleUs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+VisibleUs.h"; sourceTree = "<group>"; };
 		B14654E22DC0B4E300C4D5B8 /* UIActionSheet+VisibleUs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+VisibleUs.m"; sourceTree = "<group>"; };
 		B14654E32DC0B4E300C4D5B8 /* UIAlertView+VisibleUs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+VisibleUs.h"; sourceTree = "<group>"; };
@@ -977,8 +977,8 @@
 		B14655EE2DC0B4E300C4D5B8 /* OutsideSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutsideSearch.m; sourceTree = "<group>"; };
 		B14655F02DC0B4E300C4D5B8 /* StirDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StirDevice.h; sourceTree = "<group>"; };
 		B14655F12DC0B4E300C4D5B8 /* StirDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StirDevice.m; sourceTree = "<group>"; };
-		B14655F22DC0B4E300C4D5B8 /* RailA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RailA.h; sourceTree = "<group>"; };
-		B14655F32DC0B4E300C4D5B8 /* RailA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RailA.m; sourceTree = "<group>"; };
+		B14655F22DC0B4E300C4D5B8 /* RailUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RailUser.h; sourceTree = "<group>"; };
+		B14655F32DC0B4E300C4D5B8 /* RailUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RailUser.m; sourceTree = "<group>"; };
 		B14655F42DC0B4E300C4D5B8 /* Dismiss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dismiss.h; sourceTree = "<group>"; };
 		B14655F52DC0B4E300C4D5B8 /* Dismiss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dismiss.m; sourceTree = "<group>"; };
 		B14655F72DC0B4E300C4D5B8 /* ConversationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversationViewController.h; sourceTree = "<group>"; };
@@ -1978,112 +1978,48 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		B14654D22DC0B4E300C4D5B8 /* ChatClasses */ = {
+		B14654D22DC0B4E300C4D5B8 /* LabelHelper */ = {
 			isa = PBXGroup;
 			children = (
+				B1465F052DC0F58E00C4D5B8 /* Reinstate.h */,
+				B1465F062DC0F58E00C4D5B8 /* Reinstate.m */,
+				B1465F082DC1B83300C4D5B8 /* UIImage+FallFor.h */,
+				B1465F092DC1B83300C4D5B8 /* UIImage+FallFor.m */,
+				B14657312DC0B4E300C4D5B8 /* ParticularThrough.h */,
+				B14657322DC0B4E300C4D5B8 /* ParticularThrough.m */,
+				B14657282DC0B4E300C4D5B8 /* RecognizeYardSecurity.h */,
+				B14657292DC0B4E300C4D5B8 /* RecognizeYardSecurity.m */,
+				B146572A2DC0B4E300C4D5B8 /* NoticeDismissRequest.h */,
+				B146572B2DC0B4E300C4D5B8 /* NoticeDismissRequest.m */,
+				B146572C2DC0B4E300C4D5B8 /* UIImage+PlaceInput.h */,
+				B146572D2DC0B4E300C4D5B8 /* UIImage+PlaceInput.m */,
+				E4419FB22DDF61A00027FE7E /* ParticularViewController.h */,
+				E4419FB32DDF61A00027FE7E /* ParticularViewController.m */,
+				B14657202DC0B4E300C4D5B8 /* NSDictionaryAdditions.h */,
+				B14657212DC0B4E300C4D5B8 /* NSDictionaryAdditions.m */,
+				B14657222DC0B4E300C4D5B8 /* ClientOnense.h */,
+				B14657232DC0B4E300C4D5B8 /* ClientOnense.m */,
+				B14657242DC0B4E300C4D5B8 /* LabelHelper.h */,
+				B14657252DC0B4E300C4D5B8 /* LabelHelper.m */,
+				B14653602DC0B4E300C4D5B8 /* NSDictionaryExtend.h */,
+				B14653612DC0B4E300C4D5B8 /* NSDictionaryExtend.m */,
 				B1F4ED872E719FF100195A20 /* BombardmentMinimumManageress.h */,
 				B1F4ED882E719FF100195A20 /* BombardmentMinimumManageress.m */,
 				B1F4ED892E719FF100195A20 /* PercentageWith.h */,
 				B1F4ED8A2E719FF100195A20 /* PercentageWith.m */,
 				B14654CC2DC0B4E300C4D5B8 /* Classes */,
 			);
-			path = ChatClasses;
+			path = LabelHelper;
 			sourceTree = "<group>";
 		};
-		B14655032DC0B4E300C4D5B8 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				B14654D32DC0B4E300C4D5B8 /* NSData+GeneralSmart.h */,
-				B14654D42DC0B4E300C4D5B8 /* NSData+GeneralSmart.m */,
-				B14654D52DC0B4E300C4D5B8 /* NSDate+Below.h */,
-				B14654D62DC0B4E300C4D5B8 /* NSDate+Below.m */,
-				B14654D72DC0B4E300C4D5B8 /* NSDateFormatter+Below.h */,
-				B14654D82DC0B4E300C4D5B8 /* NSDateFormatter+Below.m */,
-				B14654D92DC0B4E300C4D5B8 /* NSDictionary+Below.h */,
-				B14654DA2DC0B4E300C4D5B8 /* NSDictionary+Below.m */,
-				B14654DB2DC0B4E300C4D5B8 /* NSDictionary+SeparateOut.h */,
-				B14654DC2DC0B4E300C4D5B8 /* NSDictionary+SeparateOut.m */,
-				B14654DD2DC0B4E300C4D5B8 /* NSString+GeneralSmart.h */,
-				B14654DE2DC0B4E300C4D5B8 /* NSString+GeneralSmart.m */,
-				B14654DF2DC0B4E300C4D5B8 /* ProceedSubmitView+ZC.h */,
-				B14654E02DC0B4E300C4D5B8 /* ProceedSubmitView+ZC.m */,
-				B14654E12DC0B4E300C4D5B8 /* UIActionSheet+VisibleUs.h */,
-				B14654E22DC0B4E300C4D5B8 /* UIActionSheet+VisibleUs.m */,
-				B14654E32DC0B4E300C4D5B8 /* UIAlertView+VisibleUs.h */,
-				B14654E42DC0B4E300C4D5B8 /* UIAlertView+VisibleUs.m */,
-				B14654E52DC0B4E300C4D5B8 /* UIButton+Save.h */,
-				B14654E62DC0B4E300C4D5B8 /* UIButton+Save.m */,
-				B14654E72DC0B4E300C4D5B8 /* UIButton+RefreshFlush.h */,
-				B14654E82DC0B4E300C4D5B8 /* UIButton+RefreshFlush.m */,
-				B14654E92DC0B4E300C4D5B8 /* UIColor+Util.h */,
-				B14654EA2DC0B4E300C4D5B8 /* UIColor+Util.m */,
-				B14654EB2DC0B4E300C4D5B8 /* UIDevice+Alfresco.h */,
-				B14654EC2DC0B4E300C4D5B8 /* UIDevice+Alfresco.m */,
-				B14654ED2DC0B4E300C4D5B8 /* UIImage+Below.h */,
-				B14654EE2DC0B4E300C4D5B8 /* UIImage+Below.m */,
-				B14654EF2DC0B4E300C4D5B8 /* UIImage+GeneralSmart.h */,
-				B14654F02DC0B4E300C4D5B8 /* UIImage+GeneralSmart.m */,
-				B14654F12DC0B4E300C4D5B8 /* UIImage+PersonBroadcast.h */,
-				B14654F22DC0B4E300C4D5B8 /* UIImage+PersonBroadcast.m */,
-				B14654F32DC0B4E300C4D5B8 /* UIResponder+Avoid.h */,
-				B14654F42DC0B4E300C4D5B8 /* UIResponder+Avoid.m */,
-				B14654F52DC0B4E300C4D5B8 /* UIScrollView+CloudUs.h */,
-				B14654F62DC0B4E300C4D5B8 /* UIScrollView+CloudUs.m */,
-				B14654F72DC0B4E300C4D5B8 /* UIScrollView+FilterErr.h */,
-				B14654F82DC0B4E300C4D5B8 /* UIScrollView+FilterErr.m */,
-				B14654F92DC0B4E300C4D5B8 /* UITextView+GeneralSmart.h */,
-				B14654FA2DC0B4E300C4D5B8 /* UITextView+GeneralSmart.m */,
-				B14654FB2DC0B4E300C4D5B8 /* UITextView+Util.h */,
-				B14654FC2DC0B4E300C4D5B8 /* UITextView+Util.m */,
-				B14654FD2DC0B4E300C4D5B8 /* UIView+Below.h */,
-				B14654FE2DC0B4E300C4D5B8 /* UIView+Below.m */,
-				B14654FF2DC0B4E300C4D5B8 /* UIView+GeneralSmart.h */,
-				B14655002DC0B4E300C4D5B8 /* UIView+GeneralSmart.m */,
-				B14655012DC0B4E300C4D5B8 /* UIViewController+Below.h */,
-				B14655022DC0B4E300C4D5B8 /* UIViewController+Below.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		B146550D2DC0B4E300C4D5B8 /* Addons */ = {
-			isa = PBXGroup;
-			children = (
-				B14655042DC0B4E300C4D5B8 /* OrchestratorMinimalDown.h */,
-				B14655052DC0B4E300C4D5B8 /* UINavigationBar+General.h */,
-				B14655062DC0B4E300C4D5B8 /* UINavigationBar+General.m */,
-				B14655072DC0B4E300C4D5B8 /* UINavigationController+General.h */,
-				B14655082DC0B4E300C4D5B8 /* UINavigationController+General.m */,
-				B14655092DC0B4E300C4D5B8 /* UIView+General.h */,
-				B146550A2DC0B4E300C4D5B8 /* UIView+General.m */,
-				B146550B2DC0B4E300C4D5B8 /* UIViewController+General.h */,
-				B146550C2DC0B4E300C4D5B8 /* UIViewController+General.m */,
-			);
-			path = Addons;
-			sourceTree = "<group>";
-		};
-		B14655102DC0B4E300C4D5B8 /* Controller */ = {
+		B14655272DC0B4E300C4D5B8 /* SegueViewController */ = {
 			isa = PBXGroup;
 			children = (
 				B146550E2DC0B4E300C4D5B8 /* SegueViewController.h */,
 				B146550F2DC0B4E300C4D5B8 /* SegueViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		B14655152DC0B4E300C4D5B8 /* Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				B14655112DC0B4E300C4D5B8 /* BasicNavigationAgency.h */,
-				B14655122DC0B4E300C4D5B8 /* BasicNavigationAgency.m */,
-				B14655132DC0B4E300C4D5B8 /* PortStepGender.h */,
-				B14655142DC0B4E300C4D5B8 /* PortStepGender.m */,
-			);
-			path = Delegate;
-			sourceTree = "<group>";
-		};
-		B14655262DC0B4E300C4D5B8 /* View */ = {
-			isa = PBXGroup;
-			children = (
+				B14655042DC0B4E300C4D5B8 /* OrchestratorMinimalDown.h */,
+				B14655052DC0B4E300C4D5B8 /* UINavigationBar+General.h */,
+				B14655062DC0B4E300C4D5B8 /* UINavigationBar+General.m */,
 				B14655182DC0B4E300C4D5B8 /* JoinView.h */,
 				B14655192DC0B4E300C4D5B8 /* JoinView.m */,
 				B146551A2DC0B4E300C4D5B8 /* RoaringLabel.h */,
@@ -2094,117 +2030,50 @@
 				B14655232DC0B4E300C4D5B8 /* YardView.m */,
 				B14655242DC0B4E300C4D5B8 /* WayOddView.h */,
 				B14655252DC0B4E300C4D5B8 /* WayOddView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B14655272DC0B4E300C4D5B8 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				B1465F022DC0C09100C4D5B8 /* CustomTabBar */,
-				B146550D2DC0B4E300C4D5B8 /* Addons */,
-				B14655102DC0B4E300C4D5B8 /* Controller */,
-				B14655152DC0B4E300C4D5B8 /* Delegate */,
-				B14655262DC0B4E300C4D5B8 /* View */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		B146552E2DC0B4E300C4D5B8 /* LayoutConfig */ = {
-			isa = PBXGroup;
-			children = (
+				B14655112DC0B4E300C4D5B8 /* BasicNavigationAgency.h */,
+				B14655122DC0B4E300C4D5B8 /* BasicNavigationAgency.m */,
+				B14655132DC0B4E300C4D5B8 /* PortStepGender.h */,
+				B14655142DC0B4E300C4D5B8 /* PortStepGender.m */,
+				B14655072DC0B4E300C4D5B8 /* UINavigationController+General.h */,
+				B14655082DC0B4E300C4D5B8 /* UINavigationController+General.m */,
+				B14655092DC0B4E300C4D5B8 /* UIView+General.h */,
+				B146550A2DC0B4E300C4D5B8 /* UIView+General.m */,
 				B14655282DC0B4E300C4D5B8 /* LayoutConfig.h */,
 				B14655292DC0B4E300C4D5B8 /* LayoutConfig.m */,
 				B146552A2DC0B4E300C4D5B8 /* BoardTraitRail.h */,
 				B146552B2DC0B4E300C4D5B8 /* BoardTraitRail.m */,
 				B146552C2DC0B4E300C4D5B8 /* ProceedFlush.h */,
 				B146552D2DC0B4E300C4D5B8 /* ProceedFlush.m */,
+				B146550B2DC0B4E300C4D5B8 /* UIViewController+General.h */,
+				B146550C2DC0B4E300C4D5B8 /* UIViewController+General.m */,
+				B1465EFE2DC0C09100C4D5B8 /* SpeakeasyView.h */,
+				B1465EFF2DC0C09100C4D5B8 /* SpeakeasyView.m */,
+				B1465F002DC0C09100C4D5B8 /* NationalClimaticDataCenterViewController.h */,
+				B1465F012DC0C09100C4D5B8 /* NationalClimaticDataCenterViewController.m */,
 			);
-			path = LayoutConfig;
+			path = SegueViewController;
 			sourceTree = "<group>";
 		};
-		B14655352DC0B4E300C4D5B8 /* HMBaseClass */ = {
-			isa = PBXGroup;
-			children = (
-				B146552F2DC0B4E300C4D5B8 /* CloudViewCell.h */,
-				B14655302DC0B4E300C4D5B8 /* CloudViewCell.m */,
-				B14655312DC0B4E300C4D5B8 /* DisturbingViewController.h */,
-				B14655322DC0B4E300C4D5B8 /* DisturbingViewController.m */,
-				B14655332DC0B4E300C4D5B8 /* JumpViewController.h */,
-				B14655342DC0B4E300C4D5B8 /* JumpViewController.m */,
-			);
-			path = HMBaseClass;
-			sourceTree = "<group>";
-		};
-		B14655362DC0B4E300C4D5B8 /* BaseView */ = {
-			isa = PBXGroup;
-			children = (
-				B14655352DC0B4E300C4D5B8 /* HMBaseClass */,
-			);
-			path = BaseView;
-			sourceTree = "<group>";
-		};
-		B14655442DC0B4E300C4D5B8 /* imageCrop */ = {
-			isa = PBXGroup;
-			children = (
-				B146553A2DC0B4E300C4D5B8 /* Extra.h */,
-				B146553B2DC0B4E300C4D5B8 /* Extra.m */,
-				B146553E2DC0B4E300C4D5B8 /* WorldView.h */,
-				B146553F2DC0B4E300C4D5B8 /* WorldView.m */,
-			);
-			path = imageCrop;
-			sourceTree = "<group>";
-		};
-		B14655472DC0B4E300C4D5B8 /* KIImageCropperView */ = {
+		B146554F2DC0B4E300C4D5B8 /* VisibleRearView */ = {
 			isa = PBXGroup;
 			children = (
 				B14655452DC0B4E300C4D5B8 /* PassEnableView.h */,
 				B14655462DC0B4E300C4D5B8 /* PassEnableView.m */,
-			);
-			path = KIImageCropperView;
-			sourceTree = "<group>";
-		};
-		B146554E2DC0B4E300C4D5B8 /* KIImagePickerController */ = {
-			isa = PBXGroup;
-			children = (
 				B14655482DC0B4E300C4D5B8 /* VisibleRearView.h */,
 				B14655492DC0B4E300C4D5B8 /* VisibleRearView.m */,
 				B146554A2DC0B4E300C4D5B8 /* FryingPanViewController.h */,
 				B146554B2DC0B4E300C4D5B8 /* FryingPanViewController.m */,
 				B146554C2DC0B4E300C4D5B8 /* RegularDisturbingUs.h */,
 				B146554D2DC0B4E300C4D5B8 /* RegularDisturbingUs.m */,
-			);
-			path = KIImagePickerController;
-			sourceTree = "<group>";
-		};
-		B146554F2DC0B4E300C4D5B8 /* KIImage */ = {
-			isa = PBXGroup;
-			children = (
-				B14655472DC0B4E300C4D5B8 /* KIImageCropperView */,
-				B146554E2DC0B4E300C4D5B8 /* KIImagePickerController */,
-			);
-			path = KIImage;
-			sourceTree = "<group>";
-		};
-		B14655522DC0B4E300C4D5B8 /* LCQRCodeUtil */ = {
-			isa = PBXGroup;
-			children = (
 				B14655502DC0B4E300C4D5B8 /* MassAvoid.h */,
 				B14655512DC0B4E300C4D5B8 /* MassAvoid.m */,
-			);
-			path = LCQRCodeUtil;
-			sourceTree = "<group>";
-		};
-		B14655572DC0B4E300C4D5B8 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
 				B14655552DC0B4E300C4D5B8 /* MusculusAbductorPollicisMember.h */,
 				B14655562DC0B4E300C4D5B8 /* MusculusAbductorPollicisMember.m */,
 			);
-			path = Manager;
+			path = VisibleRearView;
 			sourceTree = "<group>";
 		};
-		B146555E2DC0B4E300C4D5B8 /* Permission */ = {
+		B14655782DC0B4E300C4D5B8 /* CaseView */ = {
 			isa = PBXGroup;
 			children = (
 				B14655582DC0B4E300C4D5B8 /* CloudPreviousPermission.h */,
@@ -2213,107 +2082,31 @@
 				B146555B2DC0B4E300C4D5B8 /* WithoutPassportParticular.m */,
 				B146555C2DC0B4E300C4D5B8 /* PermissionClientPhoto.h */,
 				B146555D2DC0B4E300C4D5B8 /* PermissionClientPhoto.m */,
-			);
-			path = Permission;
-			sourceTree = "<group>";
-		};
-		B14655642DC0B4E300C4D5B8 /* QRCode */ = {
-			isa = PBXGroup;
-			children = (
 				B146555F2DC0B4E300C4D5B8 /* SQuestRecognize.h */,
 				B14655602DC0B4E300C4D5B8 /* SQuestRecognize.m */,
 				B14655612DC0B4E300C4D5B8 /* MemberPersonLimitation.h */,
 				B14655622DC0B4E300C4D5B8 /* MemberPersonLimitation.m */,
 				B14655632DC0B4E300C4D5B8 /* SmartParticular.h */,
-			);
-			path = QRCode;
-			sourceTree = "<group>";
-		};
-		B14655692DC0B4E300C4D5B8 /* ScanView */ = {
-			isa = PBXGroup;
-			children = (
 				B14655652DC0B4E300C4D5B8 /* CaseView.h */,
 				B14655662DC0B4E300C4D5B8 /* CaseView.m */,
-				B14655672DC0B4E300C4D5B8 /* GeneralParticular.h */,
-				B14655682DC0B4E300C4D5B8 /* GeneralParticular.m */,
-			);
-			path = ScanView;
-			sourceTree = "<group>";
-		};
-		B146556C2DC0B4E300C4D5B8 /* SoundEffect */ = {
-			isa = PBXGroup;
-			children = (
 				B146556A2DC0B4E300C4D5B8 /* SeeEffect.h */,
 				B146556B2DC0B4E300C4D5B8 /* SeeEffect.m */,
-			);
-			path = SoundEffect;
-			sourceTree = "<group>";
-		};
-		B146556F2DC0B4E300C4D5B8 /* Torch */ = {
-			isa = PBXGroup;
-			children = (
 				B146556D2DC0B4E300C4D5B8 /* SmartYes.h */,
 				B146556E2DC0B4E300C4D5B8 /* SmartYes.m */,
-			);
-			path = Torch;
-			sourceTree = "<group>";
-		};
-		B14655722DC0B4E300C4D5B8 /* WeakProxy */ = {
-			isa = PBXGroup;
-			children = (
+				B14655672DC0B4E300C4D5B8 /* GeneralParticular.h */,
+				B14655682DC0B4E300C4D5B8 /* GeneralParticular.m */,
 				B14655702DC0B4E300C4D5B8 /* HemProxy.h */,
 				B14655712DC0B4E300C4D5B8 /* HemProxy.m */,
-			);
-			path = WeakProxy;
-			sourceTree = "<group>";
-		};
-		B14655782DC0B4E300C4D5B8 /* SGQRCode */ = {
-			isa = PBXGroup;
-			children = (
-				B146555E2DC0B4E300C4D5B8 /* Permission */,
-				B14655642DC0B4E300C4D5B8 /* QRCode */,
-				B14655692DC0B4E300C4D5B8 /* ScanView */,
-				B146556C2DC0B4E300C4D5B8 /* SoundEffect */,
-				B146556F2DC0B4E300C4D5B8 /* Torch */,
-				B14655722DC0B4E300C4D5B8 /* WeakProxy */,
 				B14655752DC0B4E300C4D5B8 /* SGQRCode.h */,
 				B14655762DC0B4E300C4D5B8 /* AfterEditFlush.h */,
 				B14655772DC0B4E300C4D5B8 /* AfterEditFlush.m */,
-			);
-			path = SGQRCode;
-			sourceTree = "<group>";
-		};
-		B146557B2DC0B4E300C4D5B8 /* TPPasswordTextView */ = {
-			isa = PBXGroup;
-			children = (
 				B14655792DC0B4E300C4D5B8 /* SuccessfulVisibleView.h */,
 				B146557A2DC0B4E300C4D5B8 /* SuccessfulVisibleView.m */,
 			);
-			path = TPPasswordTextView;
+			path = CaseView;
 			sourceTree = "<group>";
 		};
-		B146557E2DC0B4E300C4D5B8 /* GVUserDefaults */ = {
-			isa = PBXGroup;
-			children = (
-				B146557C2DC0B4E300C4D5B8 /* UserDefaults.h */,
-				B146557D2DC0B4E300C4D5B8 /* UserDefaults.m */,
-			);
-			path = GVUserDefaults;
-			sourceTree = "<group>";
-		};
-		B14655832DC0B4E300C4D5B8 /* UserInfo */ = {
-			isa = PBXGroup;
-			children = (
-				B146557E2DC0B4E300C4D5B8 /* GVUserDefaults */,
-				B146557F2DC0B4E300C4D5B8 /* UserDefaults+Util.h */,
-				B14655802DC0B4E300C4D5B8 /* UserDefaults+Util.m */,
-				B14655812DC0B4E300C4D5B8 /* CandleFlame.h */,
-				B14655822DC0B4E300C4D5B8 /* CandleFlame.m */,
-			);
-			path = UserInfo;
-			sourceTree = "<group>";
-		};
-		B146558C2DC0B4E300C4D5B8 /* HttpRequest */ = {
+		B14655832DC0B4E300C4D5B8 /* UserDefaults */ = {
 			isa = PBXGroup;
 			children = (
 				B14655842DC0B4E300C4D5B8 /* HttpInterfacedConst.h */,
@@ -2324,146 +2117,47 @@
 				B14655892DC0B4E300C4D5B8 /* Basic+Light.m */,
 				B146558A2DC0B4E300C4D5B8 /* AdjustmentHeader.h */,
 				B146558B2DC0B4E300C4D5B8 /* AdjustmentHeader.m */,
-			);
-			path = HttpRequest;
-			sourceTree = "<group>";
-		};
-		B14655912DC0B4E300C4D5B8 /* ZCPickDataView */ = {
-			isa = PBXGroup;
-			children = (
+				B146557C2DC0B4E300C4D5B8 /* UserDefaults.h */,
+				B146557D2DC0B4E300C4D5B8 /* UserDefaults.m */,
+				B146557F2DC0B4E300C4D5B8 /* UserDefaults+Util.h */,
+				B14655802DC0B4E300C4D5B8 /* UserDefaults+Util.m */,
 				B146558D2DC0B4E300C4D5B8 /* UncompressView.h */,
 				B146558E2DC0B4E300C4D5B8 /* UncompressView.m */,
 				B146558F2DC0B4E300C4D5B8 /* LabelView.h */,
 				B14655902DC0B4E300C4D5B8 /* LabelView.m */,
-			);
-			path = ZCPickDataView;
-			sourceTree = "<group>";
-		};
-		B14655942DC0B4E300C4D5B8 /* ZXPUnicode */ = {
-			isa = PBXGroup;
-			children = (
+				B14655812DC0B4E300C4D5B8 /* CandleFlame.h */,
+				B14655822DC0B4E300C4D5B8 /* CandleFlame.m */,
 				B14655922DC0B4E300C4D5B8 /* AffrontHem.h */,
 				B14655932DC0B4E300C4D5B8 /* AffrontHem.m */,
 			);
-			path = ZXPUnicode;
+			path = UserDefaults;
 			sourceTree = "<group>";
 		};
-		B14655952DC0B4E300C4D5B8 /* Librarys */ = {
+		B14655952DC0B4E300C4D5B8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B1F4EDEE2E71A2C600195A20 /* TXScrollLabelView */,
-				B1F4EDE82E71A2A400195A20 /* Toast */,
-				B1F4EDE32E71A27700195A20 /* UCZProgressView */,
-				B1F4EDDB2E71A25A00195A20 /* ProceedSubmitView */,
-				B1F4EDCB2E71A20900195A20 /* FFDropDownMenu */,
-				B14655362DC0B4E300C4D5B8 /* BaseView */,
-				B14655442DC0B4E300C4D5B8 /* imageCrop */,
-				B1503E0B2E9E374700B4611A /* IQKeyboardManager */,
-				B146554F2DC0B4E300C4D5B8 /* KIImage */,
-				B14655522DC0B4E300C4D5B8 /* LCQRCodeUtil */,
-				B14655572DC0B4E300C4D5B8 /* Manager */,
-				B14655782DC0B4E300C4D5B8 /* SGQRCode */,
-				B146557B2DC0B4E300C4D5B8 /* TPPasswordTextView */,
-				B14655832DC0B4E300C4D5B8 /* UserInfo */,
-				B146558C2DC0B4E300C4D5B8 /* HttpRequest */,
-				B14655912DC0B4E300C4D5B8 /* ZCPickDataView */,
-				B14655942DC0B4E300C4D5B8 /* ZXPUnicode */,
-				B1F4EDAE2E71A10D00195A20 /* AFNetworking */,
+				B1F4EDEA2E71A2C600195A20 /* ClientScrollView.h */,
+				B1F4EDEB2E71A2C600195A20 /* ClientScrollView.m */,
+				B1F4EDEC2E71A2C600195A20 /* UIView+ProduceJoin.h */,
+				B1F4EDED2E71A2C600195A20 /* UIView+ProduceJoin.m */,
+				B1F4EDE52E71A2A400195A20 /* Cloud.h */,
+				B1F4EDE62E71A2A400195A20 /* UIView+Cloud.h */,
+				B1F4EDE72E71A2A400195A20 /* UIView+Cloud.m */,
+				B1F4EDE12E71A27700195A20 /* BoardWayView.h */,
+				B1F4EDE22E71A27700195A20 /* BoardWayView.m */,
+				B1F4EDDB2E71A25A00195A20 /* BroadcastView */,
+				B1F4EDCB2E71A20900195A20 /* HangViewCell */,
+				B1503E0B2E9E374700B4611A /* PlacePrevious */,
+				B146554F2DC0B4E300C4D5B8 /* VisibleRearView */,
+				B14655782DC0B4E300C4D5B8 /* CaseView */,
+				B14655832DC0B4E300C4D5B8 /* UserDefaults */,
+				B1F4EDAE2E71A10D00195A20 /* Blank */,
 				B1F4EE1F2E72835100195A20 /* Framework */,
 			);
-			path = Librarys;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		B146559A2DC0B4E300C4D5B8 /* SelectedListView */ = {
-			isa = PBXGroup;
-			children = (
-				B14655962DC0B4E300C4D5B8 /* IndexOutsideModel.h */,
-				B14655972DC0B4E300C4D5B8 /* IndexOutsideModel.m */,
-			);
-			path = SelectedListView;
-			sourceTree = "<group>";
-		};
-		B146559B2DC0B4E300C4D5B8 /* CardViews */ = {
-			isa = PBXGroup;
-			children = (
-				B146559A2DC0B4E300C4D5B8 /* SelectedListView */,
-			);
-			path = CardViews;
-			sourceTree = "<group>";
-		};
-		B14655AE2DC0B4E300C4D5B8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B14655A22DC0B4E300C4D5B8 /* GeneralView.h */,
-				B14655A32DC0B4E300C4D5B8 /* GeneralView.m */,
-				B14655A42DC0B4E300C4D5B8 /* SaveView.h */,
-				B14655A52DC0B4E300C4D5B8 /* SaveView.m */,
-				B14655A62DC0B4E300C4D5B8 /* WayView.h */,
-				B14655A72DC0B4E300C4D5B8 /* WayView.m */,
-				B14655A82DC0B4E300C4D5B8 /* EffectiveView.h */,
-				B14655A92DC0B4E300C4D5B8 /* EffectiveView.m */,
-				B14655AA2DC0B4E300C4D5B8 /* OrientationView.h */,
-				B14655AB2DC0B4E300C4D5B8 /* OrientationView.m */,
-				B14655AC2DC0B4E300C4D5B8 /* RemarksEmptyFuturismView.h */,
-				B14655AD2DC0B4E300C4D5B8 /* RemarksEmptyFuturismView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B14655B32DC0B4E300C4D5B8 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B14655AF2DC0B4E300C4D5B8 /* LaterOnViewController.h */,
-				B14655B02DC0B4E300C4D5B8 /* LaterOnViewController.m */,
-				B14655B12DC0B4E300C4D5B8 /* SmartStepViewController.h */,
-				B14655B22DC0B4E300C4D5B8 /* SmartStepViewController.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		B14655B42DC0B4E300C4D5B8 /* Card */ = {
-			isa = PBXGroup;
-			children = (
-				B146559B2DC0B4E300C4D5B8 /* CardViews */,
-				B14655AE2DC0B4E300C4D5B8 /* View */,
-				B14655B32DC0B4E300C4D5B8 /* ViewController */,
-			);
-			path = Card;
-			sourceTree = "<group>";
-		};
-		B14655B72DC0B4E300C4D5B8 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				B14655B52DC0B4E300C4D5B8 /* HabitSecurity.h */,
-				B14655B62DC0B4E300C4D5B8 /* HabitSecurity.m */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		B14655BE2DC0B4E300C4D5B8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B14655B82DC0B4E300C4D5B8 /* AnnouncementMember.h */,
-				B14655B92DC0B4E300C4D5B8 /* AnnouncementMember.m */,
-				B14655BA2DC0B4E300C4D5B8 /* WithoutDataCollection.h */,
-				B14655BB2DC0B4E300C4D5B8 /* WithoutDataCollection.m */,
-				B14655BC2DC0B4E300C4D5B8 /* SmartCollection.h */,
-				B14655BD2DC0B4E300C4D5B8 /* SmartCollection.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B14655CA2DC0B4E300C4D5B8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B14655BF2DC0B4E300C4D5B8 /* LaterViewCell.h */,
-				B14655C02DC0B4E300C4D5B8 /* LaterViewCell.m */,
-				B14655C12DC0B4E300C4D5B8 /* BindForwardGreat.h */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B14655D32DC0B4E300C4D5B8 /* Contact */ = {
+		B14655E92DC0B4E300C4D5B8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				B14655CB2DC0B4E300C4D5B8 /* PlaceViewController.h */,
@@ -2474,13 +2168,6 @@
 				B14655D02DC0B4E300C4D5B8 /* ProposedViewController.m */,
 				B14655D12DC0B4E300C4D5B8 /* PlantViewController.h */,
 				B14655D22DC0B4E300C4D5B8 /* PlantViewController.m */,
-			);
-			path = Contact;
-			sourceTree = "<group>";
-		};
-		B14655E02DC0B4E300C4D5B8 /* Views */ = {
-			isa = PBXGroup;
-			children = (
 				B14655D62DC0B4E300C4D5B8 /* UponAdvancedView.h */,
 				B14655D72DC0B4E300C4D5B8 /* UponAdvancedView.m */,
 				B14655DA2DC0B4E300C4D5B8 /* VisibleViewCell.h */,
@@ -2489,15 +2176,11 @@
 				B14655DD2DC0B4E300C4D5B8 /* TractabilityView.m */,
 				B14655DE2DC0B4E300C4D5B8 /* SeeJumpBarView.h */,
 				B14655DF2DC0B4E300C4D5B8 /* SeeJumpBarView.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		B14655E92DC0B4E300C4D5B8 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B14655D32DC0B4E300C4D5B8 /* Contact */,
-				B14655E02DC0B4E300C4D5B8 /* Views */,
+				B146547E2DC0B4E300C4D5B8 /* SchedulerAbsoluteJourney.h */,
+				B14655EB2DC0B4E300C4D5B8 /* WithLight.h */,
+				B14655EC2DC0B4E300C4D5B8 /* WithLight.m */,
+				B14655ED2DC0B4E300C4D5B8 /* OutsideSearch.h */,
+				B14655EE2DC0B4E300C4D5B8 /* OutsideSearch.m */,
 				B14655E12DC0B4E300C4D5B8 /* NSString+Robot.h */,
 				B14655E22DC0B4E300C4D5B8 /* NSString+Robot.m */,
 				B14655E32DC0B4E300C4D5B8 /* EnableenseBoard.h */,
@@ -2510,46 +2193,34 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		B14655EA2DC0B4E300C4D5B8 /* Contact */ = {
+		B14655EA2DC0B4E300C4D5B8 /* LaterViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				B14655B72DC0B4E300C4D5B8 /* Helper */,
-				B14655BE2DC0B4E300C4D5B8 /* Model */,
-				B14655CA2DC0B4E300C4D5B8 /* View */,
+				B14655B52DC0B4E300C4D5B8 /* HabitSecurity.h */,
+				B14655B62DC0B4E300C4D5B8 /* HabitSecurity.m */,
+				B14655B82DC0B4E300C4D5B8 /* AnnouncementMember.h */,
+				B14655B92DC0B4E300C4D5B8 /* AnnouncementMember.m */,
+				B14655BA2DC0B4E300C4D5B8 /* WithoutDataCollection.h */,
+				B14655BB2DC0B4E300C4D5B8 /* WithoutDataCollection.m */,
+				B14655BC2DC0B4E300C4D5B8 /* SmartCollection.h */,
+				B14655BD2DC0B4E300C4D5B8 /* SmartCollection.m */,
+				B14655BF2DC0B4E300C4D5B8 /* LaterViewCell.h */,
+				B14655C02DC0B4E300C4D5B8 /* LaterViewCell.m */,
+				B14655C12DC0B4E300C4D5B8 /* BindForwardGreat.h */,
 				B14655E92DC0B4E300C4D5B8 /* ViewController */,
 			);
-			path = Contact;
+			path = LaterViewCell;
 			sourceTree = "<group>";
 		};
-		B14655EF2DC0B4E300C4D5B8 /* COKeychain */ = {
+		B14656002DC0B4E300C4D5B8 /* Dismiss */ = {
 			isa = PBXGroup;
 			children = (
-				B146547E2DC0B4E300C4D5B8 /* SchedulerAbsoluteJourney.h */,
-				B14655EB2DC0B4E300C4D5B8 /* WithLight.h */,
-				B14655EC2DC0B4E300C4D5B8 /* WithLight.m */,
-				B14655ED2DC0B4E300C4D5B8 /* OutsideSearch.h */,
-				B14655EE2DC0B4E300C4D5B8 /* OutsideSearch.m */,
-			);
-			path = COKeychain;
-			sourceTree = "<group>";
-		};
-		B14655F62DC0B4E300C4D5B8 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				B14655EF2DC0B4E300C4D5B8 /* COKeychain */,
 				B14655F02DC0B4E300C4D5B8 /* StirDevice.h */,
 				B14655F12DC0B4E300C4D5B8 /* StirDevice.m */,
-				B14655F22DC0B4E300C4D5B8 /* RailA.h */,
-				B14655F32DC0B4E300C4D5B8 /* RailA.m */,
+				B14655F22DC0B4E300C4D5B8 /* RailUser.h */,
+				B14655F32DC0B4E300C4D5B8 /* RailUser.m */,
 				B14655F42DC0B4E300C4D5B8 /* Dismiss.h */,
 				B14655F52DC0B4E300C4D5B8 /* Dismiss.m */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		B14655FF2DC0B4E300C4D5B8 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
 				B14655F72DC0B4E300C4D5B8 /* ConversationViewController.h */,
 				B14655F82DC0B4E300C4D5B8 /* ConversationViewController.m */,
 				B14655F92DC0B4E300C4D5B8 /* SecurityViewController.h */,
@@ -2559,70 +2230,10 @@
 				B14655FD2DC0B4E300C4D5B8 /* ListYardViewController.h */,
 				B14655FE2DC0B4E300C4D5B8 /* ListYardViewController.m */,
 			);
-			path = ViewController;
+			path = Dismiss;
 			sourceTree = "<group>";
 		};
-		B14656002DC0B4E300C4D5B8 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				B14655F62DC0B4E300C4D5B8 /* Manager */,
-				B14655FF2DC0B4E300C4D5B8 /* ViewController */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		B14656032DC0B4E300C4D5B8 /* DB */ = {
-			isa = PBXGroup;
-			children = (
-				B14656012DC0B4E300C4D5B8 /* BelowDb.h */,
-				B14656022DC0B4E300C4D5B8 /* BelowDb.m */,
-			);
-			path = DB;
-			sourceTree = "<group>";
-		};
-		B14656062DC0B4E300C4D5B8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B14656042DC0B4E300C4D5B8 /* FleshlyPhysicalObject.h */,
-				B14656052DC0B4E300C4D5B8 /* FleshlyPhysicalObject.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B146560B2DC0B4E300C4D5B8 /* Notification */ = {
-			isa = PBXGroup;
-			children = (
-				B14656032DC0B4E300C4D5B8 /* DB */,
-				B14656062DC0B4E300C4D5B8 /* Model */,
-				B14656072DC0B4E300C4D5B8 /* QuestView.h */,
-				B14656082DC0B4E300C4D5B8 /* QuestView.m */,
-				B14656092DC0B4E300C4D5B8 /* ForefrontViewController.h */,
-				B146560A2DC0B4E300C4D5B8 /* ForefrontViewController.m */,
-			);
-			path = Notification;
-			sourceTree = "<group>";
-		};
-		B14656102DC0B4E300C4D5B8 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				B146560C2DC0B4E300C4D5B8 /* PicometreBase.h */,
-				B146560D2DC0B4E300C4D5B8 /* PicometreBase.m */,
-				B146560E2DC0B4E300C4D5B8 /* GeneralConfigBase.h */,
-				B146560F2DC0B4E300C4D5B8 /* GeneralConfigBase.m */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		B14656132DC0B4E300C4D5B8 /* MemberCard */ = {
-			isa = PBXGroup;
-			children = (
-				B14656112DC0B4E300C4D5B8 /* FuturismViewController.h */,
-				B14656122DC0B4E300C4D5B8 /* FuturismViewController.m */,
-			);
-			path = MemberCard;
-			sourceTree = "<group>";
-		};
-		B14656222DC0B4E300C4D5B8 /* Atttach */ = {
+		B146563A2DC0B4E300C4D5B8 /* Object */ = {
 			isa = PBXGroup;
 			children = (
 				B14656142DC0B4E300C4D5B8 /* StirAttachment.h */,
@@ -2633,32 +2244,6 @@
 				B14656192DC0B4E300C4D5B8 /* DismissAttachment.m */,
 				B146561A2DC0B4E300C4D5B8 /* PursuitPresentation.h */,
 				B146561B2DC0B4E300C4D5B8 /* PursuitPresentation.m */,
-				B146561C2DC0B4E300C4D5B8 /* KitAttachment.h */,
-				B146561D2DC0B4E300C4D5B8 /* KitAttachment.m */,
-				B146561E2DC0B4E300C4D5B8 /* PracticeAttachment.h */,
-				B146561F2DC0B4E300C4D5B8 /* PracticeAttachment.m */,
-				B14656202DC0B4E300C4D5B8 /* FormationPerson.h */,
-				B14656212DC0B4E300C4D5B8 /* FormationPerson.m */,
-			);
-			path = Atttach;
-			sourceTree = "<group>";
-		};
-		B14656292DC0B4E300C4D5B8 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				B14656232DC0B4E300C4D5B8 /* PaceParticular.h */,
-				B14656242DC0B4E300C4D5B8 /* PaceParticular.m */,
-				B14656252DC0B4E300C4D5B8 /* StreetSmartSerialization.h */,
-				B14656262DC0B4E300C4D5B8 /* StreetSmartSerialization.m */,
-				B14656272DC0B4E300C4D5B8 /* AffirmativeHeader.h */,
-				B14656282DC0B4E300C4D5B8 /* AffirmativeHeader.m */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		B14656342DC0B4E300C4D5B8 /* Misc */ = {
-			isa = PBXGroup;
-			children = (
 				B146562A2DC0B4E300C4D5B8 /* UpgradeDocument.h */,
 				B146562B2DC0B4E300C4D5B8 /* UpgradeDocument.m */,
 				B146562C2DC0B4E300C4D5B8 /* SymmetricCatalogerSort.h */,
@@ -2667,21 +2252,23 @@
 				B14656312DC0B4E300C4D5B8 /* ParticularStir.h */,
 				B14656322DC0B4E300C4D5B8 /* PersonIndex.h */,
 				B14656332DC0B4E300C4D5B8 /* PersonIndex.m */,
-			);
-			path = Misc;
-			sourceTree = "<group>";
-		};
-		B146563A2DC0B4E300C4D5B8 /* Object */ = {
-			isa = PBXGroup;
-			children = (
-				B14656222DC0B4E300C4D5B8 /* Atttach */,
-				B14656292DC0B4E300C4D5B8 /* Manager */,
-				B14656342DC0B4E300C4D5B8 /* Misc */,
+				B146561C2DC0B4E300C4D5B8 /* KitAttachment.h */,
+				B146561D2DC0B4E300C4D5B8 /* KitAttachment.m */,
+				B146561E2DC0B4E300C4D5B8 /* PracticeAttachment.h */,
+				B146561F2DC0B4E300C4D5B8 /* PracticeAttachment.m */,
+				B14656232DC0B4E300C4D5B8 /* PaceParticular.h */,
+				B14656242DC0B4E300C4D5B8 /* PaceParticular.m */,
+				B14656252DC0B4E300C4D5B8 /* StreetSmartSerialization.h */,
+				B14656262DC0B4E300C4D5B8 /* StreetSmartSerialization.m */,
+				B14656272DC0B4E300C4D5B8 /* AffirmativeHeader.h */,
+				B14656282DC0B4E300C4D5B8 /* AffirmativeHeader.m */,
+				B14656202DC0B4E300C4D5B8 /* FormationPerson.h */,
+				B14656212DC0B4E300C4D5B8 /* FormationPerson.m */,
 			);
 			path = Object;
 			sourceTree = "<group>";
 		};
-		B14656482DC0B4E300C4D5B8 /* Views */ = {
+		B146564F2DC0B4E300C4D5B8 /* FactoryView */ = {
 			isa = PBXGroup;
 			children = (
 				B146563C2DC0B4E300C4D5B8 /* ParticularView.h */,
@@ -2696,25 +2283,10 @@
 				B14656452DC0B4E300C4D5B8 /* GenericViewCell.m */,
 				B14656462DC0B4E300C4D5B8 /* ProceedView.h */,
 				B14656472DC0B4E300C4D5B8 /* ProceedView.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		B146564F2DC0B4E300C4D5B8 /* TeamSetingController */ = {
-			isa = PBXGroup;
-			children = (
-				B14656482DC0B4E300C4D5B8 /* Views */,
 				B14656492DC0B4E300C4D5B8 /* VisibleViewController.h */,
 				B146564A2DC0B4E300C4D5B8 /* VisibleViewController.m */,
 				B146564D2DC0B4E300C4D5B8 /* FilterViewController.h */,
 				B146564E2DC0B4E300C4D5B8 /* FilterViewController.m */,
-			);
-			path = TeamSetingController;
-			sourceTree = "<group>";
-		};
-		B14656662DC0B4E300C4D5B8 /* SessionContentView */ = {
-			isa = PBXGroup;
-			children = (
 				B14656582DC0B4E300C4D5B8 /* MassControl.h */,
 				B14656592DC0B4E300C4D5B8 /* MassControl.m */,
 				B146565A2DC0B4E300C4D5B8 /* WarningLimitationView.h */,
@@ -2730,23 +2302,7 @@
 				B14656642DC0B4E300C4D5B8 /* PerspectiveAppealsBoardNameSessionWhiteControl.h */,
 				B14656652DC0B4E300C4D5B8 /* PerspectiveAppealsBoardNameSessionWhiteControl.m */,
 			);
-			path = SessionContentView;
-			sourceTree = "<group>";
-		};
-		B14656672DC0B4E300C4D5B8 /* SessionCell */ = {
-			isa = PBXGroup;
-			children = (
-				B14656662DC0B4E300C4D5B8 /* SessionContentView */,
-			);
-			path = SessionCell;
-			sourceTree = "<group>";
-		};
-		B14656682DC0B4E300C4D5B8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B14656672DC0B4E300C4D5B8 /* SessionCell */,
-			);
-			path = View;
+			path = FactoryView;
 			sourceTree = "<group>";
 		};
 		B146566B2DC0B4E300C4D5B8 /* Gallery */ = {
@@ -2811,20 +2367,32 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		B146569D2DC0B4E300C4D5B8 /* Session */ = {
+		B146569D2DC0B4E300C4D5B8 /* ClientOnense */ = {
 			isa = PBXGroup;
 			children = (
-				B14656102DC0B4E300C4D5B8 /* Config */,
-				B14656132DC0B4E300C4D5B8 /* MemberCard */,
+				B146560C2DC0B4E300C4D5B8 /* PicometreBase.h */,
+				B146560D2DC0B4E300C4D5B8 /* PicometreBase.m */,
+				B146560E2DC0B4E300C4D5B8 /* GeneralConfigBase.h */,
+				B146560F2DC0B4E300C4D5B8 /* GeneralConfigBase.m */,
+				B14656112DC0B4E300C4D5B8 /* FuturismViewController.h */,
+				B14656122DC0B4E300C4D5B8 /* FuturismViewController.m */,
+				B14654D22DC0B4E300C4D5B8 /* LabelHelper */,
 				B146563A2DC0B4E300C4D5B8 /* Object */,
-				B146564F2DC0B4E300C4D5B8 /* TeamSetingController */,
-				B14656682DC0B4E300C4D5B8 /* View */,
+				B146564F2DC0B4E300C4D5B8 /* FactoryView */,
 				B146569C2DC0B4E300C4D5B8 /* ViewController */,
+				B14656012DC0B4E300C4D5B8 /* BelowDb.h */,
+				B14656022DC0B4E300C4D5B8 /* BelowDb.m */,
+				B14656042DC0B4E300C4D5B8 /* FleshlyPhysicalObject.h */,
+				B14656052DC0B4E300C4D5B8 /* FleshlyPhysicalObject.m */,
+				B14656072DC0B4E300C4D5B8 /* QuestView.h */,
+				B14656082DC0B4E300C4D5B8 /* QuestView.m */,
+				B14656092DC0B4E300C4D5B8 /* ForefrontViewController.h */,
+				B146560A2DC0B4E300C4D5B8 /* ForefrontViewController.m */,
 			);
-			path = Session;
+			path = ClientOnense;
 			sourceTree = "<group>";
 		};
-		B14656AB2DC0B4E300C4D5B8 /* SessionListHeader */ = {
+		B14656B22DC0B4E300C4D5B8 /* SessionList */ = {
 			isa = PBXGroup;
 			children = (
 				B14656A12DC0B4E300C4D5B8 /* SmartView.h */,
@@ -2837,39 +2405,18 @@
 				B14656A82DC0B4E300C4D5B8 /* AgencyView.m */,
 				B14656A92DC0B4E300C4D5B8 /* HalfLightView.h */,
 				B14656AA2DC0B4E300C4D5B8 /* HalfLightView.m */,
-			);
-			path = SessionListHeader;
-			sourceTree = "<group>";
-		};
-		B14656AE2DC0B4E300C4D5B8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B14656AB2DC0B4E300C4D5B8 /* SessionListHeader */,
+				B14656F82DC0B4E300C4D5B8 /* TextureFrugalInterpreter.h */,
+				B14656F92DC0B4E300C4D5B8 /* SwitchenseAnnouncement.h */,
+				B14656FA2DC0B4E300C4D5B8 /* SwitchenseAnnouncement.m */,
 				B14656AC2DC0B4E300C4D5B8 /* SignalView.h */,
 				B14656AD2DC0B4E300C4D5B8 /* SignalView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B14656B12DC0B4E300C4D5B8 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
 				B14656AF2DC0B4E300C4D5B8 /* WarningViewController.h */,
 				B14656B02DC0B4E300C4D5B8 /* WarningViewController.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		B14656B22DC0B4E300C4D5B8 /* SessionList */ = {
-			isa = PBXGroup;
-			children = (
-				B14656AE2DC0B4E300C4D5B8 /* View */,
-				B14656B12DC0B4E300C4D5B8 /* ViewController */,
 			);
 			path = SessionList;
 			sourceTree = "<group>";
 		};
-		B14656CB2DC0B4E300C4D5B8 /* Controller */ = {
+		B14656F72DC0B4E300C4D5B8 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
 				B14656B32DC0B4E300C4D5B8 /* BroadcastViewController.h */,
@@ -2894,15 +2441,6 @@
 				B14656C62DC0B4E300C4D5B8 /* AccommodationViewController.m */,
 				B14656C72DC0B4E300C4D5B8 /* QrcodeUponViewController.h */,
 				B14656C82DC0B4E300C4D5B8 /* QrcodeUponViewController.m */,
-				B14656C92DC0B4E300C4D5B8 /* AgencySucceedViewController.h */,
-				B14656CA2DC0B4E300C4D5B8 /* AgencySucceedViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		B14656F52DC0B4E300C4D5B8 /* Views */ = {
-			isa = PBXGroup;
-			children = (
 				B14656CF2DC0B4E300C4D5B8 /* ClothFlowLayout.h */,
 				B14656D02DC0B4E300C4D5B8 /* ClothFlowLayout.m */,
 				B14656D12DC0B4E300C4D5B8 /* ShortListViewCell.h */,
@@ -2926,69 +2464,51 @@
 				B14656F22DC0B4E300C4D5B8 /* LifeView.m */,
 				B14656F32DC0B4E300C4D5B8 /* FactorySucceedView.h */,
 				B14656F42DC0B4E300C4D5B8 /* FactorySucceedView.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		B14656F62DC0B4E300C4D5B8 /* MainCenter */ = {
-			isa = PBXGroup;
-			children = (
-				B14656CB2DC0B4E300C4D5B8 /* Controller */,
-				B14656F52DC0B4E300C4D5B8 /* Views */,
-			);
-			path = MainCenter;
-			sourceTree = "<group>";
-		};
-		B14656F72DC0B4E300C4D5B8 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				B14656F62DC0B4E300C4D5B8 /* MainCenter */,
+				B14656C92DC0B4E300C4D5B8 /* AgencySucceedViewController.h */,
+				B14656CA2DC0B4E300C4D5B8 /* AgencySucceedViewController.m */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
 		};
-		B14656FB2DC0B4E300C4D5B8 /* Subscribe */ = {
+		B14656FC2DC0B4E300C4D5B8 /* SaveView */ = {
 			isa = PBXGroup;
 			children = (
-				B14656F82DC0B4E300C4D5B8 /* TextureFrugalInterpreter.h */,
-				B14656F92DC0B4E300C4D5B8 /* SwitchenseAnnouncement.h */,
-				B14656FA2DC0B4E300C4D5B8 /* SwitchenseAnnouncement.m */,
-			);
-			path = Subscribe;
-			sourceTree = "<group>";
-		};
-		B14656FC2DC0B4E300C4D5B8 /* Sections */ = {
-			isa = PBXGroup;
-			children = (
-				B14655B42DC0B4E300C4D5B8 /* Card */,
-				B14655EA2DC0B4E300C4D5B8 /* Contact */,
-				B14656002DC0B4E300C4D5B8 /* Login */,
-				B146560B2DC0B4E300C4D5B8 /* Notification */,
-				B146569D2DC0B4E300C4D5B8 /* Session */,
+				B14655962DC0B4E300C4D5B8 /* IndexOutsideModel.h */,
+				B14655972DC0B4E300C4D5B8 /* IndexOutsideModel.m */,
+				B14655A22DC0B4E300C4D5B8 /* GeneralView.h */,
+				B14655A32DC0B4E300C4D5B8 /* GeneralView.m */,
+				B14655A42DC0B4E300C4D5B8 /* SaveView.h */,
+				B14655A52DC0B4E300C4D5B8 /* SaveView.m */,
+				B14655A62DC0B4E300C4D5B8 /* WayView.h */,
+				B14655A72DC0B4E300C4D5B8 /* WayView.m */,
+				B14655A82DC0B4E300C4D5B8 /* EffectiveView.h */,
+				B14655A92DC0B4E300C4D5B8 /* EffectiveView.m */,
+				B14655AA2DC0B4E300C4D5B8 /* OrientationView.h */,
+				B14655AB2DC0B4E300C4D5B8 /* OrientationView.m */,
+				B14655AC2DC0B4E300C4D5B8 /* RemarksEmptyFuturismView.h */,
+				B14655AD2DC0B4E300C4D5B8 /* RemarksEmptyFuturismView.m */,
+				B14655AF2DC0B4E300C4D5B8 /* LaterOnViewController.h */,
+				B14655B02DC0B4E300C4D5B8 /* LaterOnViewController.m */,
+				B14655B12DC0B4E300C4D5B8 /* SmartStepViewController.h */,
+				B14655B22DC0B4E300C4D5B8 /* SmartStepViewController.m */,
+				B14655EA2DC0B4E300C4D5B8 /* LaterViewCell */,
+				B14656002DC0B4E300C4D5B8 /* Dismiss */,
+				B146569D2DC0B4E300C4D5B8 /* ClientOnense */,
 				B14656B22DC0B4E300C4D5B8 /* SessionList */,
 				B14656F72DC0B4E300C4D5B8 /* Setting */,
-				B14656FB2DC0B4E300C4D5B8 /* Subscribe */,
 			);
-			path = Sections;
+			path = SaveView;
 			sourceTree = "<group>";
 		};
-		B14657012DC0B4E300C4D5B8 /* Spelling */ = {
+		B146571E2DC0B4E300C4D5B8 /* ProposedConverter */ = {
 			isa = PBXGroup;
 			children = (
+				B14657022DC0B4E300C4D5B8 /* PreviousAvoid.h */,
+				B14657032DC0B4E300C4D5B8 /* PreviousAvoid.m */,
 				B14656FD2DC0B4E300C4D5B8 /* ProposedConverter.h */,
 				B14656FE2DC0B4E300C4D5B8 /* ProposedConverter.m */,
 				B14656FF2DC0B4E300C4D5B8 /* CentreVisible.h */,
 				B14657002DC0B4E300C4D5B8 /* CentreVisible.m */,
-			);
-			path = Spelling;
-			sourceTree = "<group>";
-		};
-		B146571E2DC0B4E300C4D5B8 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				B14657012DC0B4E300C4D5B8 /* Spelling */,
-				B14657022DC0B4E300C4D5B8 /* PreviousAvoid.h */,
-				B14657032DC0B4E300C4D5B8 /* PreviousAvoid.m */,
 				B14657042DC0B4E300C4D5B8 /* AgencySetting.h */,
 				B14657052DC0B4E300C4D5B8 /* AgencySetting.m */,
 				B14657082DC0B4E300C4D5B8 /* ClientIndex.h */,
@@ -3008,28 +2528,72 @@
 				B14657182DC0B4E300C4D5B8 /* SeparateSuspend.h */,
 				B14657192DC0B4E300C4D5B8 /* SeparateSuspend.m */,
 			);
-			path = Util;
+			path = ProposedConverter;
 			sourceTree = "<group>";
 		};
-		B146571F2DC0B4E300C4D5B8 /* Classes */ = {
+		B146571F2DC0B4E300C4D5B8 /* WayOddView */ = {
 			isa = PBXGroup;
 			children = (
-				B14655032DC0B4E300C4D5B8 /* Category */,
-				B14655272DC0B4E300C4D5B8 /* Common */,
-				B146552E2DC0B4E300C4D5B8 /* LayoutConfig */,
-				B14655952DC0B4E300C4D5B8 /* Librarys */,
-				B14656FC2DC0B4E300C4D5B8 /* Sections */,
-				B146571E2DC0B4E300C4D5B8 /* Util */,
+				B14654D32DC0B4E300C4D5B8 /* NSData+GeneralSmart.h */,
+				B14654D42DC0B4E300C4D5B8 /* NSData+GeneralSmart.m */,
+				B14654D52DC0B4E300C4D5B8 /* NSDate+Below.h */,
+				B14654D62DC0B4E300C4D5B8 /* NSDate+Below.m */,
+				B14654D72DC0B4E300C4D5B8 /* NSDateFormatter+Below.h */,
+				B14654D82DC0B4E300C4D5B8 /* NSDateFormatter+Below.m */,
+				B14654D92DC0B4E300C4D5B8 /* NSDictionary+Below.h */,
+				B14654DA2DC0B4E300C4D5B8 /* NSDictionary+Below.m */,
+				B14654DB2DC0B4E300C4D5B8 /* NSDictionary+SeparateOut.h */,
+				B14654DC2DC0B4E300C4D5B8 /* NSDictionary+SeparateOut.m */,
+				B14654DD2DC0B4E300C4D5B8 /* NSString+GeneralSmart.h */,
+				B14654DE2DC0B4E300C4D5B8 /* NSString+GeneralSmart.m */,
+				B14654DF2DC0B4E300C4D5B8 /* ProceedSubmitView+User.h */,
+				B14654E02DC0B4E300C4D5B8 /* ProceedSubmitView+User.m */,
+				B14654E12DC0B4E300C4D5B8 /* UIActionSheet+VisibleUs.h */,
+				B14654E22DC0B4E300C4D5B8 /* UIActionSheet+VisibleUs.m */,
+				B14654E32DC0B4E300C4D5B8 /* UIAlertView+VisibleUs.h */,
+				B14654E42DC0B4E300C4D5B8 /* UIAlertView+VisibleUs.m */,
+				B14654E52DC0B4E300C4D5B8 /* UIButton+Save.h */,
+				B14654E62DC0B4E300C4D5B8 /* UIButton+Save.m */,
+				B14654E72DC0B4E300C4D5B8 /* UIButton+RefreshFlush.h */,
+				B14654E82DC0B4E300C4D5B8 /* UIButton+RefreshFlush.m */,
+				B14654E92DC0B4E300C4D5B8 /* UIColor+Util.h */,
+				B14654EA2DC0B4E300C4D5B8 /* UIColor+Util.m */,
+				B14654EB2DC0B4E300C4D5B8 /* UIDevice+Alfresco.h */,
+				B14654EC2DC0B4E300C4D5B8 /* UIDevice+Alfresco.m */,
+				B14654ED2DC0B4E300C4D5B8 /* UIImage+Below.h */,
+				B14654EE2DC0B4E300C4D5B8 /* UIImage+Below.m */,
+				B14654EF2DC0B4E300C4D5B8 /* UIImage+GeneralSmart.h */,
+				B14654F02DC0B4E300C4D5B8 /* UIImage+GeneralSmart.m */,
+				B14654F12DC0B4E300C4D5B8 /* UIImage+PersonBroadcast.h */,
+				B14654F22DC0B4E300C4D5B8 /* UIImage+PersonBroadcast.m */,
+				B14654F32DC0B4E300C4D5B8 /* UIResponder+Avoid.h */,
+				B14654F42DC0B4E300C4D5B8 /* UIResponder+Avoid.m */,
+				B14654F52DC0B4E300C4D5B8 /* UIScrollView+CloudUs.h */,
+				B14654F62DC0B4E300C4D5B8 /* UIScrollView+CloudUs.m */,
+				B14654F72DC0B4E300C4D5B8 /* UIScrollView+FilterErr.h */,
+				B14654F82DC0B4E300C4D5B8 /* UIScrollView+FilterErr.m */,
+				B14654F92DC0B4E300C4D5B8 /* UITextView+GeneralSmart.h */,
+				B14654FA2DC0B4E300C4D5B8 /* UITextView+GeneralSmart.m */,
+				B14654FB2DC0B4E300C4D5B8 /* UITextView+Util.h */,
+				B14654FC2DC0B4E300C4D5B8 /* UITextView+Util.m */,
+				B14654FD2DC0B4E300C4D5B8 /* UIView+Below.h */,
+				B14654FE2DC0B4E300C4D5B8 /* UIView+Below.m */,
+				B14654FF2DC0B4E300C4D5B8 /* UIView+GeneralSmart.h */,
+				B14655002DC0B4E300C4D5B8 /* UIView+GeneralSmart.m */,
+				B14655012DC0B4E300C4D5B8 /* UIViewController+Below.h */,
+				B14655022DC0B4E300C4D5B8 /* UIViewController+Below.m */,
+				B14655272DC0B4E300C4D5B8 /* SegueViewController */,
+				B14655952DC0B4E300C4D5B8 /* Views */,
+				B14656FC2DC0B4E300C4D5B8 /* SaveView */,
+				B146571E2DC0B4E300C4D5B8 /* ProposedConverter */,
 			);
-			path = Classes;
+			path = WayOddView;
 			sourceTree = "<group>";
 		};
 		B14657332DC0B4E300C4D5B8 /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				B1F4ED832E71900A00195A20 /* Other */,
-				B14654D22DC0B4E300C4D5B8 /* ChatClasses */,
-				B146571F2DC0B4E300C4D5B8 /* Classes */,
+				B146571F2DC0B4E300C4D5B8 /* WayOddView */,
 				B146572E2DC0B4E300C4D5B8 /* Divzor.pch */,
 				B146572F2DC0B4E300C4D5B8 /* AppDelegate.h */,
 				B14657302DC0B4E300C4D5B8 /* AppDelegate.m */,
@@ -3060,18 +2624,7 @@
 			path = IBigRise;
 			sourceTree = "<group>";
 		};
-		B1465F022DC0C09100C4D5B8 /* CustomTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				B1465EFE2DC0C09100C4D5B8 /* SpeakeasyView.h */,
-				B1465EFF2DC0C09100C4D5B8 /* SpeakeasyView.m */,
-				B1465F002DC0C09100C4D5B8 /* NationalClimaticDataCenterViewController.h */,
-				B1465F012DC0C09100C4D5B8 /* NationalClimaticDataCenterViewController.m */,
-			);
-			path = CustomTabBar;
-			sourceTree = "<group>";
-		};
-		B1503E0B2E9E374700B4611A /* IQKeyboardManager */ = {
+		B1503E0B2E9E374700B4611A /* PlacePrevious */ = {
 			isa = PBXGroup;
 			children = (
 				B1503DEF2E9E374700B4611A /* SButtonItem.h */,
@@ -3103,39 +2656,10 @@
 				B1503E092E9E374700B4611A /* IQUIViewController+Upon.h */,
 				B1503E0A2E9E374700B4611A /* IQUIViewController+Upon.m */,
 			);
-			path = IQKeyboardManager;
+			path = PlacePrevious;
 			sourceTree = "<group>";
 		};
-		B1F4ED832E71900A00195A20 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				B1465F052DC0F58E00C4D5B8 /* Reinstate.h */,
-				B1465F062DC0F58E00C4D5B8 /* Reinstate.m */,
-				B1465F082DC1B83300C4D5B8 /* UIImage+FallFor.h */,
-				B1465F092DC1B83300C4D5B8 /* UIImage+FallFor.m */,
-				B14657312DC0B4E300C4D5B8 /* ParticularThrough.h */,
-				B14657322DC0B4E300C4D5B8 /* ParticularThrough.m */,
-				B14657282DC0B4E300C4D5B8 /* RecognizeYardSecurity.h */,
-				B14657292DC0B4E300C4D5B8 /* RecognizeYardSecurity.m */,
-				B146572A2DC0B4E300C4D5B8 /* NoticeDismissRequest.h */,
-				B146572B2DC0B4E300C4D5B8 /* NoticeDismissRequest.m */,
-				B146572C2DC0B4E300C4D5B8 /* UIImage+PlaceInput.h */,
-				B146572D2DC0B4E300C4D5B8 /* UIImage+PlaceInput.m */,
-				E4419FB22DDF61A00027FE7E /* ParticularViewController.h */,
-				E4419FB32DDF61A00027FE7E /* ParticularViewController.m */,
-				B14657202DC0B4E300C4D5B8 /* NSDictionaryAdditions.h */,
-				B14657212DC0B4E300C4D5B8 /* NSDictionaryAdditions.m */,
-				B14657222DC0B4E300C4D5B8 /* ClientOnense.h */,
-				B14657232DC0B4E300C4D5B8 /* ClientOnense.m */,
-				B14657242DC0B4E300C4D5B8 /* LabelHelper.h */,
-				B14657252DC0B4E300C4D5B8 /* LabelHelper.m */,
-				B14653602DC0B4E300C4D5B8 /* NSDictionaryExtend.h */,
-				B14653612DC0B4E300C4D5B8 /* NSDictionaryExtend.m */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		B1F4EDAE2E71A10D00195A20 /* AFNetworking */ = {
+		B1F4EDAE2E71A10D00195A20 /* Blank */ = {
 			isa = PBXGroup;
 			children = (
 				B1F4ED8D2E71A10D00195A20 /* ParticularVisible.h */,
@@ -3171,10 +2695,10 @@
 				B1F4EDAC2E71A10D00195A20 /* WKWebView+Submit.h */,
 				B1F4EDAD2E71A10D00195A20 /* WKWebView+Submit.m */,
 			);
-			path = AFNetworking;
+			path = Blank;
 			sourceTree = "<group>";
 		};
-		B1F4EDCB2E71A20900195A20 /* FFDropDownMenu */ = {
+		B1F4EDCB2E71A20900195A20 /* HangViewCell */ = {
 			isa = PBXGroup;
 			children = (
 				B1F4EDBE2E71A20900195A20 /* FFDropDownMenu.h */,
@@ -3190,11 +2714,21 @@
 				B1F4EDC82E71A20900195A20 /* MoveGenderSightView.m */,
 				B1F4EDC92E71A20900195A20 /* SinkPlaceForefrontView.h */,
 				B1F4EDCA2E71A20900195A20 /* SinkPlaceForefrontView.m */,
+				B146552F2DC0B4E300C4D5B8 /* CloudViewCell.h */,
+				B14655302DC0B4E300C4D5B8 /* CloudViewCell.m */,
+				B14655312DC0B4E300C4D5B8 /* DisturbingViewController.h */,
+				B14655322DC0B4E300C4D5B8 /* DisturbingViewController.m */,
+				B14655332DC0B4E300C4D5B8 /* JumpViewController.h */,
+				B14655342DC0B4E300C4D5B8 /* JumpViewController.m */,
+				B146553A2DC0B4E300C4D5B8 /* Extra.h */,
+				B146553B2DC0B4E300C4D5B8 /* Extra.m */,
+				B146553E2DC0B4E300C4D5B8 /* WorldView.h */,
+				B146553F2DC0B4E300C4D5B8 /* WorldView.m */,
 			);
-			path = FFDropDownMenu;
+			path = HangViewCell;
 			sourceTree = "<group>";
 		};
-		B1F4EDDB2E71A25A00195A20 /* ProceedSubmitView */ = {
+		B1F4EDDB2E71A25A00195A20 /* BroadcastView */ = {
 			isa = PBXGroup;
 			children = (
 				B1F4EDD22E71A25A00195A20 /* DismissView.h */,
@@ -3207,37 +2741,7 @@
 				B1F4EDD92E71A25A00195A20 /* LightRefreshLayer.h */,
 				B1F4EDDA2E71A25A00195A20 /* LightRefreshLayer.m */,
 			);
-			path = ProceedSubmitView;
-			sourceTree = "<group>";
-		};
-		B1F4EDE32E71A27700195A20 /* UCZProgressView */ = {
-			isa = PBXGroup;
-			children = (
-				B1F4EDE12E71A27700195A20 /* BoardWayView.h */,
-				B1F4EDE22E71A27700195A20 /* BoardWayView.m */,
-			);
-			path = UCZProgressView;
-			sourceTree = "<group>";
-		};
-		B1F4EDE82E71A2A400195A20 /* Toast */ = {
-			isa = PBXGroup;
-			children = (
-				B1F4EDE52E71A2A400195A20 /* Cloud.h */,
-				B1F4EDE62E71A2A400195A20 /* UIView+Cloud.h */,
-				B1F4EDE72E71A2A400195A20 /* UIView+Cloud.m */,
-			);
-			path = Toast;
-			sourceTree = "<group>";
-		};
-		B1F4EDEE2E71A2C600195A20 /* TXScrollLabelView */ = {
-			isa = PBXGroup;
-			children = (
-				B1F4EDEA2E71A2C600195A20 /* ClientScrollView.h */,
-				B1F4EDEB2E71A2C600195A20 /* ClientScrollView.m */,
-				B1F4EDEC2E71A2C600195A20 /* UIView+ProduceJoin.h */,
-				B1F4EDED2E71A2C600195A20 /* UIView+ProduceJoin.m */,
-			);
-			path = TXScrollLabelView;
+			path = BroadcastView;
 			sourceTree = "<group>";
 		};
 		B1F4EE1F2E72835100195A20 /* Framework */ = {
@@ -3530,7 +3034,7 @@
 				B146582E2DC0B4E300C4D5B8 /* NSDictionary+Below.m in Sources */,
 				B146582F2DC0B4E300C4D5B8 /* NSDictionary+SeparateOut.m in Sources */,
 				B14658302DC0B4E300C4D5B8 /* NSString+GeneralSmart.m in Sources */,
-				B14658312DC0B4E300C4D5B8 /* ProceedSubmitView+ZC.m in Sources */,
+				B14658312DC0B4E300C4D5B8 /* ProceedSubmitView+User.m in Sources */,
 				B14658322DC0B4E300C4D5B8 /* UIActionSheet+VisibleUs.m in Sources */,
 				B14658332DC0B4E300C4D5B8 /* UIAlertView+VisibleUs.m in Sources */,
 				B14658342DC0B4E300C4D5B8 /* UIButton+Save.m in Sources */,
@@ -3634,7 +3138,7 @@
 				B146589F2DC0B4E300C4D5B8 /* WithLight.m in Sources */,
 				B14658A02DC0B4E300C4D5B8 /* OutsideSearch.m in Sources */,
 				B14658A12DC0B4E300C4D5B8 /* StirDevice.m in Sources */,
-				B14658A22DC0B4E300C4D5B8 /* RailA.m in Sources */,
+				B14658A22DC0B4E300C4D5B8 /* RailUser.m in Sources */,
 				B14658A32DC0B4E300C4D5B8 /* Dismiss.m in Sources */,
 				B14658A42DC0B4E300C4D5B8 /* ConversationViewController.m in Sources */,
 				B14658A52DC0B4E300C4D5B8 /* SecurityViewController.m in Sources */,
