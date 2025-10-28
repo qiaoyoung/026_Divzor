@@ -213,7 +213,7 @@
 //: #import "ZZZInputEmoticonManager.h"
 #import "Visible.h"
 //: #import "ZZZInputEmoticonDefine.h"
-#import "ZZZInputEmoticonDefine.h"
+
 //: #import "NSString+AppleProjectKit.h"
 #import "NSString+Warning.h"
 //: #import "AppleProjectKit.h"

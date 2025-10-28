@@ -86,8 +86,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZKitSwitcherCell.h"
 #import "SubmitViewCell.h"
-//: #import "ZZZCommonTableData.h"
-#import "ZZZCommonTableData.h"
+//: #import "FocusedFlatThrottle.h"
+#import "FocusedFlatThrottle.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
 

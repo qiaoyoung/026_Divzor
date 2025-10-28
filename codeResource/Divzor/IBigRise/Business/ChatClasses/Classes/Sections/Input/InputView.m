@@ -70,7 +70,7 @@
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
 //: #import "ZZZInputEmoticonDefine.h"
-#import "ZZZInputEmoticonDefine.h"
+
 //: #import "ZZZInputEmoticonManager.h"
 #import "Visible.h"
 //: #import "ZZZInputToolBar.h"

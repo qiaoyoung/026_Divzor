@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "ZZZGroupedUsrInfo.h"
-#import "ZZZGroupedUsrInfo.h"
+//: #import "FinishWildSaverEvent.h"
+#import "FinishWildSaverEvent.h"
 //: #import "ZZZSpellingCenter.h"
 #import "CloudCenter.h"
 //: #import "ZZZKitInfoFetchOption.h"

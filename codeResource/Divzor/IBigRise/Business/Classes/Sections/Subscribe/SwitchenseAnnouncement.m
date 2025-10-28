@@ -27,8 +27,8 @@ Byte layoutSpotData[] = {31, 12, 54, 12, 6, 91, 114, 11, 46, 131, 147, 83, 165, 
 #import "NTESSubscribeDefine.h"
 //: #import "NTESDevice.h"
 #import "SucceedVisibleDevice.h"
-//: #import "ZZZExtensionHelper.h"
-#import "ZZZExtensionHelper.h"
+//: #import "StartFormalTimelineWork.h"
+#import "StartFormalTimelineWork.h"
 
 //: @interface NTESSubscribeManager()<NIMEventSubscribeManagerDelegate,NIMConversationManagerDelegate,NIMLoginManagerDelegate,NIMUserManagerDelegate>
 @interface SwitchenseAnnouncement()<NIMEventSubscribeManagerDelegate,NIMConversationManagerDelegate,NIMLoginManagerDelegate,NIMUserManagerDelegate>

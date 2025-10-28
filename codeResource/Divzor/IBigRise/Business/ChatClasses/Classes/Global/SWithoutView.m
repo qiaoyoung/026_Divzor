@@ -93,8 +93,8 @@ typedef struct {
 #import "SWithoutView.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
-//: #import "ZZZCommonTableData.h"
-#import "ZZZCommonTableData.h"
+//: #import "FocusedFlatThrottle.h"
+#import "FocusedFlatThrottle.h"
 //: #import "UIImage+AppleProjectKit.h"
 #import "UIImage+Warning.h"
 

@@ -13,8 +13,8 @@
 #import <Foundation/Foundation.h>
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "ZZZContactDefines.h"
-#import "ZZZContactDefines.h"
+//: #import "LayoutIndexNeatHighlight.h"
+#import "LayoutIndexNeatHighlight.h"
 
 //: @interface ZZZLemonGroupedData : NSObject
 @interface PauseLightData : NSObject

@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "ZZZBaseSessionContentConfig.h"
-#import "ZZZBaseSessionContentConfig.h"
+//: #import "TrustyComposerInto.h"
+#import "TrustyComposerInto.h"
 
 //: @interface ZZZUnsupportContentConfig : NSObject<CCCSessionContentConfig>
 @interface MemberConfig : NSObject<PreviousConfig>

@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZCommonTableDelegate.h"
 #import "DocumentLead.h"
-//: #import "ZZZCommonTableData.h"
-#import "ZZZCommonTableData.h"
+//: #import "FocusedFlatThrottle.h"
+#import "FocusedFlatThrottle.h"
 //: #import "ZZZCommonTableViewCell.h"
 #import "OddCell.h"
 //: #import "UIViewNimKit.h"

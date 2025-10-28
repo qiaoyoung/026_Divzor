@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  ZZZBaseSessionContentConfig.m
+//  TrustyComposerInto.m
 // Warning
 //
 //  Created by amao on 9/15/15.
@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "ZZZBaseSessionContentConfig.h"
-#import "ZZZBaseSessionContentConfig.h"
+//: #import "TrustyComposerInto.h"
+#import "TrustyComposerInto.h"
 //: #import "ZZZTextContentConfig.h"
 #import "StarlightConfig.h"
 //: #import "ZZZImageContentConfig.h"

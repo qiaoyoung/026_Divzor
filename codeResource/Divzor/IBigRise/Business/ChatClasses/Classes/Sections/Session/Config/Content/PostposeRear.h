@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "ZZZBaseSessionContentConfig.h"
-#import "ZZZBaseSessionContentConfig.h"
+//: #import "TrustyComposerInto.h"
+#import "TrustyComposerInto.h"
 
 //: @interface ZZZVideoContentConfig : NSObject<CCCSessionContentConfig>
 @interface PostposeRear : NSObject<PreviousConfig>

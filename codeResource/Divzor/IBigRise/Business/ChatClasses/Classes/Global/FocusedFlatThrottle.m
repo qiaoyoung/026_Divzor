@@ -299,7 +299,7 @@ typedef struct {
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  ZZZCommonTableData.m
+//  FocusedFlatThrottle.m
 //  NIM
 //
 //  Created by chris on 15/6/26.
@@ -307,8 +307,8 @@ typedef struct {
 //
 
 // __M_A_C_R_O__
-//: #import "ZZZCommonTableData.h"
-#import "ZZZCommonTableData.h"
+//: #import "FocusedFlatThrottle.h"
+#import "FocusedFlatThrottle.h"
 
 //: @implementation NIMCommonTableSection
 @implementation SmartSection

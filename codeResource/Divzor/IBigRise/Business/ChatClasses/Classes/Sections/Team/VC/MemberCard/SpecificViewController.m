@@ -471,8 +471,8 @@ typedef struct {
 // __M_A_C_R_O__
 //: #import "ZZZTeamMemberCardViewController.h"
 #import "SpecificViewController.h"
-//: #import "ZZZCommonTableData.h"
-#import "ZZZCommonTableData.h"
+//: #import "FocusedFlatThrottle.h"
+#import "FocusedFlatThrottle.h"
 //: #import "ZZZCommonTableDelegate.h"
 #import "DocumentLead.h"
 //: #import "ZZZAvatarImageView.h"
