@@ -556,8 +556,7 @@ typedef struct {
 
 //: #pragma mark - UIAlertViewDelegate
 #pragma mark - UIAlertViewDelegate
-//: - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
-- (void)memory:(UIAlertView *)alertView gray:(NSInteger)buttonIndex{
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
     //: if (alertView == _kickAlertView) {
     if (alertView == _intoView) {
         //: if(alertView.cancelButtonIndex != buttonIndex) {
@@ -684,7 +683,7 @@ typedef struct {
     //: ZZZKitInfoFetchOption *option = [[ZZZKitInfoFetchOption alloc] init];
     BelowOption *option = [[BelowOption alloc] init];
     //: option.session = _dataSource.session;
-    option.appropriate = _agree.publish;
+    option.appropriate = _agree.session;
 	[self setStarting:_force];
     //: ZZZKitInfo *usrInfo = [[AppleProjectKit sharedKit] infoByUser:_member.userId option:option];
     BroadcastInput *usrInfo = [[Warning camera] writing:[self noBoundary:_levelMemberItem].flagConfirming tit:option];
@@ -859,8 +858,8 @@ typedef struct {
 
 //: #pragma mark - UIActionSheetDelegate
 #pragma mark - UIActionSheetDelegate
-//: - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex{
 - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex{
+
     //: if(buttonIndex == 0) {
     if(buttonIndex == 0) {
         //: NSString *userId = self.member.userId;

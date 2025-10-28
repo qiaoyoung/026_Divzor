@@ -234,7 +234,7 @@
     //: id<NTESCardBodyData> bodyData = [self bodyDataAtIndexPath:indexPath];
     id<BlankTraitData> bodyData = [self theStaff:indexPath];
     //: return bodyData.rowHeight;
-    return bodyData.contractUnderSeal;
+    return bodyData.rowHeight;
 }
 //: - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -371,7 +371,7 @@
     //: cell.button.style = KitColorButtonCellStyleBlue;
     cell.margin.complete = KitColorButtonCellStyleBlue;
     //: [cell.button setTitle:bodyData.title forState:UIControlStateNormal];
-    [cell.margin setTitle:bodyData.client forState:UIControlStateNormal];
+    [cell.margin setTitle:bodyData.title forState:UIControlStateNormal];
     //: return cell;
     return cell;
 }
@@ -430,18 +430,18 @@
     sep.hidden = (indexPath.row + 1 == [self.statisticalTableThread numberOfRowsInSection:indexPath.section]);
 
     //: cell.textLabel.text = bodyData.title;
-    cell.textLabel.text = bodyData.client;
+    cell.textLabel.text = bodyData.title;
     //: cell.textLabel.font = [UIFont boldSystemFontOfSize:14];
     cell.textLabel.font = [UIFont boldSystemFontOfSize:14];
     //: cell.textLabel.textColor = [UIColor blackColor];
     cell.textLabel.textColor = [UIColor blackColor];
     //: cell.imageView.image = bodyData.img;
-    cell.imageView.image = bodyData.asset;
+    cell.imageView.image = bodyData.img;
 
     //: cell.switcher.on = bodyData.switchOn;
-    cell.mainSession.on = bodyData.heritage;
+    cell.mainSession.on = bodyData.switchOn;
     //: cell.identify = bodyData.identify;
-    cell.identity = bodyData.tableLocation;
+    cell.identity = bodyData.identify;
 
     //: [self didBuildTeamSwitchCell:cell];
     [self progress:cell];
@@ -465,15 +465,15 @@
     //: cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     //: cell.titleLabel.text = bodyData.title;
-    cell.kind.text = bodyData.client;
+    cell.kind.text = bodyData.title;
     //: cell.iconImageView.image = bodyData.img;
-    cell.thoughtImageSin.image = bodyData.asset;
+    cell.thoughtImageSin.image = bodyData.img;
     //: cell.contentLabel.text = bodyData.subTitle;
-    cell.refuse.text = bodyData.aboveUpon;
+    cell.refuse.text = bodyData.subTitle;
     //: if ([bodyData respondsToSelector:@selector(subTitle)]) {
-    if ([bodyData respondsToSelector:@selector(subActive)]) {
+    if ([bodyData respondsToSelector:@selector(subTitle)]) {
         //: cell.contentLabel.text = bodyData.subTitle ?: [NTESLanguageManager getTextWithKey:@"未设置"];
-        cell.refuse.text = bodyData.aboveUpon ?: [BombardmentMinimumManageress more:[PrivacyData sharedInstance].coreAdvantagePage];
+        cell.refuse.text = bodyData.subTitle ?: [BombardmentMinimumManageress more:[PrivacyData sharedInstance].coreAdvantagePage];
     }
 
     //: return cell;
@@ -549,7 +549,7 @@
     //: cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     //: cell.textLabel.text = [NSString stringWithFormat:@"%@(%@)",bodyData.title,bodyData.subTitle];
-    cell.textLabel.text = [NSString stringWithFormat:@"%@(%@)",bodyData.client,bodyData.aboveUpon];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@(%@)",bodyData.title,bodyData.subTitle];
     //: cell.textLabel.font = [UIFont systemFontOfSize:14];
     cell.textLabel.font = [UIFont systemFontOfSize:14];
     //: cell.textLabel.textColor = [UIColor blackColor];
@@ -558,7 +558,7 @@
 //    cell.imageView.image = bodyData.img;
 
     //: if ([bodyData respondsToSelector:@selector(actionDisabled)] && bodyData.actionDisabled) {
-    if ([bodyData respondsToSelector:@selector(disabledReaches)] && bodyData.data) {
+    if ([bodyData respondsToSelector:@selector(actionDisabled)] && bodyData.actionDisabled) {
         //: cell.accessoryType = UITableViewCellAccessoryNone;
         cell.accessoryType = UITableViewCellAccessoryNone;
     //: }else{
@@ -609,7 +609,7 @@
     //: cell.button.style = KitColorButtonCellStyleRed;
     cell.margin.complete = KitColorButtonCellStyleRed;
     //: [cell.button setTitle:bodyData.title forState:UIControlStateNormal];
-    [cell.margin setTitle:bodyData.client forState:UIControlStateNormal];
+    [cell.margin setTitle:bodyData.title forState:UIControlStateNormal];
     //: return cell;
     return cell;
 }
@@ -838,7 +838,7 @@
     //: UITableViewCell * cell;
     UITableViewCell * cell;
     //: EnumTeamCardRowItemType type = bodyData.type;
-    EnumTeamCardRowItemType type = bodyData.appearComponent;
+    EnumTeamCardRowItemType type = bodyData.type;
     //: switch (type) {
     switch (type) {
         //: case TeamCardRowItemTypeCommon:
@@ -933,22 +933,22 @@
     //: id<NTESCardBodyData> bodyData = [self bodyDataAtIndexPath:indexPath];
     id<BlankTraitData> bodyData = [self theStaff:indexPath];
     //: if ([bodyData respondsToSelector:@selector(actionDisabled)] && bodyData.actionDisabled) {
-    if ([bodyData respondsToSelector:@selector(disabledReaches)] && bodyData.data) {
+    if ([bodyData respondsToSelector:@selector(actionDisabled)] && bodyData.actionDisabled) {
         //: return;
         return;
     }
     //: if (bodyData.type == TeamCardRowItemTypeSelected) {
-    if (bodyData.appearComponent == TeamCardRowItemTypeSelected) {
+    if (bodyData.type == TeamCardRowItemTypeSelected) {
         //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:bodyData.title
-        WiseViewController *vc = [WiseViewController yard:bodyData.client
+        WiseViewController *vc = [WiseViewController yard:bodyData.title
                                                                                //: items:bodyData.optionItems
-                                                                               remote:bodyData.metric
+                                                                               remote:bodyData.optionItems
                                                                               //: result:^(id<NIMKitSelectCardData> _Nonnull item) {
                                                                               invite:^(id<BelowQuestData> _Nonnull item) {
               //: if (bodyData.selectedBlock) {
-              if (bodyData.fragmentBlock) {
+              if (bodyData.selectedBlock) {
                   //: bodyData.selectedBlock(item);
-                  bodyData.fragmentBlock(item);
+                  bodyData.selectedBlock(item);
               }
           //: }];
           }];
@@ -957,13 +957,13 @@
     //: } else {
     } else {
         //: if ([bodyData respondsToSelector:@selector(action)]) {
-        if ([bodyData respondsToSelector:@selector(languagePad)]) {
+        if ([bodyData respondsToSelector:@selector(action)]) {
             //: if (bodyData.action) {
-            if (bodyData.primary) {
+            if (bodyData.action) {
                 //: do {
                 do {
                 //: [self performSelector:bodyData.action];
-                [self performSelector:bodyData.primary];
+                [self performSelector:bodyData.action];
                 //: } while (0);
                 } while (0);
             }

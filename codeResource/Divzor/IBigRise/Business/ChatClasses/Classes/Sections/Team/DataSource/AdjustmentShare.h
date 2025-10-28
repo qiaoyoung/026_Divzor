@@ -173,7 +173,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NIMTeam *)colorful;
 
 //: - (NIMSession *)session;
-- (NIMSession *)publish;
+- (NIMSession *)session;
 
 //: - (NSInteger)memberNumber;
 - (NSInteger)mansionMember;

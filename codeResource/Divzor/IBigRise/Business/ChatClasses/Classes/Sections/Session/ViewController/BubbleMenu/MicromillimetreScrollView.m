@@ -278,7 +278,7 @@ ExamineData componentClipMessage = (ExamineData){91, (Byte []){54, 62, 53, 46, 4
         [selectedAllRangeButtons addObject:model];
 
         //: if (item.selctor == @selector(onTapMenuItemCopy:)) {
-        if (item.tick == @selector(branded:)) {
+        if (item.tick == @selector(onTapMenuItemCopy:)) {
             //: [selectedPartRangeButtons addObject:model];
             [selectedPartRangeButtons addObject:model];
         }

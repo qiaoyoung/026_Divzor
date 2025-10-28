@@ -182,7 +182,7 @@ typedef NS_ENUM(NSUInteger, EnumtSessionState) {
 - (void)setModify:(EnumtSessionState)sessionState;
 
 //: - (void)setReferenceMessage:(NIMMessage *)message;
-- (void)setSheetComment:(NIMMessage *)message;
+- (void)setAudienceExclude:(NIMMessage *)message;
 
 //: @end
 @end

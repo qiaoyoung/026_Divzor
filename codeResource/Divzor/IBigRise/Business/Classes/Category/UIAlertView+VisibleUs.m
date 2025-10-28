@@ -19,8 +19,8 @@ static char layoutRunPriorityPreference;
 
 //: @implementation UIAlertView (NTESBlock)
 @implementation UIAlertView (VisibleUs)
-//: - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
-- (void)matterImagination:(UIAlertView *)alertView row:(NSInteger)buttonIndex
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+
 {
     //: AlertBlock block = objc_getAssociatedObject(self, &kUIAlertViewBlockAddress);
     AlertBlock block = objc_getAssociatedObject(self, &layoutRunPriorityPreference);

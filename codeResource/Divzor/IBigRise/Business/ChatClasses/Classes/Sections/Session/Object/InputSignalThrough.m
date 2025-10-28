@@ -51,7 +51,7 @@ Byte featureActressData[] = {34, 36, 37, 9, 25, 20, 165, 11, 236, 38, 64, 84, 61
 @property (nonatomic,strong) id<BlankConfig> head;
 
 //: @property (nonatomic,weak) id<NIMSessionLayoutDelegate> delegate;
-@property (nonatomic,weak) id<AfterDelegate> commentMaxxed;
+@property (nonatomic,weak) id<AfterDelegate> delegate;
 
 //: @property (nonatomic,strong) UIRefreshControl *refreshControl;
 @property (nonatomic,strong) UIRefreshControl *expanse;
@@ -130,10 +130,10 @@ Byte featureActressData[] = {34, 36, 37, 9, 25, 20, 165, 11, 236, 38, 64, 84, 61
 - (void)taskOf:(id)sender
 {
     //: if ([self.delegate respondsToSelector:@selector(onRefresh)])
-    if ([self.commentMaxxed respondsToSelector:@selector(alreadyTag)])
+    if ([self.delegate respondsToSelector:@selector(alreadyTag)])
     {
         //: [self.delegate onRefresh];
-        [self.commentMaxxed alreadyTag];
+        [self.delegate alreadyTag];
     }
 }
 

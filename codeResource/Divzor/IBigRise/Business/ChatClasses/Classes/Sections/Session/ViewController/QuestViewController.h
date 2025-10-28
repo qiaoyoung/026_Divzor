@@ -98,7 +98,7 @@
  *  会话页详细配置
  */
 //: - (id<ZZZSessionConfig>)sessionConfig;
-- (id<BlankConfig>)chemicalBlue;
+- (id<BlankConfig>)sessionConfig;
 
 //: #pragma mark - 录音接口
 #pragma mark - 录音接口

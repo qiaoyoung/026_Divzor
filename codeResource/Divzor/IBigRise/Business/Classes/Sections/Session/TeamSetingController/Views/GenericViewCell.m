@@ -524,7 +524,7 @@ typedef struct {
         //: ZZZKitInfoFetchOption *option = [[ZZZKitInfoFetchOption alloc] init];
         BelowOption *option = [[BelowOption alloc] init];
         //: option.session = teamListManager.session;
-        option.appropriate = teamListManager.publish;
+        option.appropriate = teamListManager.session;
         //: ZZZKitInfo *info = [[AppleProjectKit sharedKit] infoByUser:obj.userId option:option];
         BroadcastInput *info = [[Warning camera] writing:obj.flagConfirming tit:option];
 
@@ -1019,37 +1019,37 @@ typedef struct {
             //: ZZZTeamCardRowItem *teamMute = [[ZZZTeamCardRowItem alloc] init];
             RailMinimum *teamMute = [[RailMinimum alloc] init];
             //: teamMute.title = [NTESLanguageManager getTextWithKey:@"activity_group_info_group_mute"];
-            teamMute.storage = [BombardmentMinimumManageress more:[[SandbagData sharedInstance] viewTrackRecoverEvent]];//@"群禁言".string_localized;
+            teamMute.title = [BombardmentMinimumManageress more:[[SandbagData sharedInstance] viewTrackRecoverEvent]];//@"群禁言".string_localized;
             //: teamMute.subTitle = [ZZZTeamHelper teamMuteText:inAllMuteMode];
-            teamMute.subActive = [CeremonySucceed peopleThe:inAllMuteMode];
+            teamMute.subTitle = [CeremonySucceed peopleThe:inAllMuteMode];
             //: teamMute.rowHeight = 50.f;
-            teamMute.limitComposition = 50.f;
+            teamMute.rowHeight = 50.f;
             //: teamMute.type = TeamCardRowItemTypeSelected;
-            teamMute.resign = TeamCardRowItemTypeSelected;
+            teamMute.type = TeamCardRowItemTypeSelected;
 	[self setGearUp:_boundCell];
             //: teamMute.optionItems = [ZZZTeamHelper teamMuteItemsWithSeleced:inAllMuteMode];
-            teamMute.punctuate = [CeremonySucceed manageFlash:inAllMuteMode];
+            teamMute.optionItems = [CeremonySucceed manageFlash:inAllMuteMode];
 	[self setGearUp:_boundCell];
             //: teamMute.actionDisabled = !canEdit;
-            teamMute.disabledReaches = !canEdit;
+            teamMute.actionDisabled = !canEdit;
 	[self setGearUp:_boundCell];
             //: teamMute.selectedBlock = ^(id<NIMKitSelectCardData> item) {
-            teamMute.queryedCellArtifact = ^(id<BelowQuestData> item) {
+            teamMute.selectedBlock = ^(id<BelowQuestData> item) {
                 //: [_vc didUpdateTeamMute:[item.value integerValue]];
-                [_scheme eventResolve:[item.deep integerValue]];
+                [_scheme eventResolve:[item.value integerValue]];
             //: };
             };
 	[self setGearUp:_boundCell];
             //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:teamMute.title
-            WiseViewController *vc = [WiseViewController yard:teamMute.storage
+            WiseViewController *vc = [WiseViewController yard:teamMute.title
                                                                                    //: items:teamMute.optionItems
-                                                                                   remote:teamMute.punctuate
+                                                                                   remote:teamMute.optionItems
                                                                                   //: result:^(id<NIMKitSelectCardData> _Nonnull item) {
                                                                                   invite:^(id<BelowQuestData> _Nonnull item) {
                   //: if (teamMute.selectedBlock) {
-                  if (teamMute.queryedCellArtifact) {
+                  if (teamMute.selectedBlock) {
                       //: teamMute.selectedBlock(item);
-                      teamMute.queryedCellArtifact(item);
+                      teamMute.selectedBlock(item);
                   }
               //: }];
               }];
@@ -1072,34 +1072,34 @@ typedef struct {
             //: ZZZTeamCardRowItem *teamNotify = [[ZZZTeamCardRowItem alloc] init];
             RailMinimum *teamNotify = [[RailMinimum alloc] init];
             //: teamNotify.title = [NTESLanguageManager getTextWithKey:@"message_info_activity_msg_notice"];
-            teamNotify.storage = [BombardmentMinimumManageress more:[[SandbagData sharedInstance] widgetPauseKey]];
+            teamNotify.title = [BombardmentMinimumManageress more:[[SandbagData sharedInstance] widgetPauseKey]];
 	[self setGearUp:_boundCell];//@"消息提醒".string_localized;
             //: teamNotify.subTitle = [ZZZTeamHelper notifyStateText:self.teamListManager.team.notifyStateForNewMsg];
-            teamNotify.subActive = [CeremonySucceed outResponse:self.restriction.startingTeam.notifyStateForNewMsg];
+            teamNotify.subTitle = [CeremonySucceed outResponse:self.restriction.startingTeam.notifyStateForNewMsg];
 	[self setGearUp:_boundCell];
             //: teamNotify.rowHeight = 50.f;
-            teamNotify.limitComposition = 50.f;
+            teamNotify.rowHeight = 50.f;
             //: teamNotify.type = TeamCardRowItemTypeSelected;
-            teamNotify.resign = TeamCardRowItemTypeSelected;
+            teamNotify.type = TeamCardRowItemTypeSelected;
 	[self setGearUp:_boundCell];
             //: teamNotify.optionItems = [ZZZTeamHelper notifyStateItemsWithSeleced:self.teamListManager.team.notifyStateForNewMsg];
-            teamNotify.punctuate = [CeremonySucceed turnSeleced:self.restriction.startingTeam.notifyStateForNewMsg];
+            teamNotify.optionItems = [CeremonySucceed turnSeleced:self.restriction.startingTeam.notifyStateForNewMsg];
             //: teamNotify.selectedBlock = ^(id<NIMKitSelectCardData> item) {
-            teamNotify.queryedCellArtifact = ^(id<BelowQuestData> item) {
+            teamNotify.selectedBlock = ^(id<BelowQuestData> item) {
                 //: [_vc didUpdateNotifiyState:[item.value integerValue]];
-                [_scheme italianRegion:[item.deep integerValue]];
+                [_scheme italianRegion:[item.value integerValue]];
             //: };
             };
             //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:teamNotify.title
-            WiseViewController *vc = [WiseViewController yard:teamNotify.storage
+            WiseViewController *vc = [WiseViewController yard:teamNotify.title
                                                                                    //: items:teamNotify.optionItems
-                                                                                   remote:teamNotify.punctuate
+                                                                                   remote:teamNotify.optionItems
                                                                                   //: result:^(id<NIMKitSelectCardData> _Nonnull item) {
                                                                                   invite:^(id<BelowQuestData> _Nonnull item) {
                   //: if (teamNotify.selectedBlock) {
-                  if (teamNotify.queryedCellArtifact) {
+                  if (teamNotify.selectedBlock) {
                       //: teamNotify.selectedBlock(item);
-                      teamNotify.queryedCellArtifact(item);
+                      teamNotify.selectedBlock(item);
                   }
               //: }];
               }];
@@ -1140,7 +1140,7 @@ typedef struct {
     //: BOOL isTop = switchview.on;
     BOOL isTop = switchview.on;
     //: NIMSession *session = _teamListManager.session;
-    NIMSession *session = _restriction.publish;
+    NIMSession *session = _restriction.session;
     //: NIMRecentSession *recent = [[NIMSDK sharedSDK].conversationManager recentSessionBySession:session];
     NIMRecentSession *recent = [[NIMSDK sharedSDK].conversationManager recentSessionBySession:session];
     //: if (isTop) {
@@ -1570,7 +1570,7 @@ typedef struct {
     option.start = 0;
 	[self setCarryThrough:_quitIdentity];
     //: [[NIMSDK sharedSDK].conversationManager deleteMessagesInSession:_teamListManager.session option:option completion:^(NSError * _Nullable error) {
-    [[NIMSDK sharedSDK].conversationManager deleteMessagesInSession:[self black:_blockStarting].publish option:option completion:^(NSError * _Nullable error) {
+    [[NIMSDK sharedSDK].conversationManager deleteMessagesInSession:[self black:_blockStarting].session option:option completion:^(NSError * _Nullable error) {
 
     //: }];
     }];
@@ -1746,33 +1746,33 @@ typedef struct {
     //: ZZZTeamCardRowItem *itemAuth = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *itemAuth = [[RailMinimum alloc] init];
     //: itemAuth.title = [NTESLanguageManager getTextWithKey:@"authentication"];
-    itemAuth.storage = [BombardmentMinimumManageress more:[[SandbagData sharedInstance] k_correctTitle]];//@"身份验证".string_localized;
+    itemAuth.title = [BombardmentMinimumManageress more:[[SandbagData sharedInstance] k_correctTitle]];//@"身份验证".string_localized;
     //: itemAuth.subTitle = [ZZZTeamHelper jonModeText:self.teamListManager.team.joinMode];
-    itemAuth.subActive = [CeremonySucceed mode:self.societalAngularUnit.startingTeam.joinMode];
+    itemAuth.subTitle = [CeremonySucceed mode:self.societalAngularUnit.startingTeam.joinMode];
     //: itemAuth.actionDisabled = !canEdit;
-    itemAuth.disabledReaches = !canEdit;
+    itemAuth.actionDisabled = !canEdit;
     //: itemAuth.rowHeight = 60.f;
-    itemAuth.limitComposition = 60.f;
+    itemAuth.rowHeight = 60.f;
     //: itemAuth.type = TeamCardRowItemTypeSelected;
-    itemAuth.resign = TeamCardRowItemTypeSelected;
+    itemAuth.type = TeamCardRowItemTypeSelected;
     //: itemAuth.optionItems = [ZZZTeamHelper joinModeItemsWithSeleced:self.teamListManager.team.joinMode];
-    itemAuth.punctuate = [CeremonySucceed untilInstallation:self.societalAngularUnit.startingTeam.joinMode];
+    itemAuth.optionItems = [CeremonySucceed untilInstallation:self.societalAngularUnit.startingTeam.joinMode];
     //: itemAuth.selectedBlock = ^(id<NIMKitSelectCardData> item) {
-    itemAuth.queryedCellArtifact = ^(id<BelowQuestData> item) {
+    itemAuth.selectedBlock = ^(id<BelowQuestData> item) {
         //: [_vc didupdateTeamJoinMode:[item.value integerValue]];
-        [_safely icon:[item.deep integerValue]];
+        [_safely icon:[item.value integerValue]];
     //: };
     };
     //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:itemAuth.title
-    WiseViewController *vc = [WiseViewController yard:itemAuth.storage
+    WiseViewController *vc = [WiseViewController yard:itemAuth.title
                                                                            //: items:itemAuth.optionItems
-                                                                           remote:itemAuth.punctuate
+                                                                           remote:itemAuth.optionItems
                                                                           //: result:^(id<NIMKitSelectCardData> _Nonnull item) {
                                                                           invite:^(id<BelowQuestData> _Nonnull item) {
           //: if (itemAuth.selectedBlock) {
-          if (itemAuth.queryedCellArtifact) {
+          if (itemAuth.selectedBlock) {
               //: itemAuth.selectedBlock(item);
-              itemAuth.queryedCellArtifact(item);
+              itemAuth.selectedBlock(item);
           }
       //: }];
       }];
@@ -1801,33 +1801,33 @@ typedef struct {
             //: ZZZTeamCardRowItem *itemInvite = [[ZZZTeamCardRowItem alloc] init];
             RailMinimum *itemInvite = [[RailMinimum alloc] init];
             //: itemInvite.title = [NTESLanguageManager getTextWithKey:@"activity_group_info_invite_permission"];
-            itemInvite.storage = [BombardmentMinimumManageress more:[[SandbagData sharedInstance] spacingFamilyHelper]];//@"邀请他人权限".string_localized;
+            itemInvite.title = [BombardmentMinimumManageress more:[[SandbagData sharedInstance] spacingFamilyHelper]];//@"邀请他人权限".string_localized;
             //: itemInvite.subTitle = [ZZZTeamHelper InviteModeText:self.teamListManager.team.inviteMode];
-            itemInvite.subActive = [CeremonySucceed direction:self.character.startingTeam.inviteMode];
+            itemInvite.subTitle = [CeremonySucceed direction:self.character.startingTeam.inviteMode];
             //: itemInvite.actionDisabled = !canEdit;
-            itemInvite.disabledReaches = !canEdit;
+            itemInvite.actionDisabled = !canEdit;
             //: itemInvite.rowHeight = 60.f;
-            itemInvite.limitComposition = 60.f;
+            itemInvite.rowHeight = 60.f;
             //: itemInvite.type = TeamCardRowItemTypeSelected;
-            itemInvite.resign = TeamCardRowItemTypeSelected;
+            itemInvite.type = TeamCardRowItemTypeSelected;
             //: itemInvite.optionItems = [ZZZTeamHelper InviteModeItemsWithSeleced:self.teamListManager.team.inviteMode];
-            itemInvite.punctuate = [CeremonySucceed layer:self.character.startingTeam.inviteMode];
+            itemInvite.optionItems = [CeremonySucceed layer:self.character.startingTeam.inviteMode];
             //: itemInvite.selectedBlock = ^(id<NIMKitSelectCardData> item) {
-            itemInvite.queryedCellArtifact = ^(id<BelowQuestData> item) {
+            itemInvite.selectedBlock = ^(id<BelowQuestData> item) {
                 //: [_vc didUpdateTeamInviteMode:[item.value integerValue]];
-                [_electMake privateness:[item.deep integerValue]];
+                [_electMake privateness:[item.value integerValue]];
             //: };
             };
             //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:itemInvite.title
-            WiseViewController *vc = [WiseViewController yard:itemInvite.storage
+            WiseViewController *vc = [WiseViewController yard:itemInvite.title
                                                                                    //: items:itemInvite.optionItems
-                                                                                   remote:itemInvite.punctuate
+                                                                                   remote:itemInvite.optionItems
                                                                                   //: result:^(id<NIMKitSelectCardData> _Nonnull item) {
                                                                                   invite:^(id<BelowQuestData> _Nonnull item) {
                   //: if (itemInvite.selectedBlock) {
-                  if (itemInvite.queryedCellArtifact) {
+                  if (itemInvite.selectedBlock) {
                       //: itemInvite.selectedBlock(item);
-                      itemInvite.queryedCellArtifact(item);
+                      itemInvite.selectedBlock(item);
                   }
               //: }];
               }];
@@ -1842,33 +1842,33 @@ typedef struct {
             //: ZZZTeamCardRowItem *itemUpdateInfo = [[ZZZTeamCardRowItem alloc] init];
             RailMinimum *itemUpdateInfo = [[RailMinimum alloc] init];
             //: itemUpdateInfo.title = [NTESLanguageManager getTextWithKey:@"activity_group_info_group_modify_permission"];
-            itemUpdateInfo.storage = [BombardmentMinimumManageress more:[[SandbagData sharedInstance] appMovieKey]];//@"群资料修改权限".string_localized;
+            itemUpdateInfo.title = [BombardmentMinimumManageress more:[[SandbagData sharedInstance] appMovieKey]];//@"群资料修改权限".string_localized;
             //: itemUpdateInfo.subTitle = [ZZZTeamHelper updateInfoModeText:self.teamListManager.team.updateInfoMode];
-            itemUpdateInfo.subActive = [CeremonySucceed evidence:self.character.startingTeam.updateInfoMode];
+            itemUpdateInfo.subTitle = [CeremonySucceed evidence:self.character.startingTeam.updateInfoMode];
             //: itemUpdateInfo.actionDisabled = !canEdit;
-            itemUpdateInfo.disabledReaches = !canEdit;
+            itemUpdateInfo.actionDisabled = !canEdit;
             //: itemUpdateInfo.rowHeight = 60.f;
-            itemUpdateInfo.limitComposition = 60.f;
+            itemUpdateInfo.rowHeight = 60.f;
             //: itemUpdateInfo.type = TeamCardRowItemTypeSelected;
-            itemUpdateInfo.resign = TeamCardRowItemTypeSelected;
+            itemUpdateInfo.type = TeamCardRowItemTypeSelected;
             //: itemUpdateInfo.optionItems = [ZZZTeamHelper updateInfoModeItemsWithSeleced:self.teamListManager.team.updateInfoMode];
-            itemUpdateInfo.punctuate = [CeremonySucceed adjust:self.character.startingTeam.updateInfoMode];
+            itemUpdateInfo.optionItems = [CeremonySucceed adjust:self.character.startingTeam.updateInfoMode];
             //: itemUpdateInfo.selectedBlock = ^(id<NIMKitSelectCardData> item) {
-            itemUpdateInfo.queryedCellArtifact = ^(id<BelowQuestData> item) {
+            itemUpdateInfo.selectedBlock = ^(id<BelowQuestData> item) {
                 //: [_vc didUpdateTeamInfoMode:[item.value integerValue]];
-                [_electMake faraway:[item.deep integerValue]];
+                [_electMake faraway:[item.value integerValue]];
             //: };
             };
             //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:itemUpdateInfo.title
-            WiseViewController *vc = [WiseViewController yard:itemUpdateInfo.storage
+            WiseViewController *vc = [WiseViewController yard:itemUpdateInfo.title
                                                                                    //: items:itemUpdateInfo.optionItems
-                                                                                   remote:itemUpdateInfo.punctuate
+                                                                                   remote:itemUpdateInfo.optionItems
                                                                                   //: result:^(id<NIMKitSelectCardData> _Nonnull item) {
                                                                                   invite:^(id<BelowQuestData> _Nonnull item) {
                   //: if (itemUpdateInfo.selectedBlock) {
-                  if (itemUpdateInfo.queryedCellArtifact) {
+                  if (itemUpdateInfo.selectedBlock) {
                       //: itemUpdateInfo.selectedBlock(item);
-                      itemUpdateInfo.queryedCellArtifact(item);
+                      itemUpdateInfo.selectedBlock(item);
                   }
               //: }];
               }];
@@ -1884,33 +1884,33 @@ typedef struct {
             //: ZZZTeamCardRowItem *itemBeInvite = [[ZZZTeamCardRowItem alloc] init];
             RailMinimum *itemBeInvite = [[RailMinimum alloc] init];
             //: itemBeInvite.title = [NTESLanguageManager getTextWithKey:@"activity_group_info_invite_verify"];
-            itemBeInvite.storage = [BombardmentMinimumManageress more:[[SandbagData sharedInstance] layoutEverPage]];//@"被邀请人身份验证".string_localized;
+            itemBeInvite.title = [BombardmentMinimumManageress more:[[SandbagData sharedInstance] layoutEverPage]];//@"被邀请人身份验证".string_localized;
             //: itemBeInvite.subTitle = [ZZZTeamHelper beInviteModeText:self.teamListManager.team.beInviteMode];
-            itemBeInvite.subActive = [CeremonySucceed butCord:self.character.startingTeam.beInviteMode];
+            itemBeInvite.subTitle = [CeremonySucceed butCord:self.character.startingTeam.beInviteMode];
             //: itemBeInvite.actionDisabled = !canEdit;
-            itemBeInvite.disabledReaches = !canEdit;
+            itemBeInvite.actionDisabled = !canEdit;
             //: itemBeInvite.rowHeight = 60.f;
-            itemBeInvite.limitComposition = 60.f;
+            itemBeInvite.rowHeight = 60.f;
             //: itemBeInvite.type = TeamCardRowItemTypeSelected;
-            itemBeInvite.resign = TeamCardRowItemTypeSelected;
+            itemBeInvite.type = TeamCardRowItemTypeSelected;
             //: itemBeInvite.optionItems = [ZZZTeamHelper beInviteModeItemsWithSeleced:self.teamListManager.team.beInviteMode];
-            itemBeInvite.punctuate = [CeremonySucceed underlying:self.character.startingTeam.beInviteMode];
+            itemBeInvite.optionItems = [CeremonySucceed underlying:self.character.startingTeam.beInviteMode];
             //: itemBeInvite.selectedBlock = ^(id<NIMKitSelectCardData> item) {
-            itemBeInvite.queryedCellArtifact = ^(id<BelowQuestData> item) {
+            itemBeInvite.selectedBlock = ^(id<BelowQuestData> item) {
                 //: [_vc didUpdateTeamBeInviteMode:[item.value integerValue]];
-                [_electMake odd:[item.deep integerValue]];
+                [_electMake odd:[item.value integerValue]];
             //: };
             };
             //: ZZZTeamCardSelectedViewController *vc = [ZZZTeamCardSelectedViewController instanceWithTitle:itemBeInvite.title
-            WiseViewController *vc = [WiseViewController yard:itemBeInvite.storage
+            WiseViewController *vc = [WiseViewController yard:itemBeInvite.title
                                                                                    //: items:itemBeInvite.optionItems
-                                                                                   remote:itemBeInvite.punctuate
+                                                                                   remote:itemBeInvite.optionItems
                                                                                   //: result:^(id<NIMKitSelectCardData> _Nonnull item) {
                                                                                   invite:^(id<BelowQuestData> _Nonnull item) {
                   //: if (itemBeInvite.selectedBlock) {
-                  if (itemBeInvite.queryedCellArtifact) {
+                  if (itemBeInvite.selectedBlock) {
                       //: itemBeInvite.selectedBlock(item);
-                      itemBeInvite.queryedCellArtifact(item);
+                      itemBeInvite.selectedBlock(item);
                   }
               //: }];
               }];

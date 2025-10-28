@@ -340,7 +340,7 @@
 
 - (BOOL)notWant:(BOOL)replace {
     //: OC_CUSTOM_PROPERTY_INJECT
-    _replace = replace;
+    replace = replace;
     return replace;
 }
 
@@ -454,7 +454,7 @@
 
 - (void)setReplace:(BOOL)replace {
     //: OC_CUSTOM_PROPERTY_INJECT
-    _replace = replace;
+    replace = replace;
 }
 
 //: - (NSString *)title{

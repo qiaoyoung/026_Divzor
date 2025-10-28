@@ -434,7 +434,7 @@
     //: config.filterIds = users;
     config.jumpArrayses = users;
     //: config.showSelectHeaderview = NO;
-    config.min = NO;
+    config.hairInstallation = NO;
     //: ZZZContactSelectViewController *vc = [[ZZZContactSelectViewController alloc] initWithConfig:config];
     OutsideViewController *vc = [[OutsideViewController alloc] initWithConfig:config];
     //: vc.delegate = self;

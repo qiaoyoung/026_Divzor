@@ -1155,17 +1155,17 @@ EditDelegate> {
             [self performSelector:sel withObject:nil];
         }
         //: else if (contactItem.vcName.length) {
-        else if (contactItem.hisTimingResume.length) {
+        else if (contactItem.vcName.length) {
             //: Class clazz = NSClassFromString(contactItem.vcName);
-            Class clazz = NSClassFromString(contactItem.hisTimingResume);
+            Class clazz = NSClassFromString(contactItem.vcName);
             //: UIViewController * vc = [[clazz alloc] initWithNibName:nil bundle:nil];
             UIViewController * vc = [[clazz alloc] initWithNibName:nil bundle:nil];
             //: [self.navigationController pushViewController:vc animated:YES];
             [self.navigationController pushViewController:vc animated:YES];
         //: }else if([contactItem respondsToSelector:@selector(userId)]){
-        }else if([contactItem respondsToSelector:@selector(flagConfirming)]){
+        }else if([contactItem respondsToSelector:@selector(userId)]){
             //: NSString * friendId = contactItem.userId;
-            NSString * friendId = contactItem.year;
+            NSString * friendId = contactItem.userId;
             //: [self enterPersonalCard:friendId];
             [self tieIn:friendId];
         }
@@ -1207,7 +1207,7 @@ EditDelegate> {
     //: config.needMutiSelected = YES;
     config.need = YES;
     //: config.showSelectHeaderview = YES;
-    config.min = YES;
+    config.hairInstallation = YES;
 	[self setAccount:_info];
     //初始化联系人选择器
     //: ZZZContactSelectViewController *vc = [[ZZZContactSelectViewController alloc] initWithConfig:config];
@@ -1784,9 +1784,9 @@ EditDelegate> {
         //: id<NTESContactItem> contactItem = (id<NTESContactItem>)[_contacts memberOfIndex:indexPath];
         id<TimedResign> contactItem = (id<TimedResign>)[_sin totalBar:indexPath];
         //: if([contactItem respondsToSelector:@selector(userId)]){
-        if([contactItem respondsToSelector:@selector(flagConfirming)]){
+        if([contactItem respondsToSelector:@selector(userId)]){
             //: NSString * friendId = contactItem.userId;
-            NSString * friendId = contactItem.year;
+            NSString * friendId = contactItem.userId;
             //: if ([ids containsObject:friendId]) {
             if ([ids containsObject:friendId]) {
                 //: [indexPaths addObject:indexPath];

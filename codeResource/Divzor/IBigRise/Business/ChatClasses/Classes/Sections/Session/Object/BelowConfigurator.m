@@ -78,7 +78,7 @@
     //: NIMSession *session = vc.session;
     NIMSession *session = vc.calendar;
     //: id<ZZZSessionConfig> sessionConfig = vc.sessionConfig;
-    id<BlankConfig> sessionConfig = vc.chemicalBlue;
+    id<BlankConfig> sessionConfig = vc.sessionConfig;
     //: UITableView *tableView = vc.tableView;
     UITableView *tableView = vc.paletteView;
     //: ZZZInputView *inputView = vc.sessionInputView;
@@ -104,7 +104,7 @@
     _year.ikon = layout;
 
     //: [layout setDelegate:_interactor];
-    [layout setRowAcross:_year];
+    [layout setDelegate:_year];
 
     //: _tableAdapter = [[ZZZSessionTableAdapter alloc] init];
     _step = [[SucceedAgency alloc] init];

@@ -397,8 +397,8 @@ typedef struct {
     [self quantitySize:showDelete primary:cropSize];
 }
 
-//: - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
 - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
+
     //: if (buttonIndex == 0) {
     if (buttonIndex == 0) {
 

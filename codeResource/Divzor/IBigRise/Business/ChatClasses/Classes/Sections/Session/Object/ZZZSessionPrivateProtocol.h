@@ -137,7 +137,7 @@
 - (void)destabilization:(CGFloat)inputViewHeight;
 
 //: - (void)setDelegate:(id<NIMSessionLayoutDelegate>)delegate;
-- (void)setRowAcross:(id<AfterDelegate>)delegate;
+- (void)setDelegate:(id<AfterDelegate>)delegate;
 
 //: - (void)layoutAfterRefresh;
 - (void)per;

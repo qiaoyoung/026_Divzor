@@ -326,9 +326,9 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
     //: BOOL should = YES;
     BOOL should = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableReceiveNewMessages)]) {
-    if ([self.chemicalBlue respondsToSelector:@selector(threadObject)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(threadObject)]) {
         //: should = ![self.sessionConfig disableReceiveNewMessages];
-        should = ![self.chemicalBlue threadObject];
+        should = ![self.sessionConfig threadObject];
 	[self setBold:_calendar];
     }
     //: return should;
@@ -447,7 +447,7 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
     if ([self atSave])
     {
         //: self.sessionInputView = [[ZZZInputView alloc] initWithFrame:CGRectMake(0, 0, self.view.device_width,0) config:self.sessionConfig];
-        self.relative = [[InputView alloc] initWithStaff:CGRectMake(0, 0, self.view.crossGray,0) addOff:self.chemicalBlue];
+        self.relative = [[InputView alloc] initWithStaff:CGRectMake(0, 0, self.view.crossGray,0) addOff:self.sessionConfig];
         //: self.sessionInputView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
         self.relative.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
 	[self setRemain:_commitVoice];
@@ -658,9 +658,9 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
     //: BOOL should = YES;
     BOOL should = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableInputView)]) {
-    if ([self.chemicalBlue respondsToSelector:@selector(albumSurface)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(albumSurface)]) {
         //: should = ![self.sessionConfig disableInputView];
-        should = ![self.chemicalBlue albumSurface];
+        should = ![self.sessionConfig albumSurface];
 	[self setBold:_calendar];
     }
     //: return should;
@@ -688,7 +688,7 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
     _format = message;
 	[self setRemain:_commitVoice];
     //: [self.interactor setReferenceMessage:message];
-    [self.limitLoop setSheetComment:message];
+    [self.limitLoop setAudienceExclude:message];
 
     //: handle = [self shouldShowMenuByMessage:message];
     handle = [self bedDelay:message];
@@ -883,11 +883,11 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
 	[self setBold:_calendar];
 
     //: if ([self.sessionConfig respondsToSelector:@selector(sessionBackgroundImage)] && [self.sessionConfig sessionBackgroundImage]) {
-    if ([self.chemicalBlue respondsToSelector:@selector(simpleGo)] && [self.chemicalBlue simpleGo]) {
+    if ([self.sessionConfig respondsToSelector:@selector(simpleGo)] && [self.sessionConfig simpleGo]) {
         //: UIImageView *imgView = [[UIImageView alloc] initWithFrame:self.view.bounds];
         UIImageView *imgView = [[UIImageView alloc] initWithFrame:self.view.bounds];
         //: imgView.image = [self.sessionConfig sessionBackgroundImage];
-        imgView.image = [self.chemicalBlue simpleGo];
+        imgView.image = [self.sessionConfig simpleGo];
         //: imgView.contentMode = UIViewContentModeScaleAspectFill;
         imgView.contentMode = UIViewContentModeScaleAspectFill;
 	[self setRemain:_commitVoice];
@@ -986,9 +986,9 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
     //: BOOL needProximityMonitor = YES;
     BOOL needProximityMonitor = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableProximityMonitor)]) {
-    if ([self.chemicalBlue respondsToSelector:@selector(earthyM)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(earthyM)]) {
         //: needProximityMonitor = !self.sessionConfig.disableProximityMonitor;
-        needProximityMonitor = !self.chemicalBlue.earthyM;
+        needProximityMonitor = !self.sessionConfig.earthyM;
 	[self setBold:_calendar];
     }
     //: return needProximityMonitor;
@@ -1120,7 +1120,7 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
 }
 
 //: - (void)onTapMenuItemCopy:(ZZZMediaItem *)item
-- (void)branded:(ThumbItem *)item
+- (void)onTapMenuItemCopy:(ThumbItem *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self format];
@@ -1149,7 +1149,7 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
     _format = message;
 	[self setBold:_calendar];
     //: [self.interactor setReferenceMessage:message];
-    [self.limitLoop setSheetComment:message];
+    [self.limitLoop setAudienceExclude:message];
     //: if (![self becomeFirstResponder]) {
     if (![self becomeFirstResponder]) {
         //: handle = NO;
@@ -1178,7 +1178,7 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
 //: #pragma mark - 配置项
 #pragma mark - 配置项
 //: - (id<ZZZSessionConfig>)sessionConfig
-- (id<BlankConfig>)chemicalBlue
+- (id<BlankConfig>)sessionConfig
 {
     //: return nil; 
     return nil; //使用默认配置
@@ -1217,7 +1217,7 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
     _format = message;
 	[self setRemain:_commitVoice];
     //: [self.interactor setReferenceMessage:message];
-    [self.limitLoop setSheetComment:message];
+    [self.limitLoop setAudienceExclude:message];
     //: if (![self becomeFirstResponder]) {
     if (![self becomeFirstResponder]) {
         //: handle = NO;
@@ -1319,9 +1319,9 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
     //: NIMAudioType type = NIMAudioTypeAAC;
     NIMAudioType type = NIMAudioTypeAAC;
     //: if ([self.sessionConfig respondsToSelector:@selector(recordType)]) {
-    if ([self.chemicalBlue respondsToSelector:@selector(sureVideo)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(sureVideo)]) {
         //: type = [self.sessionConfig recordType];
-        type = [self.chemicalBlue sureVideo];
+        type = [self.sessionConfig sureVideo];
 	[self setRemain:_commitVoice];
     }
     //: return type;
@@ -1426,16 +1426,16 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
     //: NSArray *items;
     NSArray *items;
     //: if (!self.sessionConfig)
-    if (!self.chemicalBlue)
+    if (!self.sessionConfig)
     {
         //: items = [[AppleProjectKit sharedKit].config defaultMenuItemsWithMessage:message];
         items = [[Warning camera].insideTrack kit:message];
     }
     //: else if([self.sessionConfig respondsToSelector:@selector(menuItemsWithMessage:)])
-    else if([self.chemicalBlue respondsToSelector:@selector(firstsed:)])
+    else if([self.sessionConfig respondsToSelector:@selector(firstsed:)])
     {
         //: items = [self.sessionConfig menuItemsWithMessage:message];
-        items = [self.chemicalBlue firstsed:message];
+        items = [self.sessionConfig firstsed:message];
 	[self setRemain:_commitVoice];
     }
 
@@ -1620,10 +1620,10 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
     //: BOOL disable = NO;
     BOOL disable = NO;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableAudioPlayedStatusIcon)])
-    if ([self.chemicalBlue respondsToSelector:@selector(upFamily)])
+    if ([self.sessionConfig respondsToSelector:@selector(upFamily)])
     {
         //: disable = [self.sessionConfig disableAudioPlayedStatusIcon];
-        disable = [self.chemicalBlue upFamily];
+        disable = [self.sessionConfig upFamily];
 	[self setBold:_calendar];
     }
     //: return disable;
@@ -1986,16 +1986,16 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
     self.format = nil;
 	[self setBold:_calendar];
     //: [self.interactor setReferenceMessage:nil];
-    [self.limitLoop setSheetComment:nil];
+    [self.limitLoop setAudienceExclude:nil];
 
     //: if ([self.sessionConfig respondsToSelector:@selector(clearThreadMessageAfterSent)])
-    if ([self.chemicalBlue respondsToSelector:@selector(portraitEquip)])
+    if ([self.sessionConfig respondsToSelector:@selector(portraitEquip)])
     {
         //: if ([self.sessionConfig clearThreadMessageAfterSent])
-        if ([self.chemicalBlue portraitEquip])
+        if ([self.sessionConfig portraitEquip])
         {
             //: [self.sessionConfig cleanThreadMessage];
-            [self.chemicalBlue go];
+            [self.sessionConfig go];
         }
     }
 }

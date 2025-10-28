@@ -93,19 +93,19 @@ typedef NS_ENUM(NSInteger, EnumTeamCardRowItemType) {
 @protocol BelowQuestData <NSObject>
 
 //: - (id)value;
-- (id)deep;
+- (id)value;
 
 //: - (NSString *)title;
-- (NSString *)reload;
+- (NSString *)title;
 
 //: - (NSString *)img;
-- (NSString *)gangsterImg;
+- (NSString *)img;
 
 //: - (BOOL)selected;
-- (BOOL)permission;
+- (BOOL)selected;
 
 //: - (void)setSelected:(BOOL)selected;
-- (void)setPermission:(BOOL)selected;
+- (void)setSelected:(BOOL)selected;
 
 //: @end
 @end
@@ -114,45 +114,45 @@ typedef NS_ENUM(NSInteger, EnumTeamCardRowItemType) {
 @protocol BlankTraitData <NSObject>
 
 //: - (NSString *)title;
-- (NSString *)client;
+- (NSString *)title;
 
 //: - (id)value;
-- (id)insertExist;
+- (id)value;
 
 //: - (EnumTeamCardRowItemType)type;
-- (EnumTeamCardRowItemType)appearComponent;
+- (EnumTeamCardRowItemType)type;
 
 //: - (CGFloat)rowHeight;
-- (CGFloat)contractUnderSeal;
+- (CGFloat)rowHeight;
 
 //: - (NIMTeamCardRowSelectedBlock)selectedBlock;
-- (NIMTeamCardRowSelectedBlock)fragmentBlock;
+- (NIMTeamCardRowSelectedBlock)selectedBlock;
 
 //: - (NSMutableArray <id <NIMKitSelectCardData>> *)optionItems;
-- (NSMutableArray <id <BelowQuestData>> *)metric;
+- (NSMutableArray <id <BelowQuestData>> *)optionItems;
 
 //: @optional
 @optional
 //: - (NSString *)subTitle;
-- (NSString *)aboveUpon;
+- (NSString *)subTitle;
 
 //: - (UIImage *)img;
-- (UIImage *)asset;
+- (UIImage *)img;
 
 //: - (SEL)action;
-- (SEL)primary;
+- (SEL)action;
 
 //: - (BOOL)actionDisabled;
-- (BOOL)data;
+- (BOOL)actionDisabled;
 
 //: - (BOOL)switchOn;
-- (BOOL)heritage;
+- (BOOL)switchOn;
 
 //: - (NSInteger)identify;
-- (NSInteger)tableLocation;
+- (NSInteger)identify;
 
 //: - (BOOL)disableUserInteraction;
-- (BOOL)installationUntil;
+- (BOOL)disableUserInteraction;
 
 //: @end
 @end

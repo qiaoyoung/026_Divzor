@@ -101,7 +101,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 @property (nonatomic,assign) BOOL passSimple;
 
 //: @property (nonatomic,assign) BOOL showSelectHeaderview;
-@property (nonatomic,assign) BOOL min;
+@property (nonatomic,assign) BOOL hairInstallation;
 
 //: @property (nonatomic,copy) NSArray *filterIds;
 @property (nonatomic,copy) NSArray *jumpArrayses;
@@ -133,7 +133,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 //: @property (nonatomic,assign) BOOL needMutiSelected;
 @property (nonatomic,assign) BOOL written;
 //: @property (nonatomic,assign) BOOL showSelectHeaderview;
-@property (nonatomic,assign) BOOL replace;
+@property (nonatomic,assign) BOOL hairInstallation;
 
 //: @property (nonatomic,strong) NIMSession *session;
 @property (nonatomic,strong) NIMSession *picture;
@@ -185,7 +185,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 @property (nonatomic,assign) BOOL convertLibrary;
 
 //: @property (nonatomic,assign) BOOL showSelectHeaderview;
-@property (nonatomic,assign) BOOL opera;
+@property (nonatomic,assign) BOOL hairInstallation;
 
 //: @end
 @end

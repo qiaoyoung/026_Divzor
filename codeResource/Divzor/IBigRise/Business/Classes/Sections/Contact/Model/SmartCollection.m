@@ -183,7 +183,7 @@
         //: [groupedMembers sortUsingComparator:^NSComparisonResult(id<NTESGroupMemberProtocol> member1, id<NTESGroupMemberProtocol> member2) {
         [groupedMembers sortUsingComparator:^NSComparisonResult(id<HemProtocol> member1, id<HemProtocol> member2) {
             //: return _groupMemberComparator([member1 sortKey], [member2 sortKey]);
-            return [self turnFlip:_videoFlip]([member1 coordinator], [member2 coordinator]);
+            return [self turnFlip:_videoFlip]([member1 key], [member2 key]);
         //: }];
         }];
     //: }];
@@ -266,7 +266,7 @@
 - (void)underMember:(id<HemProtocol>)member
 {
     //: NSString *groupTitle = [member groupTitle];
-    NSString *groupTitle = [member statuteName];
+    NSString *groupTitle = [member filterClose];
     //: NSInteger groupIndex = [_groupTtiles indexOfObject:groupTitle];
     NSInteger groupIndex = [_visible indexOfObject:groupTitle];
     //: Pair *pair = [_groups objectAtIndex:groupIndex];
@@ -294,7 +294,7 @@
 //: - (void)removeGroupMember:(id<NTESGroupMemberProtocol>)member{
 - (void)opinion:(id<HemProtocol>)member{
     //: NSString *groupTitle = [member groupTitle];
-    NSString *groupTitle = [member statuteName];
+    NSString *groupTitle = [member filterClose];
     //: NSInteger groupIndex = [_groupTtiles indexOfObject:groupTitle];
     NSInteger groupIndex = [_visible indexOfObject:groupTitle];
     //: Pair *pair = [_groups objectAtIndex:groupIndex];
@@ -325,7 +325,7 @@
         //: for (id<NTESGroupMemberProtocol> member in members) {
         for (id<HemProtocol> member in members) {
             //: if ([[member memberId] isEqualToString:uid]) {
-            if ([[member shadow] isEqualToString:uid]) {
+            if ([[member fire] isEqualToString:uid]) {
                 //: return member;
                 return member;
             }
@@ -358,12 +358,12 @@
     //: for (id<NTESGroupMemberProtocol>member in members) {
     for (id<HemProtocol>member in members) {
         //: if ([[member memberId] isEqualToString:me]) {
-        if ([[member shadow] isEqualToString:me]) {
+        if ([[member fire] isEqualToString:me]) {
             //: continue;
             continue;
         }
         //: NSString *groupTitle = [member groupTitle];
-        NSString *groupTitle = [member statuteName];
+        NSString *groupTitle = [member filterClose];
         //: NSMutableArray *groupedMembers = [tmp objectForKey:groupTitle];
         NSMutableArray *groupedMembers = [tmp objectForKey:groupTitle];
         //: if(!groupedMembers) {

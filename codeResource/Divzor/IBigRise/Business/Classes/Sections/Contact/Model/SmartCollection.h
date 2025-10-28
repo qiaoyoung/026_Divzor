@@ -16,11 +16,11 @@
 @protocol HemProtocol <NSObject>
 
 //: - (NSString *)groupTitle;
-- (NSString *)statuteName;
+- (NSString *)filterClose;
 //: - (NSString *)memberId;
-- (NSString *)shadow;
+- (NSString *)fire;
 //: - (id)sortKey;
-- (id)coordinator;
+- (id)key;
 
 //: @end
 @end

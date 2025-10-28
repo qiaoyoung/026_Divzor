@@ -176,7 +176,7 @@
     //: if (self.link == nil) {
     if (self.fit == nil) {
         //: self.link = [CADisplayLink displayLinkWithTarget:[SGWeakProxy weakProxyWithTarget:self] selector:@selector(updateUI)];
-        self.fit = [CADisplayLink displayLinkWithTarget:[HemProxy reason:self] selector:@selector(updateUI)];
+        self.fit = [CADisplayLink displayLinkWithTarget:[HemProxy reason:self] selector:@selector(aspect)];
 	[self setHintRegularProtection:_protection];
         //: [self.link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
         [self.fit addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];

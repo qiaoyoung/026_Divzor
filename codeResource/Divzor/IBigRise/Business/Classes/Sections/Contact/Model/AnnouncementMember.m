@@ -75,13 +75,13 @@ typedef struct {
 }
 
 //: - (id)sortKey {
-- (id)sortPasskey {
+- (id)key {
     //: return [[NTESSpellingCenter sharedCenter] spellingForString:self.info.showName].shortSpelling;
     return [[CentreVisible column] shared:self.elect.attach].momentary;
 }
 
 //: - (NSString *)userId{
-- (NSString *)erase{
+- (NSString *)userId{
     //: return self.info.infoId;
     return self.elect.request;
 }
@@ -89,7 +89,7 @@ typedef struct {
 //userId和Vcname必有一个有值，根据有值的状态push进不同的页面
 
 //: - (NSString *)vcName{
-- (NSString *)eyeBy{
+- (NSString *)vcName{
     //: return nil;
     return nil;
 }
@@ -113,7 +113,7 @@ typedef struct {
 }
 
 //: - (NSString *)showName{
-- (NSString *)userAllScheme{
+- (NSString *)under{
     //: return self.info.showName;
     return self.elect.attach;
 }
@@ -130,7 +130,7 @@ typedef struct {
 }
 
 //: - (NSString *)groupTitle {
-- (NSString *)actinideConversation {
+- (NSString *)filterClose {
     //: NSString *title = [[NTESSpellingCenter sharedCenter] firstLetter:self.info.showName].capitalizedString;
     NSString *title = [[CentreVisible column] afterFirstYear:self.elect.attach].capitalizedString;
     //: unichar character = [title characterAtIndex:0];
@@ -159,7 +159,7 @@ typedef struct {
 }
 
 //: - (NSString *)memberId{
-- (NSString *)soapBubble{
+- (NSString *)fire{
     //: return self.info.infoId;
     return self.elect.request;
 }

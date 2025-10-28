@@ -867,7 +867,7 @@ FilterVcdelegate>
             //: options.removeOtherClients = YES;
             options.removeOtherClients = YES;
             //: [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.session options:options completion:^(NSError * _Nullable error) {
-            [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.flag.publish options:options completion:^(NSError * _Nullable error) {
+            [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.flag.session options:options completion:^(NSError * _Nullable error) {
                 //: if (error) {
                 if (error) {
                     //: return;
@@ -1145,60 +1145,60 @@ FilterVcdelegate>
     //: ZZZTeamCardRowItem *teamName = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *teamName = [[RailMinimum alloc] init];
     //: teamName.title = [NTESLanguageManager getTextWithKey:@"Group_name"];
-    teamName.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] appCorrectPath]];
+    teamName.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] appCorrectPath]];
 	[self setToday:_unique];
     //: teamName.subTitle = self.teamListManager.team.teamName;
-    teamName.subActive = self.flag.startingTeam.teamName;
+    teamName.subTitle = self.flag.startingTeam.teamName;
 	[self setToday:_unique];
     //: teamName.action = @selector(updateTeamName);
-    teamName.languagePad = @selector(varsityTop);
+    teamName.action = @selector(varsityTop);
     //: teamName.rowHeight = 65.f;
-    teamName.limitComposition = 65.f;
+    teamName.rowHeight = 65.f;
 	[self setToday:_unique];
     //: teamName.type = TeamCardRowItemTypeCommon;
-    teamName.resign = TeamCardRowItemTypeCommon;
+    teamName.type = TeamCardRowItemTypeCommon;
     //: teamName.actionDisabled = !canEdit;
-    teamName.disabledReaches = !canEdit;
+    teamName.actionDisabled = !canEdit;
 	[self setToday:_unique];
     //: teamName.img = [UIImage imageNamed:@"ic_group_edit"];
-    teamName.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] componentJumpData]];
+    teamName.img = [UIImage imageNamed:[[AvailableData sharedInstance] componentJumpData]];
 	[self setToday:_unique];
 
 
     //: ZZZTeamCardRowItem *teamNick = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *teamNick = [[RailMinimum alloc] init];
     //: teamNick.title = [NTESLanguageManager getTextWithKey:@"activity_group_info_group_nick"];
-    teamNick.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] kVendorDevice]];
+    teamNick.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] kVendorDevice]];
     //: teamNick.subTitle = self.teamListManager.myTeamInfo.nickname;
-    teamNick.subActive = self.flag.beggarMyNeighbourPolicy.nickname;
+    teamNick.subTitle = self.flag.beggarMyNeighbourPolicy.nickname;
     //: teamNick.action = @selector(updateTeamNick);
-    teamNick.languagePad = @selector(serverInitial);
+    teamNick.action = @selector(serverInitial);
     //: teamNick.rowHeight = 65.f;
-    teamNick.limitComposition = 65.f;
+    teamNick.rowHeight = 65.f;
 	[self setToday:_unique];
     //: teamNick.type = TeamCardRowItemTypeCommon;
-    teamNick.resign = TeamCardRowItemTypeCommon;
+    teamNick.type = TeamCardRowItemTypeCommon;
     //: teamNick.img = [UIImage imageNamed:@"ic_group_nick"];
-    teamNick.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] featureToolPage]];
+    teamNick.img = [UIImage imageNamed:[[AvailableData sharedInstance] featureToolPage]];
 	[self setToday:_unique];
 
     //: ZZZTeamCardRowItem *teamIntro = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *teamIntro = [[RailMinimum alloc] init];
     //: teamIntro.title = [NTESLanguageManager getTextWithKey:@"team_info_set_activity_group_tip"];
-    teamIntro.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] coreMyValue]];
+    teamIntro.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] coreMyValue]];
     //: teamIntro.subTitle = self.teamListManager.team.intro.length ? self.teamListManager.team.intro : (canEdit ? [NTESLanguageManager getTextWithKey:@"team_info_set_activity_default_group_tip"] : @"");
-    teamIntro.subActive = self.flag.startingTeam.intro.length ? self.flag.startingTeam.intro : (canEdit ? [BombardmentMinimumManageress more:[[AvailableData sharedInstance] viewCrashValue]] : @"");
+    teamIntro.subTitle = self.flag.startingTeam.intro.length ? self.flag.startingTeam.intro : (canEdit ? [BombardmentMinimumManageress more:[[AvailableData sharedInstance] viewCrashValue]] : @"");
     //: teamIntro.action = @selector(updateTeamIntro);
-    teamIntro.languagePad = @selector(conversationFactory);
+    teamIntro.action = @selector(conversationFactory);
     //: teamIntro.rowHeight = 65.f;
-    teamIntro.limitComposition = 65.f;
+    teamIntro.rowHeight = 65.f;
 	[self setToday:_unique];
     //: teamIntro.type = TeamCardRowItemTypeCommon;
-    teamIntro.resign = TeamCardRowItemTypeCommon;
+    teamIntro.type = TeamCardRowItemTypeCommon;
     //: teamIntro.actionDisabled = !canEdit;
-    teamIntro.disabledReaches = !canEdit;
+    teamIntro.actionDisabled = !canEdit;
     //: teamIntro.img = [UIImage imageNamed:@"ic_group_introduction"];
-    teamIntro.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] colorSucceedSafelyConfig]];
+    teamIntro.img = [UIImage imageNamed:[[AvailableData sharedInstance] colorSucceedSafelyConfig]];
 	[self setToday:_unique];
 
 //    RailMinimum *teamAnnouncement = [[RailMinimum alloc] init];
@@ -1214,199 +1214,199 @@ FilterVcdelegate>
     //: ZZZTeamCardRowItem *teamMute = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *teamMute = [[RailMinimum alloc] init];
     //: teamMute.title = [NTESLanguageManager getTextWithKey:@"activity_group_info_group_mute"];
-    teamMute.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] spacingSequenceLivingHelper]];
+    teamMute.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] spacingSequenceLivingHelper]];
     //: teamMute.switchOn = inAllMuteMode;
-    teamMute.upwards = inAllMuteMode;
+    teamMute.switchOn = inAllMuteMode;
 //    teamMute.subTitle = [CeremonySucceed teamMuteText:inAllMuteMode];
     //: teamMute.rowHeight = 50.f;
-    teamMute.limitComposition = 50.f;
+    teamMute.rowHeight = 50.f;
     //: teamMute.type = TeamCardRowItemTypeSwitch;
-    teamMute.resign = TeamCardRowItemTypeSwitch;
+    teamMute.type = TeamCardRowItemTypeSwitch;
     //: teamMute.optionItems = [ZZZTeamHelper teamMuteItemsWithSeleced:inAllMuteMode];
-    teamMute.punctuate = [CeremonySucceed manageFlash:inAllMuteMode];
+    teamMute.optionItems = [CeremonySucceed manageFlash:inAllMuteMode];
     //: teamMute.actionDisabled = !canEdit;
-    teamMute.disabledReaches = !canEdit;
+    teamMute.actionDisabled = !canEdit;
 	[self setToday:_unique];
     //: teamMute.selectedBlock = ^(id<NIMKitSelectCardData> item) {
-    teamMute.queryedCellArtifact = ^(id<BelowQuestData> item) {
+    teamMute.selectedBlock = ^(id<BelowQuestData> item) {
         //: [weakSelf didUpdateTeamMute:[item.value integerValue]];
-        [weakSelf eventResolve:[item.deep integerValue]];
+        [weakSelf eventResolve:[item.value integerValue]];
     //: };
     };
     //: teamMute.identify = EnumTeamCardSwithCellTypeMute;
-    teamMute.fraction = EnumTeamCardSwithCellTypeMute;
+    teamMute.identify = EnumTeamCardSwithCellTypeMute;
     //: teamMute.img = [UIImage imageNamed:@"ic_group_all"];
-    teamMute.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] commonFamilyFormat]];
+    teamMute.img = [UIImage imageNamed:[[AvailableData sharedInstance] commonFamilyFormat]];
 
     //: ZZZTeamCardRowItem *teamMuteList = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *teamMuteList = [[RailMinimum alloc] init];
     //: teamMuteList.title = [NTESLanguageManager getTextWithKey:@"group_mute_member_list_activity_title"];
-    teamMuteList.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] screenReplyEvent]];
+    teamMuteList.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] screenReplyEvent]];
     //: teamMuteList.rowHeight = 65.f;
-    teamMuteList.limitComposition = 65.f;
+    teamMuteList.rowHeight = 65.f;
     //: teamMuteList.type = TeamCardRowItemTypeCommon;
-    teamMuteList.resign = TeamCardRowItemTypeCommon;
+    teamMuteList.type = TeamCardRowItemTypeCommon;
 	[self setToday:_unique];
     //: teamMuteList.action = @selector(enterMuteList);
-    teamMuteList.languagePad = @selector(sinceScreen);
+    teamMuteList.action = @selector(sinceScreen);
     //: teamMuteList.img = [UIImage imageNamed:@"ic_group_lists"];
-    teamMuteList.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] k_tailCustomMessage]];
+    teamMuteList.img = [UIImage imageNamed:[[AvailableData sharedInstance] k_tailCustomMessage]];
 
     //: ZZZTeamCardRowItem *teamNotify = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *teamNotify = [[RailMinimum alloc] init];
     //: teamNotify.title = [NTESLanguageManager getTextWithKey:@"message_info_activity_msg_notice"];
-    teamNotify.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] spacingPublishError]];//@"消息提醒".string_localized;
+    teamNotify.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] spacingPublishError]];//@"消息提醒".string_localized;
     //: teamNotify.subTitle = [ZZZTeamHelper notifyStateText:self.teamListManager.team.notifyStateForNewMsg];
-    teamNotify.subActive = [CeremonySucceed outResponse:self.flag.startingTeam.notifyStateForNewMsg];
+    teamNotify.subTitle = [CeremonySucceed outResponse:self.flag.startingTeam.notifyStateForNewMsg];
 	[self setToday:_unique];
     //: teamNotify.rowHeight = 65.f;
-    teamNotify.limitComposition = 65.f;
+    teamNotify.rowHeight = 65.f;
 	[self setToday:_unique];
     //: teamNotify.type = TeamCardRowItemTypeSelected;
-    teamNotify.resign = TeamCardRowItemTypeSelected;
+    teamNotify.type = TeamCardRowItemTypeSelected;
     //: teamNotify.optionItems = [ZZZTeamHelper notifyStateItemsWithSeleced:self.teamListManager.team.notifyStateForNewMsg];
-    teamNotify.punctuate = [CeremonySucceed turnSeleced:self.flag.startingTeam.notifyStateForNewMsg];
+    teamNotify.optionItems = [CeremonySucceed turnSeleced:self.flag.startingTeam.notifyStateForNewMsg];
     //: teamNotify.selectedBlock = ^(id<NIMKitSelectCardData> item) {
-    teamNotify.queryedCellArtifact = ^(id<BelowQuestData> item) {
+    teamNotify.selectedBlock = ^(id<BelowQuestData> item) {
         //: [weakSelf didUpdateNotifiyState:[item.value integerValue]];
-        [weakSelf italianRegion:[item.deep integerValue]];
+        [weakSelf italianRegion:[item.value integerValue]];
     //: };
     };
 	[self setToday:_unique];
     //: teamNotify.img = [UIImage imageNamed:@"ic_group_notice"];
-    teamNotify.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] modulePassValue]];
+    teamNotify.img = [UIImage imageNamed:[[AvailableData sharedInstance] modulePassValue]];
 	[self setToday:_unique];
 
 
     //: ZZZTeamCardRowItem *itemAuth = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *itemAuth = [[RailMinimum alloc] init];
     //: itemAuth.title = [NTESLanguageManager getTextWithKey:@"authentication"];
-    itemAuth.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] viewInsertDevice]];
+    itemAuth.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] viewInsertDevice]];
     //: itemAuth.subTitle = [ZZZTeamHelper jonModeText:self.teamListManager.team.joinMode];
-    itemAuth.subActive = [CeremonySucceed mode:self.flag.startingTeam.joinMode];
+    itemAuth.subTitle = [CeremonySucceed mode:self.flag.startingTeam.joinMode];
     //: itemAuth.actionDisabled = !canEdit;
-    itemAuth.disabledReaches = !canEdit;
+    itemAuth.actionDisabled = !canEdit;
 	[self setToday:_unique];
     //: itemAuth.rowHeight = 65.f;
-    itemAuth.limitComposition = 65.f;
+    itemAuth.rowHeight = 65.f;
 	[self setToday:_unique];
     //: itemAuth.type = TeamCardRowItemTypeSelected;
-    itemAuth.resign = TeamCardRowItemTypeSelected;
+    itemAuth.type = TeamCardRowItemTypeSelected;
     //: itemAuth.optionItems = [ZZZTeamHelper joinModeItemsWithSeleced:self.teamListManager.team.joinMode];
-    itemAuth.punctuate = [CeremonySucceed untilInstallation:self.flag.startingTeam.joinMode];
+    itemAuth.optionItems = [CeremonySucceed untilInstallation:self.flag.startingTeam.joinMode];
 	[self setToday:_unique];
     //: itemAuth.selectedBlock = ^(id<NIMKitSelectCardData> item) {
-    itemAuth.queryedCellArtifact = ^(id<BelowQuestData> item) {
+    itemAuth.selectedBlock = ^(id<BelowQuestData> item) {
         //: [weakSelf didupdateTeamJoinMode:[item.value integerValue]];
-        [weakSelf icon:[item.deep integerValue]];
+        [weakSelf icon:[item.value integerValue]];
     //: };
     };
 	[self setToday:_unique];
     //: itemAuth.img = [UIImage imageNamed:@"ic_identity_authentication"];
-    itemAuth.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] commonEasePath]];
+    itemAuth.img = [UIImage imageNamed:[[AvailableData sharedInstance] commonEasePath]];
 
     //: ZZZTeamCardRowItem *itemInvite = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *itemInvite = [[RailMinimum alloc] init];
     //: itemInvite.title = [NTESLanguageManager getTextWithKey:@"activity_group_info_invite_permission"];
-    itemInvite.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] spacingReceiverFormat]];
+    itemInvite.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] spacingReceiverFormat]];
     //: itemInvite.subTitle = [ZZZTeamHelper InviteModeText:self.teamListManager.team.inviteMode];
-    itemInvite.subActive = [CeremonySucceed direction:self.flag.startingTeam.inviteMode];
+    itemInvite.subTitle = [CeremonySucceed direction:self.flag.startingTeam.inviteMode];
     //: itemInvite.actionDisabled = !canEdit;
-    itemInvite.disabledReaches = !canEdit;
+    itemInvite.actionDisabled = !canEdit;
     //: itemInvite.rowHeight = 65.f;
-    itemInvite.limitComposition = 65.f;
+    itemInvite.rowHeight = 65.f;
 	[self setToday:_unique];
     //: itemInvite.type = TeamCardRowItemTypeSelected;
-    itemInvite.resign = TeamCardRowItemTypeSelected;
+    itemInvite.type = TeamCardRowItemTypeSelected;
 	[self setToday:_unique];
     //: itemInvite.optionItems = [ZZZTeamHelper InviteModeItemsWithSeleced:self.teamListManager.team.inviteMode];
-    itemInvite.punctuate = [CeremonySucceed layer:self.flag.startingTeam.inviteMode];
+    itemInvite.optionItems = [CeremonySucceed layer:self.flag.startingTeam.inviteMode];
 	[self setToday:_unique];
     //: itemInvite.selectedBlock = ^(id<NIMKitSelectCardData> item) {
-    itemInvite.queryedCellArtifact = ^(id<BelowQuestData> item) {
+    itemInvite.selectedBlock = ^(id<BelowQuestData> item) {
         //: [weakSelf didUpdateTeamInviteMode:[item.value integerValue]];
-        [weakSelf privateness:[item.deep integerValue]];
+        [weakSelf privateness:[item.value integerValue]];
     //: };
     };
     //: itemInvite.img = [UIImage imageNamed:@"ic_invite"];
-    itemInvite.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] colorFirstTimer]];
+    itemInvite.img = [UIImage imageNamed:[[AvailableData sharedInstance] colorFirstTimer]];
 	[self setToday:_unique];
 
     //: ZZZTeamCardRowItem *itemUpdateInfo = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *itemUpdateInfo = [[RailMinimum alloc] init];
     //: itemUpdateInfo.title = [NTESLanguageManager getTextWithKey:@"activity_group_info_group_modify_permission"];
-    itemUpdateInfo.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] appCustomName]];
+    itemUpdateInfo.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] appCustomName]];
     //: itemUpdateInfo.subTitle = [ZZZTeamHelper updateInfoModeText:self.teamListManager.team.updateInfoMode];
-    itemUpdateInfo.subActive = [CeremonySucceed evidence:self.flag.startingTeam.updateInfoMode];
+    itemUpdateInfo.subTitle = [CeremonySucceed evidence:self.flag.startingTeam.updateInfoMode];
 	[self setToday:_unique];
     //: itemUpdateInfo.actionDisabled = !canEdit;
-    itemUpdateInfo.disabledReaches = !canEdit;
+    itemUpdateInfo.actionDisabled = !canEdit;
 	[self setToday:_unique];
     //: itemUpdateInfo.rowHeight = 65.f;
-    itemUpdateInfo.limitComposition = 65.f;
+    itemUpdateInfo.rowHeight = 65.f;
 	[self setToday:_unique];
     //: itemUpdateInfo.type = TeamCardRowItemTypeSelected;
-    itemUpdateInfo.resign = TeamCardRowItemTypeSelected;
+    itemUpdateInfo.type = TeamCardRowItemTypeSelected;
     //: itemUpdateInfo.optionItems = [ZZZTeamHelper updateInfoModeItemsWithSeleced:self.teamListManager.team.updateInfoMode];
-    itemUpdateInfo.punctuate = [CeremonySucceed adjust:self.flag.startingTeam.updateInfoMode];
+    itemUpdateInfo.optionItems = [CeremonySucceed adjust:self.flag.startingTeam.updateInfoMode];
     //: itemUpdateInfo.selectedBlock = ^(id<NIMKitSelectCardData> item) {
-    itemUpdateInfo.queryedCellArtifact = ^(id<BelowQuestData> item) {
+    itemUpdateInfo.selectedBlock = ^(id<BelowQuestData> item) {
         //: [weakSelf didUpdateTeamInfoMode:[item.value integerValue]];
-        [weakSelf faraway:[item.deep integerValue]];
+        [weakSelf faraway:[item.value integerValue]];
     //: };
     };
 	[self setToday:_unique];
     //: itemUpdateInfo.img = [UIImage imageNamed:@"ic_modify"];
-    itemUpdateInfo.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] coreMatterLoseAlert]];
+    itemUpdateInfo.img = [UIImage imageNamed:[[AvailableData sharedInstance] coreMatterLoseAlert]];
 
     //: ZZZTeamCardRowItem *itemBeInvite = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *itemBeInvite = [[RailMinimum alloc] init];
     //: itemBeInvite.title = [NTESLanguageManager getTextWithKey:@"activity_group_info_invite_verify"];
-    itemBeInvite.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] widgetMobilePlatform]];
+    itemBeInvite.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] widgetMobilePlatform]];
 	[self setToday:_unique];
     //: itemBeInvite.subTitle = [ZZZTeamHelper beInviteModeText:self.teamListManager.team.beInviteMode];
-    itemBeInvite.subActive = [CeremonySucceed butCord:self.flag.startingTeam.beInviteMode];
+    itemBeInvite.subTitle = [CeremonySucceed butCord:self.flag.startingTeam.beInviteMode];
 	[self setToday:_unique];
     //: itemBeInvite.actionDisabled = !canEdit;
-    itemBeInvite.disabledReaches = !canEdit;
+    itemBeInvite.actionDisabled = !canEdit;
 	[self setToday:_unique];
     //: itemBeInvite.rowHeight = 65.f;
-    itemBeInvite.limitComposition = 65.f;
+    itemBeInvite.rowHeight = 65.f;
 	[self setToday:_unique];
     //: itemBeInvite.type = TeamCardRowItemTypeSelected;
-    itemBeInvite.resign = TeamCardRowItemTypeSelected;
+    itemBeInvite.type = TeamCardRowItemTypeSelected;
     //: itemBeInvite.optionItems = [ZZZTeamHelper beInviteModeItemsWithSeleced:self.teamListManager.team.beInviteMode];
-    itemBeInvite.punctuate = [CeremonySucceed underlying:self.flag.startingTeam.beInviteMode];
+    itemBeInvite.optionItems = [CeremonySucceed underlying:self.flag.startingTeam.beInviteMode];
 	[self setToday:_unique];
     //: itemBeInvite.selectedBlock = ^(id<NIMKitSelectCardData> item) {
-    itemBeInvite.queryedCellArtifact = ^(id<BelowQuestData> item) {
+    itemBeInvite.selectedBlock = ^(id<BelowQuestData> item) {
         //: [weakSelf didUpdateTeamBeInviteMode:[item.value integerValue]];
-        [weakSelf odd:[item.deep integerValue]];
+        [weakSelf odd:[item.value integerValue]];
     //: };
     };
 	[self setToday:_unique];
     //: itemBeInvite.img = [UIImage imageNamed:@"ic_invitee_verification"];
-    itemBeInvite.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] styleDoingdSettings]];
+    itemBeInvite.img = [UIImage imageNamed:[[AvailableData sharedInstance] styleDoingdSettings]];
 	[self setToday:_unique];
 
     //: ZZZTeamCardRowItem *itemTop = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *itemTop = [[RailMinimum alloc] init];
     //: itemTop.title = [NTESLanguageManager getTextWithKey:@"Chat_settop"];
-    itemTop.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] layoutAvailableHelper]];
+    itemTop.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] layoutAvailableHelper]];
 	[self setToday:_unique];
     //: itemTop.switchOn = self.option.isTop;
-    itemTop.upwards = self.text.ample;
+    itemTop.switchOn = self.text.ample;
 	[self setToday:_unique];
     //: itemTop.rowHeight = 50.f;
-    itemTop.limitComposition = 50.f;
+    itemTop.rowHeight = 50.f;
     //: itemTop.type = TeamCardRowItemTypeSwitch;
-    itemTop.resign = TeamCardRowItemTypeSwitch;
+    itemTop.type = TeamCardRowItemTypeSwitch;
 	[self setToday:_unique];
     //: itemTop.identify = EnumTeamCardSwithCellTypeTop;
-    itemTop.fraction = EnumTeamCardSwithCellTypeTop;
+    itemTop.identify = EnumTeamCardSwithCellTypeTop;
 	[self setToday:_unique];
     //: itemTop.img = [UIImage imageNamed:@"ic_group_top"];
-    itemTop.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] layoutViewPlatform]];
+    itemTop.img = [UIImage imageNamed:[[AvailableData sharedInstance] layoutViewPlatform]];
 
 //        RailMinimum *itemQuit = [[RailMinimum alloc] init];
 //        itemQuit.title = @"退出高级群".string_localized;
@@ -1418,33 +1418,33 @@ FilterVcdelegate>
         //: ZZZTeamCardRowItem *itemDismiss = [[ZZZTeamCardRowItem alloc] init];
         RailMinimum *itemDismiss = [[RailMinimum alloc] init];
         //: itemDismiss.title = [NTESLanguageManager getTextWithKey:@"group_info_activity_jiesan"];
-        itemDismiss.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] screenSentenceData]];
+        itemDismiss.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] screenSentenceData]];
         //: itemDismiss.action = @selector(dismissTeam);
-        itemDismiss.languagePad = @selector(systemProjectTeam);
+        itemDismiss.action = @selector(systemProjectTeam);
 	[self setToday:_unique];
         //: itemDismiss.rowHeight = 50.f;
-        itemDismiss.limitComposition = 50.f;
+        itemDismiss.rowHeight = 50.f;
 	[self setToday:_unique];
         //: itemDismiss.type = TeamCardRowItemTypeRedButton;
-        itemDismiss.resign = TeamCardRowItemTypeRedButton;
+        itemDismiss.type = TeamCardRowItemTypeRedButton;
 	[self setToday:_unique];
     //: itemDismiss.img = [UIImage imageNamed:@"ic_announcement"];
-    itemDismiss.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] layoutAdvantageConfig]];
+    itemDismiss.img = [UIImage imageNamed:[[AvailableData sharedInstance] layoutAdvantageConfig]];
 
     //: ZZZTeamCardRowItem *teamChange = [[ZZZTeamCardRowItem alloc] init];
     RailMinimum *teamChange = [[RailMinimum alloc] init];
     //: teamChange.title = [NTESLanguageManager getTextWithKey:@"Transfer_group_ownership"];
-    teamChange.storage = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] coreTickPage]];
+    teamChange.title = [BombardmentMinimumManageress more:[[AvailableData sharedInstance] coreTickPage]];
 	[self setToday:_unique];
     //: teamChange.rowHeight = 65.f;
-    teamChange.limitComposition = 65.f;
+    teamChange.rowHeight = 65.f;
     //: teamChange.type = TeamCardRowItemTypeCommon;
-    teamChange.resign = TeamCardRowItemTypeCommon;
+    teamChange.type = TeamCardRowItemTypeCommon;
     //: teamChange.action = @selector(onMore);
-    teamChange.languagePad = @selector(queryionFlexible);
+    teamChange.action = @selector(queryionFlexible);
 	[self setToday:_unique];
     //: teamChange.img = [UIImage imageNamed:@"ic_group_transfer"];
-    teamChange.operaTask = [UIImage imageNamed:[[AvailableData sharedInstance] layoutSequencePlatform]];
+    teamChange.img = [UIImage imageNamed:[[AvailableData sharedInstance] layoutSequencePlatform]];
 	[self setToday:_unique];
 
 
@@ -1541,7 +1541,7 @@ FilterVcdelegate>
         //: ZZZKitInfoFetchOption *option = [[ZZZKitInfoFetchOption alloc] init];
         BelowOption *option = [[BelowOption alloc] init];
         //: option.session = self.teamListManager.session;
-        option.appropriate = self.flag.publish;
+        option.appropriate = self.flag.session;
         //: ZZZKitInfo *info = [[AppleProjectKit sharedKit] infoByUser:obj.userId option:option];
         BroadcastInput *info = [[Warning camera] writing:obj.flagConfirming tit:option];
 
@@ -1615,7 +1615,7 @@ FilterVcdelegate>
     //: NIMContactTeamMemberSelectConfig *config = [[NIMContactTeamMemberSelectConfig alloc] init];
     PanopticalConfig *config = [[PanopticalConfig alloc] init];
     //: config.session = self.teamListManager.session;
-    config.picture = self.flag.publish;
+    config.picture = self.flag.session;
     //: config.teamType = EnumTeamTypeNomal;
     config.policy = EnumTeamTypeNomal;
     //: config.teamId = self.teamListManager.team.teamId;

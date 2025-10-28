@@ -360,7 +360,7 @@
                 //: self.textView.actionDelegate = vc;
                 self.graphicalThing.odd = vc;
                 //: self.textView.config = vc.sessionConfig;
-                self.graphicalThing.responseReading = vc.chemicalBlue;
+                self.graphicalThing.responseReading = vc.sessionConfig;
             }
         //: }];
         }];

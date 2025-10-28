@@ -14,31 +14,7 @@
 
 //: @implementation ZZZTeamCardRowItem
 @implementation RailMinimum
-
-//: @end
-
-- (void)setNumber:(NSString *)number {
-    //: OC_CUSTOM_PROPERTY_INJECT
-    _number = number;
-}
-
-- (NSString *)fixedMinority:(NSString *)number {
-    //: OC_CUSTOM_PROPERTY_INJECT
-    _number = number;
-    return number;
-}
-
-
-- (void)setComputerOutput:(BOOL)computerOutput {
-    //: OC_CUSTOM_PROPERTY_INJECT
-    _computerOutput = computerOutput;
-}
-
-- (BOOL)opera:(BOOL)computerOutput {
-    //: OC_CUSTOM_PROPERTY_INJECT
-    _computerOutput = computerOutput;
-    return computerOutput;
-}
+ 
 
 
 @end

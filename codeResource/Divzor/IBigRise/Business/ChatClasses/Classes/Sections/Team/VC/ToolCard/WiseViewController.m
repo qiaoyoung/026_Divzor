@@ -199,7 +199,7 @@
         //: [items enumerateObjectsUsingBlock:^(id<NIMKitSelectCardData> _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [items enumerateObjectsUsingBlock:^(id<BelowQuestData> _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             //: if (obj.selected) {
-            if (obj.permission) {
+            if (obj.selected) {
                 //: weakSelf.selectedIndex = idx;
                 weakSelf.estimatedNumber = idx;
             }
@@ -363,11 +363,11 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
 	[self setSpirit:_still];
     //: cell.iconImageView.image = [UIImage imageNamed:bodyData.img];
-    cell.resume.image = [UIImage imageNamed:bodyData.gangsterImg];
+    cell.resume.image = [UIImage imageNamed:bodyData.img];
     //: cell.titleLabel.text = bodyData.title;
-    cell.capacityMeasureLabel.text = bodyData.reload;
+    cell.capacityMeasureLabel.text = bodyData.title;
     //: cell.arrowsImageView.hidden = ![bodyData selected];
-    cell.arrowsOpinion.hidden = ![bodyData permission];
+    cell.arrowsOpinion.hidden = ![bodyData selected];
 	[self setSpirit:_still];
 
 //    static NSString *NIMTeamTableCellReuseId = @"cell";
@@ -403,7 +403,7 @@
         //: BOOL selected = (idx == indexPath.row);
         BOOL selected = (idx == indexPath.row);
         //: [obj setSelected:selected];
-        [obj setPermission:selected];
+        [obj setSelected:selected];
     //: }];
     }];
     //: [self.tableView reloadData];

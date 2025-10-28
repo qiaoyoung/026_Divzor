@@ -398,13 +398,13 @@ Byte appRibbonKey[] = {66, 17, 29, 13, 215, 8, 228, 79, 5, 233, 55, 70, 3, 76, 7
         //: ZZZTeamCardRowItem *item = [[ZZZTeamCardRowItem alloc] init];
         RailMinimum *item = [[RailMinimum alloc] init];
         //: item.value = dic[@"kTeamHelperValue"];
-        item.safely = dic[StringFromChamberData(coreListenHelper)];
+        item.value = dic[StringFromChamberData(coreListenHelper)];
         //: item.title = dic[@"kTeamHelperText"];
-        item.storage = dic[StringFromChamberData(styleVisitorConfig)];
+        item.title = dic[StringFromChamberData(styleVisitorConfig)];
         //: item.img = dic[@"kTeamHelperImg"];
-        item.operaTask = dic[StringFromChamberData(spacingReceiveUtility)];
+        item.img = dic[StringFromChamberData(spacingReceiveUtility)];
         //: item.selected = (selectValue == [dic[@"kTeamHelperValue"] integerValue]);
-        item.stack = (selectValue == [dic[StringFromChamberData(coreListenHelper)] integerValue]);
+        item.selected = (selectValue == [dic[StringFromChamberData(coreListenHelper)] integerValue]);
         //: [items addObject:item];
         [items addObject:item];
     }
