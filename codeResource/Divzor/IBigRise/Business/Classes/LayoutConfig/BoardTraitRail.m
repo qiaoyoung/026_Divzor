@@ -79,8 +79,8 @@
 #import "BoardTraitRail.h"
 //: #import "MyAttributedLabel+AppleProjectKit.h"
 #import "LimitationScrollView+Warning.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 
 //: @interface NTESChatroomTextContentConfig()
 @interface BoardTraitRail()

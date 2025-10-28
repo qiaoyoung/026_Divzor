@@ -496,7 +496,6 @@
 		B14653802DC0B4E300C4D5B8 /* DocumentLead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentLead.h; sourceTree = "<group>"; };
 		B14653812DC0B4E300C4D5B8 /* DocumentLead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentLead.m; sourceTree = "<group>"; };
 		B14653822DC0B4E300C4D5B8 /* OddCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OddCell.h; sourceTree = "<group>"; };
-		B14653832DC0B4E300C4D5B8 /* ZZZGlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZGlobalMacro.h; sourceTree = "<group>"; };
 		B14653842DC0B4E300C4D5B8 /* SWithoutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWithoutView.h; sourceTree = "<group>"; };
 		B14653852DC0B4E300C4D5B8 /* SWithoutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWithoutView.m; sourceTree = "<group>"; };
 		B14653862DC0B4E300C4D5B8 /* MemberFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemberFactory.h; sourceTree = "<group>"; };
@@ -690,8 +689,6 @@
 		B14654592DC0B4E300C4D5B8 /* ExtraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtraView.m; sourceTree = "<group>"; };
 		B146545A2DC0B4E300C4D5B8 /* Pan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pan.h; sourceTree = "<group>"; };
 		B146545B2DC0B4E300C4D5B8 /* Pan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pan.m; sourceTree = "<group>"; };
-		B146545C2DC0B4E300C4D5B8 /* SNSingletonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNSingletonMacro.h; sourceTree = "<group>"; };
-		B146545D2DC0B4E300C4D5B8 /* SNWeakStrongMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNWeakStrongMacro.h; sourceTree = "<group>"; };
 		B146545E2DC0B4E300C4D5B8 /* TransshipmentCenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransshipmentCenterView.h; sourceTree = "<group>"; };
 		B146545F2DC0B4E300C4D5B8 /* TransshipmentCenterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransshipmentCenterView.m; sourceTree = "<group>"; };
 		B14654612DC0B4E300C4D5B8 /* LimitationScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LimitationScrollView.h; sourceTree = "<group>"; };
@@ -1035,7 +1032,6 @@
 		B14656312DC0B4E300C4D5B8 /* ParticularStir.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticularStir.h; sourceTree = "<group>"; };
 		B14656322DC0B4E300C4D5B8 /* PersonIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonIndex.h; sourceTree = "<group>"; };
 		B14656332DC0B4E300C4D5B8 /* PersonIndex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonIndex.m; sourceTree = "<group>"; };
-		B146563B2DC0B4E300C4D5B8 /* SNWeakStrongMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNWeakStrongMacro.h; sourceTree = "<group>"; };
 		B146563C2DC0B4E300C4D5B8 /* ParticularView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticularView.h; sourceTree = "<group>"; };
 		B146563D2DC0B4E300C4D5B8 /* ParticularView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticularView.m; sourceTree = "<group>"; };
 		B146563E2DC0B4E300C4D5B8 /* SouthView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SouthView.h; sourceTree = "<group>"; };
@@ -1183,7 +1179,6 @@
 		B14657232DC0B4E300C4D5B8 /* ClientOnense.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientOnense.m; sourceTree = "<group>"; };
 		B14657242DC0B4E300C4D5B8 /* LabelHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelHelper.h; sourceTree = "<group>"; };
 		B14657252DC0B4E300C4D5B8 /* LabelHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelHelper.m; sourceTree = "<group>"; };
-		B14657272DC0B4E300C4D5B8 /* NTESGlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESGlobalMacro.h; sourceTree = "<group>"; };
 		B14657282DC0B4E300C4D5B8 /* RecognizeYardSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecognizeYardSecurity.h; sourceTree = "<group>"; };
 		B14657292DC0B4E300C4D5B8 /* RecognizeYardSecurity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecognizeYardSecurity.m; sourceTree = "<group>"; };
 		B146572A2DC0B4E300C4D5B8 /* NoticeDismissRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoticeDismissRequest.h; sourceTree = "<group>"; };
@@ -1410,7 +1405,6 @@
 				B14653802DC0B4E300C4D5B8 /* DocumentLead.h */,
 				B14653812DC0B4E300C4D5B8 /* DocumentLead.m */,
 				B14653822DC0B4E300C4D5B8 /* OddCell.h */,
-				B14653832DC0B4E300C4D5B8 /* ZZZGlobalMacro.h */,
 				B14653842DC0B4E300C4D5B8 /* SWithoutView.h */,
 				B14653852DC0B4E300C4D5B8 /* SWithoutView.m */,
 				B14653862DC0B4E300C4D5B8 /* MemberFactory.h */,
@@ -1737,8 +1731,6 @@
 				B14654592DC0B4E300C4D5B8 /* ExtraView.m */,
 				B146545A2DC0B4E300C4D5B8 /* Pan.h */,
 				B146545B2DC0B4E300C4D5B8 /* Pan.m */,
-				B146545C2DC0B4E300C4D5B8 /* SNSingletonMacro.h */,
-				B146545D2DC0B4E300C4D5B8 /* SNWeakStrongMacro.h */,
 				B146545E2DC0B4E300C4D5B8 /* TransshipmentCenterView.h */,
 				B146545F2DC0B4E300C4D5B8 /* TransshipmentCenterView.m */,
 			);
@@ -2695,7 +2687,6 @@
 		B14656482DC0B4E300C4D5B8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B146563B2DC0B4E300C4D5B8 /* SNWeakStrongMacro.h */,
 				B146563C2DC0B4E300C4D5B8 /* ParticularView.h */,
 				B146563D2DC0B4E300C4D5B8 /* ParticularView.m */,
 				B146563E2DC0B4E300C4D5B8 /* SouthView.h */,
@@ -3127,7 +3118,6 @@
 				B1465F092DC1B83300C4D5B8 /* UIImage+FallFor.m */,
 				B14657312DC0B4E300C4D5B8 /* ParticularThrough.h */,
 				B14657322DC0B4E300C4D5B8 /* ParticularThrough.m */,
-				B14657272DC0B4E300C4D5B8 /* NTESGlobalMacro.h */,
 				B14657282DC0B4E300C4D5B8 /* RecognizeYardSecurity.h */,
 				B14657292DC0B4E300C4D5B8 /* RecognizeYardSecurity.m */,
 				B146572A2DC0B4E300C4D5B8 /* NoticeDismissRequest.h */,

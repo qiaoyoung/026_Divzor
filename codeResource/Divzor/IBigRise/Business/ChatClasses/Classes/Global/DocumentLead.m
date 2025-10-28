@@ -17,8 +17,8 @@
 #import "OddCell.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 
 //: static NSString *DefaultTableCell = @"UITableViewCell";
 static NSString *spacingSuggestTitle = @"UITableViewCell";

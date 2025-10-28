@@ -13,8 +13,7 @@
 #import "Pan.h"
 //: #import "SNLeadCompleteInfo.h"
 #import "ExtraView.h"
-//: #import "SNWeakStrongMacro.h"
-#import "SNWeakStrongMacro.h"
+ 
 
 //: @interface SNLeadCompleteManager ()
 @interface Pan ()

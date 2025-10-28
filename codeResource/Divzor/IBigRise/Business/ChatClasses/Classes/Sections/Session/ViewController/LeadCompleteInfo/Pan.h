@@ -13,8 +13,7 @@
 #import <Foundation/Foundation.h>
 //: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
-//: #import "SNSingletonMacro.h"
-#import "SNSingletonMacro.h"
+ 
 
 //: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN

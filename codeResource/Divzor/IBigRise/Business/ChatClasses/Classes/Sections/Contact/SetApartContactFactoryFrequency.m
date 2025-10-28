@@ -110,8 +110,8 @@
 #import "SetApartContactFactoryFrequency.h"
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 //: #import "ZZZLemonGroupedData.h"
 #import "PauseLightData.h"
 //: #import "AppleProjectKit.h"

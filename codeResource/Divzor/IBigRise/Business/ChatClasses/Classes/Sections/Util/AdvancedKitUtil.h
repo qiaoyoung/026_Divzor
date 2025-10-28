@@ -13,8 +13,8 @@
 #import <Foundation/Foundation.h>
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 
 //: @interface ZZZKitUtil : NSObject
 @interface AdvancedKitUtil : NSObject

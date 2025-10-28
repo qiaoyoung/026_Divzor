@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZKitDevice.h"
 #import "BearErr.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 
 //: @interface ZZZKitDevice ()
 @interface BearErr ()

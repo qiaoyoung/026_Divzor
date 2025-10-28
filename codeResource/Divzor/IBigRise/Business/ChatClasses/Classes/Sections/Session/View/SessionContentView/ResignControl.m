@@ -21,8 +21,8 @@
 #import "Warning.h"
 //: #import "NSString+AppleProjectKit.h"
 #import "NSString+Warning.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 
 //: @interface ZZZSessionUnknowContentView()
 @interface ResignControl()

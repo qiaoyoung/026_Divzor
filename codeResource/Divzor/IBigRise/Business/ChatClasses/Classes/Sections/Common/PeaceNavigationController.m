@@ -51,8 +51,8 @@ ChairData featurePlacementFormat = (ChairData){32, (Byte []){78, 73, 77, 68, 69,
 #import "OutsideEffectView.h"
 //: #import "LimitationScrollView.h"
 #import "LimitationScrollView.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 //: #import "ZZZKitFileLocationHelper.h"
 #import "MinimumHelper.h"
 //: #import <MobileCoreServices/MobileCoreServices.h>

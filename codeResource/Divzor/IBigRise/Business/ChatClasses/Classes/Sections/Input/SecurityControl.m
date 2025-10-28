@@ -41,8 +41,8 @@ WordData moduleShipOpendLabelValue = (WordData){132, (Byte []){225, 233, 235, 23
 #import "UIViewNimKit.h"
 //: #import "UIImage+AppleProjectKit.h"
 #import "UIImage+Warning.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 
 //: const NSInteger ZZZInputEmoticonTabViewHeight = 40;
 

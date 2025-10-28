@@ -156,8 +156,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZTeamCardSelectedViewController.h"
 #import "WiseViewController.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 //: #import "ZMONTeamCartSetTableViewCell.h"
 #import "WaterCartViewCell.h"
 

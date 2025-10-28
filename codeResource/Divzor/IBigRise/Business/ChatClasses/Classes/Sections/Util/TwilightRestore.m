@@ -67,8 +67,8 @@ Byte styleCutContent[] = {26, 13, 69, 9, 100, 199, 12, 244, 74, 4, 41, 47, 32, 4
 #import "TwilightRestore.h"
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 //: #import "ZZZKitUtil.h"
 #import "AdvancedKitUtil.h"
 //: #import "AppleProjectKit.h"

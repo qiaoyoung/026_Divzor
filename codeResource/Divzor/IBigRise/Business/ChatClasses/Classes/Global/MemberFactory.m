@@ -483,8 +483,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZKitConfig.h"
 #import "MemberFactory.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 //: #import "ZZZMediaItem.h"
 #import "ThumbItem.h"
 //: #import "UIImage+AppleProjectKit.h"

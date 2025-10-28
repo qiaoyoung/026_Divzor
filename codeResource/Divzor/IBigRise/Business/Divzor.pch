@@ -7,7 +7,6 @@
 //
 
 #ifdef __OBJC__
-#import "NTESGlobalMacro.h"
 #import "Warning.h"
 #import "NSString+GeneralSmart.h"
 #import "Basic.h"
@@ -21,7 +20,6 @@
 #import "UIImage+Below.h"
 #import "CandleFlame.h"
 #import <NIMSDK/NIMSDK.h>
-#import "SNWeakStrongMacro.h"
 
 //扩展
 #import "UIViewController+Below.h"

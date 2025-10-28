@@ -283,8 +283,8 @@ typedef struct {
 // __M_A_C_R_O__
 //: #import "ZZZTeamListDataManager.h"
 #import "After.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 //: #import "AppleProjectKit.h"
 #import "Warning.h"
 

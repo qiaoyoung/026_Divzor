@@ -35,8 +35,8 @@ Byte moduleDarkHelper[] = {78, 25, 4, 180, 101, 114, 117, 115, 95, 116, 110, 101
 #import "UIViewNimKit.h"
 //: #import "UIImage+AppleProjectKit.h"
 #import "UIImage+Warning.h"
-//: #import "ZZZGlobalMacro.h"
-#import "ZZZGlobalMacro.h"
+//: #import "NSString+Warning.h"
+#import "NSString+Warning.h"
 //: #import "AppleProjectKit.h"
 #import "Warning.h"
 

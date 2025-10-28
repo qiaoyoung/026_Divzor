@@ -56,8 +56,7 @@ DistinguishData spacingChefEvent = (DistinguishData){155, (Byte []){246, 254, 23
 #import "UIView+Cloud.h"
 //: #import "NTESCustomSysNotificationSender.h"
 #import "HabitSecurity.h"
-//: #import "NTESGlobalMacro.h"
-#import "NTESGlobalMacro.h"
+ 
 //: #import <AVFoundation/AVFoundation.h>
 #import <AVFoundation/AVFoundation.h>
 //: #import "NTESSessionMsgConverter.h"
