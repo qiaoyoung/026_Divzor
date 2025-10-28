@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZSessionViewController.h"
 #import "QuestViewController.h"
-//: #import "ZZZSessionConfigurateProtocol.h"
-#import "ZZZSessionConfigurateProtocol.h"
+//: #import "CrispUpgradeController.h"
+#import "CrispUpgradeController.h"
 
 //: @class ZZZSessionViewController;
 @class QuestViewController;

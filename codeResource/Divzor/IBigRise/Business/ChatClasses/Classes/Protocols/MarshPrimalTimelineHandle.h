@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  ProposedProvider.h
+//  MarshPrimalTimelineHandle.h
 // Warning
 //
 //  Created by chris.
@@ -26,7 +26,7 @@
 typedef void (^NIMKitDataProvideHandler)(NSError *error, NSArray<NIMMessage *> *messages);
 
 //: @protocol ZZZKitMessageProvider <NSObject>
-@protocol ProposedProvider <NSObject>
+@protocol MarshPrimalTimelineHandle <NSObject>
 
 //: @optional
 @optional

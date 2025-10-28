@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  ZZZCellConfig.h
+//  FormatterFlashCancel.h
 // Warning
 //
 //  Created by chris.

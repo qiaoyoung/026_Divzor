@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 //: @interface NTESThreadDataSourceProvider : NSObject <ZZZKitMessageProvider>
-@interface SmartProvider : NSObject <ProposedProvider>
+@interface SmartProvider : NSObject <MarshPrimalTimelineHandle>
 
 //: @property (nonatomic,strong) NIMMessage *threadMessage;
 @property (nonatomic,strong) NIMMessage *threadIgnoreMessaged;

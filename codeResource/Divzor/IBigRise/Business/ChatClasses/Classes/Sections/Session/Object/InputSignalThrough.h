@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "ZZZSessionConfigurator.h"
 #import "BelowConfigurator.h"
-//: #import "ZZZSessionPrivateProtocol.h"
-#import "ZZZSessionPrivateProtocol.h"
+//: #import "MapperMigratePixel.h"
+#import "MapperMigratePixel.h"
 
 //: @interface ZZZSessionLayoutImpl : NSObject<NIMSessionLayout>
 @interface InputSignalThrough : NSObject<JumpSubmit>

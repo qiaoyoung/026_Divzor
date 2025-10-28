@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  ClearProvider.h
+//  InformationHideTactful.h
 // Warning
 //
 //  Created by amao on 8/13/15.
@@ -22,7 +22,7 @@
 @class NIMMessage;
 
 //: @protocol ZZZKitDataProvider <NSObject>
-@protocol ClearProvider <NSObject>
+@protocol InformationHideTactful <NSObject>
 
 //: @optional
 @optional

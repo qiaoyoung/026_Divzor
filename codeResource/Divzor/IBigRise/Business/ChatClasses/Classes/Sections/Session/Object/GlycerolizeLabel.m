@@ -28,7 +28,7 @@
 @interface GlycerolizeLabel()
 
 //: @property (nonatomic,strong) id<ZZZKitMessageProvider> dataProvider;
-@property (nonatomic,strong) id<ProposedProvider> pipe;
+@property (nonatomic,strong) id<MarshPrimalTimelineHandle> pipe;
 
 //: @property (nonatomic,strong) NSMutableDictionary *msgIdDict;
 @property (nonatomic,strong) NSMutableDictionary *backPass;
@@ -107,7 +107,7 @@
         //: _sessionConfig = sessionConfig;
         _request = sessionConfig;
         //: id<ZZZKitMessageProvider> dataProvider = [_sessionConfig respondsToSelector:@selector(messageDataProvider)] ? [_sessionConfig messageDataProvider] : nil;
-        id<ProposedProvider> dataProvider = [_request respondsToSelector:@selector(catererNormal)] ? [_request catererNormal] : nil;
+        id<MarshPrimalTimelineHandle> dataProvider = [_request respondsToSelector:@selector(catererNormal)] ? [_request catererNormal] : nil;
 
         //: NSInteger limit = [AppleProjectKit sharedKit].config.messageLimit;
         NSInteger limit = [Warning camera].insideTrack.decision;

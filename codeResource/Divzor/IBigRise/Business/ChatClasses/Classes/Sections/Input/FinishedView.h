@@ -13,8 +13,8 @@
 #import <UIKit/UIKit.h>
 //: #import "ZZZSessionConfig.h"
 #import "BlankConfig.h"
-//: #import "ZZZInputProtocol.h"
-#import "ZZZInputProtocol.h"
+//: #import "ResolverParseIntimate.h"
+#import "ResolverParseIntimate.h"
 
 //: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN

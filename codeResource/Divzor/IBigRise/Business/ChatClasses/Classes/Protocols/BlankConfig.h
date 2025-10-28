@@ -11,10 +11,10 @@
 #import <Foundation/Foundation.h>
 //: #import "ZZZMediaItem.h"
 #import "ThumbItem.h"
-//: #import "ZZZCellConfig.h"
-#import "ZZZCellConfig.h"
+//: #import "FormatterFlashCancel.h"
+#import "FormatterFlashCancel.h"
 //: #import "ZZZKitMessageProvider.h"
-#import "ProposedProvider.h"
+#import "MarshPrimalTimelineHandle.h"
 //: #import "EnumInputBarItemType.h"
 #import "EnumInputBarItemType.h"
 //: #import "ZZZInputEmoticonManager.h"
@@ -160,7 +160,7 @@
  *  @return 消息数据提供者，如果不实现则读取本地聊天记录
  */
 //: - (id<ZZZKitMessageProvider>)messageDataProvider;
-- (id<ProposedProvider>)catererNormal;
+- (id<MarshPrimalTimelineHandle>)catererNormal;
 
 /**
  *  会话聊天背景更换接口

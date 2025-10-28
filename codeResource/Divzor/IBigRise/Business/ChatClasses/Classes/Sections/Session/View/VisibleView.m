@@ -82,8 +82,8 @@ typedef struct {
 // __M_A_C_R_O__
 //: #import "ZZZSessionTimestampCell.h"
 #import "VisibleView.h"
-//: #import "ZZZCellConfig.h"
-#import "ZZZCellConfig.h"
+//: #import "FormatterFlashCancel.h"
+#import "FormatterFlashCancel.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
 //: #import "ZZZTimestampModel.h"

@@ -10,10 +10,10 @@
 
 // __M_A_C_R_O__
 //: #import "ZZZKitDataProvider.h"
-#import "ClearProvider.h"
+#import "InformationHideTactful.h"
 
 //: @interface ZZZKitDataProviderImpl : NSObject<ZZZKitDataProvider>
-@interface ResignSubmit : NSObject<ClearProvider>
+@interface ResignSubmit : NSObject<InformationHideTactful>
 
 //: @end
 @end

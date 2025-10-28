@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
-//: #import "ZZZMessageCellProtocol.h"
-#import "ZZZMessageCellProtocol.h"
+//: #import "ListenerCleanGenerous.h"
+#import "ListenerCleanGenerous.h"
 
 //: @class ZZZTimestampModel;
 @class ProposedModel;

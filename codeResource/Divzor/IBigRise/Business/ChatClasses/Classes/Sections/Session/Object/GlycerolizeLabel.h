@@ -12,7 +12,7 @@
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 //: #import "ZZZKitMessageProvider.h"
-#import "ProposedProvider.h"
+#import "MarshPrimalTimelineHandle.h"
 //: #import "ZZZSessionConfig.h"
 #import "BlankConfig.h"
 

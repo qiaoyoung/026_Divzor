@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "ZZZCardDataSourceProtocol.h"
-#import "ZZZCardDataSourceProtocol.h"
+//: #import "SchedulerAbsoluteJourney.h"
+#import "SchedulerAbsoluteJourney.h"
 
 //: typedef void(^NIMTeamCardRowSelectedBlock)(id <NIMKitSelectCardData> item);
 typedef void(^NIMTeamCardRowSelectedBlock)(id <BelowQuestData> item);

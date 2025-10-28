@@ -57,12 +57,12 @@ Byte coreSafelySettings[] = {89, 7, 56, 5, 234, 161, 155, 151, 165, 167, 170, 15
 //
 
 // __M_A_C_R_O__
-//: #import "ZZZSessionConfigurateProtocol.h"
-#import "ZZZSessionConfigurateProtocol.h"
+//: #import "CrispUpgradeController.h"
+#import "CrispUpgradeController.h"
 //: #import "AppleProjectKit.h"
 #import "Warning.h"
-//: #import "ZZZMessageCellProtocol.h"
-#import "ZZZMessageCellProtocol.h"
+//: #import "ListenerCleanGenerous.h"
+#import "ListenerCleanGenerous.h"
 //: #import "ZZZMessageModel.h"
 #import "RadiogramLimitation.h"
 //: #import "ZZZKitUtil.h"

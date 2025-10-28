@@ -11,10 +11,10 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "ZZZSessionPrivateProtocol.h"
-#import "ZZZSessionPrivateProtocol.h"
-//: #import "ZZZSessionConfigurateProtocol.h"
-#import "ZZZSessionConfigurateProtocol.h"
+//: #import "MapperMigratePixel.h"
+#import "MapperMigratePixel.h"
+//: #import "CrispUpgradeController.h"
+#import "CrispUpgradeController.h"
 
 //: @interface ZZZSessionInteractorImpl : NSObject<NIMSessionInteractor,NIMSessionLayoutDelegate>
 @interface AImpl : NSObject<PanMagnitudeeractor,AfterDelegate>

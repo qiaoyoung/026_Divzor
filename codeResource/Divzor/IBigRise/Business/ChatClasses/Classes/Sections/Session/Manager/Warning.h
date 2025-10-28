@@ -23,15 +23,15 @@
 //: #import "ZZZMessageModel.h"         //message Wrapper
 #import "RadiogramLimitation.h"         //message Wrapper
 //: #import "ZZZKitMessageProvider.h"
-#import "ProposedProvider.h"
-//: #import "ZZZCellConfig.h"           //message cell配置协议
-#import "ZZZCellConfig.h"           //message cell配置协议
-//: #import "ZZZInputProtocol.h"        //输入框回调
-#import "ZZZInputProtocol.h"        //输入框回调
+#import "MarshPrimalTimelineHandle.h"
+//: #import "FormatterFlashCancel.h"           //message cell配置协议
+#import "FormatterFlashCancel.h"           //message cell配置协议
+//: #import "ResolverParseIntimate.h"        //输入框回调
+#import "ResolverParseIntimate.h"        //输入框回调
 //: #import "ZZZKitDataProvider.h"      //APP内容提供器
-#import "ClearProvider.h"      //APP内容提供器
-//: #import "ZZZMessageCellProtocol.h"  //message cell事件回调
-#import "ZZZMessageCellProtocol.h"  //message cell事件回调
+#import "InformationHideTactful.h"      //APP内容提供器
+//: #import "ListenerCleanGenerous.h"  //message cell事件回调
+#import "ListenerCleanGenerous.h"  //message cell事件回调
 //: #import "ZZZSessionConfig.h"        //会话页面配置
 #import "BlankConfig.h"        //会话页面配置
 //: #import "ZZZKitEvent.h"             //点击事件封装类
@@ -48,8 +48,8 @@
 #import "MacroscopicalViewController.h"
 //: #import "ZZZKitIndependentModeExtraInfo.h"
 #import "DittyBagExtraInfoFrequency.h"
-//: #import "ZZZChatUIManagerProtocol.h"
-#import "ZZZChatUIManagerProtocol.h"
+//: #import "CarefreeFactoryGenerate.h"
+#import "CarefreeFactoryGenerate.h"
 //: #import "ZZZCollectionViewLeftAlignedLayout.h"
 #import "LightViewLayout.h"
 //: #import "ZZZKitQuickCommentUtil.h"
@@ -141,7 +141,7 @@ extern const unsigned char widgetRadioEvent[];
 /**
  *  由于在独立聊天室模式下, IM 部分服务不可用，需要上层注入一些额外信息供组件显示使用。 默认为 nil，上层在独立聊天室模式下注入，注入时需要创建此对象并注入对象相关字段信息。
  *
- *  此字段需要配合默认的 ClearProvider ( ResignSubmit ) 使用，如果上层自己定义了 provider ， 则忽略此字段。
+ *  此字段需要配合默认的 InformationHideTactful ( ResignSubmit ) 使用，如果上层自己定义了 provider ， 则忽略此字段。
  */
 //: @property (nonatomic,strong) ZZZKitIndependentModeExtraInfo *independentModeExtraInfo;
 @property (nonatomic,strong) DittyBagExtraInfoFrequency *padInfo;
@@ -188,7 +188,7 @@ extern const unsigned char widgetRadioEvent[];
  *  内容提供者，由上层开发者注入。如果没有则使用默认 provider
  */
 //: @property (nonatomic,strong) id<ZZZKitDataProvider> provider;
-@property (nonatomic,strong) id<ClearProvider> be;
+@property (nonatomic,strong) id<InformationHideTactful> be;
 
 /**
  *  返回群信息

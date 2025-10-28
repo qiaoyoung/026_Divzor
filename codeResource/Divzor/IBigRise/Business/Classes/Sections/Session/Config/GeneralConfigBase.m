@@ -92,7 +92,7 @@
 }
 
 //: - (id<ZZZKitMessageProvider>)messageDataProvider
-- (id<ProposedProvider>)catererNormal
+- (id<MarshPrimalTimelineHandle>)catererNormal
 {
     //: return self.provider;
     return [self emotion:self.bottom];
