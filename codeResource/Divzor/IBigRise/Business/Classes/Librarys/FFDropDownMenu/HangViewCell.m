@@ -224,7 +224,7 @@
 //: - (void)setMenuModel:(id)menuModel {
 - (void)setSection:(id)menuModel {
     //: _menuModel = menuModel;
-    _menuModel = menuModel;
+    menuModel = menuModel;
 
     //: FFDropDownMenuModel *realMenuModel = (FFDropDownMenuModel *)menuModel;
     SmartWayBasedModel *realMenuModel = (SmartWayBasedModel *)menuModel;

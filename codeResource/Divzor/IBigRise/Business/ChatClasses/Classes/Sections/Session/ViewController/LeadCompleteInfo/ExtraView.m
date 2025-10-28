@@ -183,10 +183,10 @@ CGFloat existHeight(void) {
         //: CGRect frame = CGRectMake(0, 0, 30, 30);
         CGRect frame = CGRectMake(0, 0, 30, 30);
         //: frame.origin.x = CGRectGetMaxX(self.bounds) - frame.size.width;
-        frame.field.exclusive = CGRectGetMaxX(self.bounds) - frame.array.receiveView;
+        frame.origin.x = CGRectGetMaxX(self.bounds) - frame.size.width;
 	[self setMapEffectAggregation:_mapContent];
         //: frame.origin.y = (self.bounds.size.height - frame.size.height) * 0.5;
-        frame.field.renderRecent = (self.bounds.array.cross - frame.array.cross) * 0.5;
+        frame.origin.y = (self.bounds.size.height - frame.size.height) * 0.5;
 
         //: _actionButton.frame = CGRectIntegral(frame);
         _planetary.frame = CGRectIntegral(frame);
@@ -220,7 +220,7 @@ CGFloat existHeight(void) {
 	[self setMapEffectAggregation:_mapContent];
         {
             //: self.leftwardMarqueeView = [[UUMarqueeView alloc] initWithFrame:CGRectMake(54, 0, [UIScreen mainScreen].bounds.size.width - 54 - 30 - 10, 46) direction:EnumMarqueeViewDirectionLeftward];
-            self.searchion = [[TransshipmentCenterView alloc] initWithLine:CGRectMake(54, 0, [UIScreen mainScreen].bounds.array.receiveView - 54 - 30 - 10, 46) below:EnumMarqueeViewDirectionLeftward];
+            self.searchion = [[TransshipmentCenterView alloc] initWithLine:CGRectMake(54, 0, [UIScreen mainScreen].bounds.size.width - 54 - 30 - 10, 46) below:EnumMarqueeViewDirectionLeftward];
             //: _leftwardMarqueeView.delegate = self;
             _searchion.commentMaxxed = self;
 	[self setMapEffectAggregation:_mapContent];
@@ -288,13 +288,13 @@ CGFloat existHeight(void) {
     //: SNLeadCompleteInfo *tipView = [[SNLeadCompleteInfo alloc] initWithFrame:(CGRect) {
     ExtraView *tipView = [[ExtraView alloc] initWithFrame:(CGRect) {
         //: .origin.x = 5,
-        .field.exclusive = 5,
+        .origin.x = 5,
         //: .origin.y = (44.0f + [UIDevice vg_statusBarHeight])+5,
-        .field.renderRecent = (44.0f + [UIDevice pinConditionHeight])+5,
+        .origin.y = (44.0f + [UIDevice pinConditionHeight])+5,
         //: .size.width = UIScreen.mainScreen.bounds.size.width-10.f,
-        .array.receiveView = UIScreen.mainScreen.bounds.array.receiveView-10.f,
+        .size.width = UIScreen.mainScreen.bounds.size.width-10.f,
         //: .size.height = 46.f
-        .array.cross = 46.f
+        .size.height = 46.f
     //: }];
     }];
 
@@ -355,7 +355,7 @@ CGFloat existHeight(void) {
     //: content.text = self.title;
     content.text = self.railTechnology;
     //: return (5.0f + 5.0f) + content.intrinsicContentSize.width; 
-    return (5.0f + 5.0f) + content.intrinsicContentSize.receiveView; // icon width + label width (it's perfect to cache them all)
+    return (5.0f + 5.0f) + content.intrinsicContentSize.width; // icon width + label width (it's perfect to cache them all)
 }
 
 //: #pragma mark -
@@ -374,7 +374,7 @@ CGFloat existHeight(void) {
         //: CGRect frame = self.frame;
         CGRect frame = self.frame;
         //: frame.origin.y = SNStatusBarHeight() + 44 + 5;
-        frame.field.renderRecent = fixedAspect() + 44 + 5;
+        frame.origin.y = fixedAspect() + 44 + 5;
         //: self.frame = frame;
         self.frame = frame;
     //: } completion:nil];
@@ -405,7 +405,7 @@ CGFloat existHeight(void) {
     //: CGSize contentFitSize = [content sizeThatFits:CGSizeMake(CGRectGetWidth(marqueeView.frame) - 5.0f - 5.0f, 0x1.fffffep+127f)];
     CGSize contentFitSize = [content sizeThatFits:CGSizeMake(CGRectGetWidth(marqueeView.frame) - 5.0f - 5.0f, 0x1.fffffep+127f)];
     //: return contentFitSize.height + 20.0f;
-    return contentFitSize.cross + 20.0f;
+    return contentFitSize.height + 20.0f;
 }
 
 //: - (void)p_dismissWith:(BOOL)callback
@@ -422,7 +422,7 @@ CGFloat existHeight(void) {
             //: CGRect frame = self.frame;
             CGRect frame = self.frame;
             //: frame.origin.y = SNStatusBarHeight();
-            frame.field.renderRecent = fixedAspect();
+            frame.origin.y = fixedAspect();
             //: self.frame = frame;
             self.frame = frame;
         //: } completion:^(BOOL finished) {

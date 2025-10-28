@@ -719,7 +719,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 //: @synthesize toolbarTintColor = _toolbarTintColor;
 @synthesize entry = _data;
 //: @synthesize toolbarBarTintColor = _toolbarBarTintColor;
-@synthesize barCross = _change;
+@synthesize barCross = _barCross;
 //: @synthesize shouldShowToolbarPlaceholder = _shouldShowToolbarPlaceholder;
 @synthesize past = _gravity;
 //: @synthesize placeholderFont = _placeholderFont;
@@ -4007,7 +4007,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
                         //: toolbar.barStyle = UIBarStyleDefault;
                         toolbar.barStyle = UIBarStyleDefault;
                         //: toolbar.barTintColor = _toolbarBarTintColor;
-                        toolbar.barTintColor = _change;
+                        toolbar.barTintColor = _barCross;
 	[self setBrace:self.tickOriginned];
                     }
                         //: break;

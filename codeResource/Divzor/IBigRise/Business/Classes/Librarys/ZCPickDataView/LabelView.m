@@ -105,7 +105,7 @@ MarchData colorTempEraTitle = (MarchData){172, (Byte []){201, 201, 201, 201, 201
 //: - (void)leftButtonClicked:(id)sender{
 - (void)confirmations:(id)sender{
     //: Class currentClass = object_getClass(self.delegate);
-    Class currentClass = prettyTrack(self.commentMaxxed);
+    Class currentClass = object_getClass(self.commentMaxxed);
     //: if ((currentClass == delegateClass) && [self.delegate respondsToSelector:@selector(dismissDataPickerView)]) {
     if ((currentClass == lead) && [self.commentMaxxed respondsToSelector:@selector(saintUlmoSLightView)]) {
         //: [self.delegate dismissDataPickerView];
@@ -130,7 +130,7 @@ MarchData colorTempEraTitle = (MarchData){172, (Byte []){201, 201, 201, 201, 201
 //: - (void)rightButtonClicked:(id)sender{
 - (void)carryDoing:(id)sender{
     //: Class currentClass = object_getClass(self.delegate);
-    Class currentClass = prettyTrack(self.commentMaxxed);
+    Class currentClass = object_getClass(self.commentMaxxed);
     //: if ((currentClass == delegateClass) && [self.delegate respondsToSelector:@selector(dismissDataPickerView)]) {
     if ((currentClass == lead) && [self.commentMaxxed respondsToSelector:@selector(saintUlmoSLightView)]) {
         //: [self.delegate dismissDataPickerView];
@@ -339,7 +339,7 @@ MarchData colorTempEraTitle = (MarchData){172, (Byte []){201, 201, 201, 201, 201
     //: self.delegate = delegate;
     self.commentMaxxed = delegate;
     //: delegateClass = object_getClass(delegate);
-    lead = prettyTrack(delegate);
+    lead = object_getClass(delegate);
 	[self setDistributer:pop];
 }
 

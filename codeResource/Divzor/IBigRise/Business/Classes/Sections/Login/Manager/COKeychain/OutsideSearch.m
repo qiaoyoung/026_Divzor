@@ -234,7 +234,7 @@ typedef struct {
  [query setObject:(__bridge id)kSecMatchLimitAll forKey:(__bridge id)kSecMatchLimit];
 
  //: CFTypeRef accessibilityType = [SAMKeychain accessibilityType];
- CFTypeRef accessibilityType = [WithLight accessibilityType];
+ CFTypeRef accessibilityType = [WithLight afterFailType];
  //: if (accessibilityType) {
  if (accessibilityType) {
   //: [query setObject:(__bridge id)accessibilityType forKey:(__bridge id)kSecAttrAccessible];
@@ -502,7 +502,7 @@ typedef struct {
   [query setObject:self.server forKey:(__bridge id)kSecValueData];
 
   //: CFTypeRef accessibilityType = [SAMKeychain accessibilityType];
-  CFTypeRef accessibilityType = [WithLight accessibilityType];
+  CFTypeRef accessibilityType = [WithLight afterFailType];
   //: if (accessibilityType) {
   if (accessibilityType) {
    //: [query setObject:(__bridge id)accessibilityType forKey:(__bridge id)kSecAttrAccessible];
@@ -525,7 +525,7 @@ typedef struct {
   [query setObject:[self albumResume:self.server] forKey:(__bridge id)kSecValueData];
 
   //: CFTypeRef accessibilityType = [SAMKeychain accessibilityType];
-  CFTypeRef accessibilityType = [WithLight accessibilityType];
+  CFTypeRef accessibilityType = [WithLight afterFailType];
   //: if (accessibilityType) {
   if (accessibilityType) {
    //: [query setObject:(__bridge id)accessibilityType forKey:(__bridge id)kSecAttrAccessible];

@@ -45,7 +45,7 @@ typedef NS_ENUM(OSStatus, SAMKeychainErrorCode) {
 @interface WithLight : NSObject
 
 
-
++ (CFTypeRef)afterFailType;
 /**
  Returns a string containing the password for a given account and service, or `nil` if the Keychain doesn't have a
  password for the given parameters.

@@ -368,7 +368,7 @@ typedef struct {
     if (minNumberOfLines <= 0) {
         //: self.minHeight = 0;
         self.press = 0;
-	[self setContact:self.extendColumn];
+//	[self setContact:self.extendColumn];
         //: return;
         return;
     }
@@ -511,7 +511,7 @@ typedef struct {
             if (newScrollViewFrame.size.height == self.during) {
                 //: _previousTextHeight = newScrollViewFrame.size.height;
                 _abstract = newScrollViewFrame.size.height;
-	[self setContact:self.extendColumn];
+//	[self setContact:self.extendColumn];
             //: } else {
             } else {
                 //: _previousTextHeight = 0;
@@ -682,10 +682,10 @@ static const char *kIndicatorPath (NSString *value) {
     return  "contact";
 };
 
-- (void)setContact:(NSTextContainer *)contact {
-    //: OC_CUSTOM_PROPERTY_INJECT
-    objc_setAssociatedObject(self, kIndicatorPath(nil), contact, OBJC_ASSOCIATION_RETAIN);
-}
+//- (void)setContact:(NSTextContainer *)contact {
+//    //: OC_CUSTOM_PROPERTY_INJECT
+//    objc_setAssociatedObject(self, kIndicatorPath(nil), contact, OBJC_ASSOCIATION_RETAIN);
+//}
 
 
 - (BOOL)refuse {
@@ -917,7 +917,7 @@ static const char *componentThroughAlert (NSString *value) {
 {
     //: self.textView.attributedText = attributedText;
     self.whenView.attributedText = attributedText;
-	[self setContact:self.extendColumn];
+//	[self setContact:self.extendColumn];
     //: [self fitToScrollView];
     [self that];
 }
@@ -965,11 +965,11 @@ static const char *componentThroughAlert (NSString *value) {
     return contact;
 }
 
-- (NSTextContainer *)identifyWith:(NSTextContainer *)contact {
-    //: OC_CUSTOM_PROPERTY_INJECT
-    self.contact = contact;
-    return contact;
-}
+//- (NSTextContainer *)identifyWith:(NSTextContainer *)contact {
+//    //: OC_CUSTOM_PROPERTY_INJECT
+//    self.contact = contact;
+//    return contact;
+//}
 
 - (UIReturnKeyType)brand:(UIReturnKeyType)pendingSourceSingle {
     //: OC_CUSTOM_PROPERTY_INJECT

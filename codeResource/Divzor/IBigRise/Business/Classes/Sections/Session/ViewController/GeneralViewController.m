@@ -1616,7 +1616,7 @@
 //: #import "ZMONReportHisView.h"
 #import "WayView.h"
 //: #import "AppdelegateManager.h"
-#import "AppdelegateManager.h"
+#import "Mass.h"
 
 //: @import MobileCoreServices;
 @import MobileCoreServices;

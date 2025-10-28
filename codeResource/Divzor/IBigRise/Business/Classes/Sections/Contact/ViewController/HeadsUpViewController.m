@@ -304,7 +304,8 @@ EditDelegate> {
 
 //: @property (nonatomic,strong) NSArray * datas;
 @property (nonatomic,strong) NSArray * scene;
-@property (nonatomic, strong) SinkPlaceForefrontView *decide@property (nonatomic ,strong) NSArray *standardApp;
+@property (nonatomic, strong) SinkPlaceForefrontView *decide;
+@property (nonatomic ,strong) NSArray *standardApp;
 
 //: @end
 @end

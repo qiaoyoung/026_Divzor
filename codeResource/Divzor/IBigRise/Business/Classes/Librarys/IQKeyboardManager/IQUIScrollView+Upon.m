@@ -33,8 +33,6 @@
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 //: @implementation UIScrollView (Additions)
 
-#import <objc/runtime.h>
-
 @implementation UIScrollView (Upon)
 
 //: -(void)setShouldIgnoreScrollingAdjustment:(BOOL)shouldIgnoreScrollingAdjustment

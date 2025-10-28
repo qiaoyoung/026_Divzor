@@ -80,10 +80,10 @@ typedef NS_ENUM(NSInteger, TXScrollLabelViewType) {
  __attribute__((deprecated("Deprecated, please Use `scrollTitle`")));
 /** Deprecated, please Use `scrollType` */
 //: @property (assign, nonatomic) TXScrollLabelViewType tx_scrollType __attribute__((deprecated("Deprecated, please Use `scrollType`")));
-@property (assign, nonatomic) TXScrollLabelViewType angleType__attribute__((deprecated("Deprecated, please Use `scrollType`")));
+@property (assign, nonatomic) TXScrollLabelViewType angleType __attribute__((deprecated("Deprecated, please Use `scrollType`")));
 /** Deprecated, please Use `scrollVelocity` */
 //: @property (assign, nonatomic) NSTimeInterval tx_scrollVelocity __attribute__((deprecated("Deprecated, please Use `scrollVelocity`")));
-@property (assign, nonatomic) NSTimeInterval prepare/** 滚动文字 */
+@property (assign, nonatomic) NSTimeInterval prepare;/** 滚动文字 */
 //: @property (copy, nonatomic) NSString *scrollTitle;
 @property (copy, nonatomic) NSString *sentence;
 /** 每次循环滚动的间距 */
@@ -101,14 +101,14 @@ typedef NS_ENUM(NSInteger, TXScrollLabelViewType) {
 __attribute__((deprecated("Deprecated, please Use `frame`")));
 /** Deprecated, please Use `scrollTitleColor` */
 //: @property (strong, nonatomic) UIColor *tx_scrollTitleColor __attribute__((deprecated("Deprecated, please Use `scrollTitleColor`")));
-@property (strong, nonatomic) UIColor *achromaticColourColor/** 字体大小 */
+@property (strong, nonatomic) UIColor *achromaticColourColor;/** 字体大小 */
 //: @property (strong, nonatomic) UIFont *font;
 @property (strong, nonatomic) UIFont *fireLevel;
 /** 文本颜色 */
 //: @property (strong, nonatomic) UIColor *scrollTitleColor;
 @property (strong, nonatomic) UIColor *secure;
 //: @property (copy, nonatomic) NSString *tx_scrollTitle __attribute__((deprecated("Deprecated, please Use `scrollTitle`")));
-@property (copy, nonatomic) NSString *original
+@property (copy, nonatomic) NSString *original;
 /**
  类初始化方法
  @param scrollTitle 滚动文本
