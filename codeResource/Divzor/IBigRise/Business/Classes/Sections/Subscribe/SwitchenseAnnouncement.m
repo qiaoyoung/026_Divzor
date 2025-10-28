@@ -23,8 +23,8 @@ Byte layoutSpotData[] = {31, 12, 54, 12, 6, 91, 114, 11, 46, 131, 147, 83, 165, 
 // __M_A_C_R_O__
 //: #import "NTESSubscribeManager.h"
 #import "SwitchenseAnnouncement.h"
-//: #import "NTESSubscribeDefine.h"
-#import "NTESSubscribeDefine.h"
+//: #import "TextureFrugalInterpreter.h"
+#import "TextureFrugalInterpreter.h"
 //: #import "NTESDevice.h"
 #import "SucceedVisibleDevice.h"
 //: #import "StartFormalTimelineWork.h"

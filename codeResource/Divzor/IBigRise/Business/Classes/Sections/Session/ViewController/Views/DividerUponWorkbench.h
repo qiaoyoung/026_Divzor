@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  NTESOpenRedPackageSheet.h
+//  DividerUponWorkbench.h
 //  NIM
 //
 //  Created by 彭爽 on 2021/10/10.
@@ -15,7 +15,7 @@
 //: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
-//: @protocol NTESOpenRedPackageSheetDelegate <NSObject>
+//: @protocol DividerUponWorkbenchDelegate <NSObject>
 @protocol PreviousDelegate <NSObject>
 
 //: - (void)myWalletDelegate;

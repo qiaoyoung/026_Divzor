@@ -106,8 +106,8 @@
 #import "UIView+GeneralSmart.h"
 //: #import "UIImage+AppleProjectKit.h"
 #import "UIImage+Warning.h"
-//: #import "NTESCustomAttachmentDefines.h"
-#import "NTESCustomAttachmentDefines.h"
+//: #import "SymmetricCatalogerSort.h"
+#import "SymmetricCatalogerSort.h"
 
 //: @interface NTESSessionRedPacketTipContentView()<MyAttributedLabelDelegate>
 @interface SubmitView()<WayFactory>

@@ -23,8 +23,8 @@ Byte styleJoinSentenceMessage[] = {49, 20, 38, 12, 247, 150, 231, 12, 160, 29, 7
 // __M_A_C_R_O__
 //: #import "NTESSessionTipContentView.h"
 #import "DismissControl.h"
-//: #import "NTESCustomAttachmentDefines.h"
-#import "NTESCustomAttachmentDefines.h"
+//: #import "SymmetricCatalogerSort.h"
+#import "SymmetricCatalogerSort.h"
 //: #import "UIView+NTES.h"
 #import "UIView+GeneralSmart.h"
 //: #import "UIImage+AppleProjectKit.h"

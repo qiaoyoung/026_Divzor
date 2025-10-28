@@ -64,8 +64,8 @@
 // __M_A_C_R_O__
 //: #import "NTESSessionCustomContentConfig.h"
 #import "ProceedFlush.h"
-//: #import "NTESCustomAttachmentDefines.h"
-#import "NTESCustomAttachmentDefines.h"
+//: #import "SymmetricCatalogerSort.h"
+#import "SymmetricCatalogerSort.h"
 
 //: @interface NTESSessionCustomContentConfig()
 @interface ProceedFlush()

@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "NTESCustomAttachmentDefines.h"
-#import "NTESCustomAttachmentDefines.h"
+//: #import "SymmetricCatalogerSort.h"
+#import "SymmetricCatalogerSort.h"
 
 //: @interface NTESRedPacketAttachment : NSObject<NIMCustomAttachment,NTESCustomAttachmentInfo>
 @interface DismissAttachment : NSObject<NIMCustomAttachment,AbsenteeRateInfo>

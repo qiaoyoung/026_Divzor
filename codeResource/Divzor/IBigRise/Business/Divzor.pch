@@ -32,7 +32,7 @@
 #import "UIViewController+Below.h"
 #import "UIButton+RefreshFlush.h"
 #import "UIDevice+Alfresco.h"
-#import "NTESCustomAttachmentDefines.h"
+#import "SymmetricCatalogerSort.h"
 #import "YardView.h"
 #import <SDWebImage/SDWebImage.h>
 #import <SDWebImage/UIImageView+WebCache.h>

@@ -946,7 +946,7 @@
 		B14655BD2DC0B4E300C4D5B8 /* SmartCollection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartCollection.m; sourceTree = "<group>"; };
 		B14655BF2DC0B4E300C4D5B8 /* LaterViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaterViewCell.h; sourceTree = "<group>"; };
 		B14655C02DC0B4E300C4D5B8 /* LaterViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaterViewCell.m; sourceTree = "<group>"; };
-		B14655C12DC0B4E300C4D5B8 /* NTESContactDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESContactDefines.h; sourceTree = "<group>"; };
+		B14655C12DC0B4E300C4D5B8 /* BindForwardGreat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BindForwardGreat.h; sourceTree = "<group>"; };
 		B14655CB2DC0B4E300C4D5B8 /* PlaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
 		B14655CC2DC0B4E300C4D5B8 /* PlaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
 		B14655CD2DC0B4E300C4D5B8 /* ReferViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReferViewController.h; sourceTree = "<group>"; };
@@ -1025,7 +1025,7 @@
 		B14656282DC0B4E300C4D5B8 /* AffirmativeHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffirmativeHeader.m; sourceTree = "<group>"; };
 		B146562A2DC0B4E300C4D5B8 /* UpgradeDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpgradeDocument.h; sourceTree = "<group>"; };
 		B146562B2DC0B4E300C4D5B8 /* UpgradeDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpgradeDocument.m; sourceTree = "<group>"; };
-		B146562C2DC0B4E300C4D5B8 /* NTESCustomAttachmentDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESCustomAttachmentDefines.h; sourceTree = "<group>"; };
+		B146562C2DC0B4E300C4D5B8 /* SymmetricCatalogerSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymmetricCatalogerSort.h; sourceTree = "<group>"; };
 		B146562D2DC0B4E300C4D5B8 /* YardDismissHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YardDismissHandler.h; sourceTree = "<group>"; };
 		B146562E2DC0B4E300C4D5B8 /* YardDismissHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YardDismissHandler.m; sourceTree = "<group>"; };
 		B14656312DC0B4E300C4D5B8 /* ParticularStir.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticularStir.h; sourceTree = "<group>"; };
@@ -1075,7 +1075,7 @@
 		B146568B2DC0B4E300C4D5B8 /* AgniseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgniseController.m; sourceTree = "<group>"; };
 		B146568C2DC0B4E300C4D5B8 /* StatementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatementViewController.h; sourceTree = "<group>"; };
 		B146568D2DC0B4E300C4D5B8 /* StatementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatementViewController.m; sourceTree = "<group>"; };
-		B146568F2DC0B4E300C4D5B8 /* NTESOpenRedPackageSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESOpenRedPackageSheet.h; sourceTree = "<group>"; };
+		B146568F2DC0B4E300C4D5B8 /* DividerUponWorkbench.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DividerUponWorkbench.h; sourceTree = "<group>"; };
 		B14656932DC0B4E300C4D5B8 /* CloudAgencyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudAgencyView.h; sourceTree = "<group>"; };
 		B14656942DC0B4E300C4D5B8 /* CloudAgencyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudAgencyView.m; sourceTree = "<group>"; };
 		B14656962DC0B4E300C4D5B8 /* GeneralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralViewController.h; sourceTree = "<group>"; };
@@ -1145,7 +1145,7 @@
 		B14656F22DC0B4E300C4D5B8 /* LifeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeView.m; sourceTree = "<group>"; };
 		B14656F32DC0B4E300C4D5B8 /* FactorySucceedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactorySucceedView.h; sourceTree = "<group>"; };
 		B14656F42DC0B4E300C4D5B8 /* FactorySucceedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactorySucceedView.m; sourceTree = "<group>"; };
-		B14656F82DC0B4E300C4D5B8 /* NTESSubscribeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESSubscribeDefine.h; sourceTree = "<group>"; };
+		B14656F82DC0B4E300C4D5B8 /* TextureFrugalInterpreter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureFrugalInterpreter.h; sourceTree = "<group>"; };
 		B14656F92DC0B4E300C4D5B8 /* SwitchenseAnnouncement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchenseAnnouncement.h; sourceTree = "<group>"; };
 		B14656FA2DC0B4E300C4D5B8 /* SwitchenseAnnouncement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchenseAnnouncement.m; sourceTree = "<group>"; };
 		B14656FD2DC0B4E300C4D5B8 /* ProposedConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProposedConverter.h; sourceTree = "<group>"; };
@@ -2458,7 +2458,7 @@
 			children = (
 				B14655BF2DC0B4E300C4D5B8 /* LaterViewCell.h */,
 				B14655C02DC0B4E300C4D5B8 /* LaterViewCell.m */,
-				B14655C12DC0B4E300C4D5B8 /* NTESContactDefines.h */,
+				B14655C12DC0B4E300C4D5B8 /* BindForwardGreat.h */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2661,7 +2661,7 @@
 			children = (
 				B146562A2DC0B4E300C4D5B8 /* UpgradeDocument.h */,
 				B146562B2DC0B4E300C4D5B8 /* UpgradeDocument.m */,
-				B146562C2DC0B4E300C4D5B8 /* NTESCustomAttachmentDefines.h */,
+				B146562C2DC0B4E300C4D5B8 /* SymmetricCatalogerSort.h */,
 				B146562D2DC0B4E300C4D5B8 /* YardDismissHandler.h */,
 				B146562E2DC0B4E300C4D5B8 /* YardDismissHandler.m */,
 				B14656312DC0B4E300C4D5B8 /* ParticularStir.h */,
@@ -2787,7 +2787,7 @@
 		B14656952DC0B4E300C4D5B8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B146568F2DC0B4E300C4D5B8 /* NTESOpenRedPackageSheet.h */,
+				B146568F2DC0B4E300C4D5B8 /* DividerUponWorkbench.h */,
 				B14656932DC0B4E300C4D5B8 /* CloudAgencyView.h */,
 				B14656942DC0B4E300C4D5B8 /* CloudAgencyView.m */,
 			);
@@ -2950,7 +2950,7 @@
 		B14656FB2DC0B4E300C4D5B8 /* Subscribe */ = {
 			isa = PBXGroup;
 			children = (
-				B14656F82DC0B4E300C4D5B8 /* NTESSubscribeDefine.h */,
+				B14656F82DC0B4E300C4D5B8 /* TextureFrugalInterpreter.h */,
 				B14656F92DC0B4E300C4D5B8 /* SwitchenseAnnouncement.h */,
 				B14656FA2DC0B4E300C4D5B8 /* SwitchenseAnnouncement.m */,
 			);

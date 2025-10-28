@@ -83,8 +83,8 @@ Byte kEverSkinDevice[] = {52, 11, 28, 6, 150, 221, 143, 129, 143, 143, 133, 139,
 // __M_A_C_R_O__
 //: #import "NTESCustomAttachmentDecoder.h"
 #import "UpgradeDocument.h"
-//: #import "NTESCustomAttachmentDefines.h"
-#import "NTESCustomAttachmentDefines.h"
+//: #import "SymmetricCatalogerSort.h"
+#import "SymmetricCatalogerSort.h"
 //: #import "NTESJanKenPonAttachment.h"
 #import "StirAttachment.h"
 //: #import "NTESSnapchatAttachment.h"

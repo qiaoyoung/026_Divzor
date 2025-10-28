@@ -1585,8 +1585,8 @@
 #import "UIView+PlaceLimitation.h"
 //: #import "NTESWhiteboardAttachment.h"
 #import "FormationPerson.h"
-//: #import "NTESOpenRedPackageSheet.h"
-#import "NTESOpenRedPackageSheet.h"
+//: #import "DividerUponWorkbench.h"
+#import "DividerUponWorkbench.h"
 //: #import "ZOMNForwardViewController.h"
 #import "BoardViewController.h"
 //: #import "ZMONGalleryImgViewController.h"
@@ -1646,7 +1646,7 @@ UISearchBarDelegate,
 OutsideDelegate,
 //: NIMLoginManagerDelegate,
 NIMLoginManagerDelegate,
-//: NTESOpenRedPackageSheetDelegate,
+//: DividerUponWorkbenchDelegate,
 PreviousDelegate,
 //: NIMTeamManagerDelegate,
 NIMTeamManagerDelegate,
