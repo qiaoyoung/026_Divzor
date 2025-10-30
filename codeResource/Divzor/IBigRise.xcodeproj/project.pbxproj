@@ -1828,39 +1828,17 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B14654902DC0B4E300C4D5B8 /* MemberCard */ = {
+		B14654A02DC0B4E300C4D5B8 /* VC */ = {
 			isa = PBXGroup;
 			children = (
 				B146548C2DC0B4E300C4D5B8 /* SpecificViewController.h */,
 				B146548D2DC0B4E300C4D5B8 /* SpecificViewController.m */,
 				B146548E2DC0B4E300C4D5B8 /* PortViewController.h */,
 				B146548F2DC0B4E300C4D5B8 /* PortViewController.m */,
-			);
-			path = MemberCard;
-			sourceTree = "<group>";
-		};
-		B14654952DC0B4E300C4D5B8 /* BaseCard */ = {
-			isa = PBXGroup;
-			children = (
 				B14654912DC0B4E300C4D5B8 /* FrequencyViewController.h */,
 				B14654922DC0B4E300C4D5B8 /* FrequencyViewController.m */,
 				B14654932DC0B4E300C4D5B8 /* AfterViewController.h */,
 				B14654942DC0B4E300C4D5B8 /* AfterViewController.m */,
-			);
-			path = BaseCard;
-			sourceTree = "<group>";
-		};
-		B14654962DC0B4E300C4D5B8 /* TeamCard */ = {
-			isa = PBXGroup;
-			children = (
-				B14654952DC0B4E300C4D5B8 /* BaseCard */,
-			);
-			path = TeamCard;
-			sourceTree = "<group>";
-		};
-		B146549F2DC0B4E300C4D5B8 /* ToolCard */ = {
-			isa = PBXGroup;
-			children = (
 				B14654972DC0B4E300C4D5B8 /* AdjustmentViewController.h */,
 				B14654982DC0B4E300C4D5B8 /* AdjustmentViewController.m */,
 				B14654992DC0B4E300C4D5B8 /* OddViewController.h */,
@@ -1869,16 +1847,6 @@
 				B146549C2DC0B4E300C4D5B8 /* WiseViewController.m */,
 				B146549D2DC0B4E300C4D5B8 /* WithGeneralViewController.h */,
 				B146549E2DC0B4E300C4D5B8 /* WithGeneralViewController.m */,
-			);
-			path = ToolCard;
-			sourceTree = "<group>";
-		};
-		B14654A02DC0B4E300C4D5B8 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				B14654902DC0B4E300C4D5B8 /* MemberCard */,
-				B14654962DC0B4E300C4D5B8 /* TeamCard */,
-				B146549F2DC0B4E300C4D5B8 /* ToolCard */,
 			);
 			path = VC;
 			sourceTree = "<group>";
