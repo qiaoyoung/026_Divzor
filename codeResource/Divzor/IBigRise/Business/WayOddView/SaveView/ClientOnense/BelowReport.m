@@ -55,7 +55,7 @@ Byte featureInstructionValue[] = {26, 53, 8, 180, 21, 59, 136, 57, 63, 32, 61, 3
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  BelowDb.m
+//  BelowReport.m
 //  NIM
 //
 //  Created by chris on 15/5/26.
@@ -64,7 +64,7 @@ Byte featureInstructionValue[] = {26, 53, 8, 180, 21, 59, 136, 57, 63, 32, 61, 3
 
 // __M_A_C_R_O__
 //: #import "NTESCustomNotificationDB.h"
-#import "BelowDb.h"
+#import "BelowReport.h"
 //: #import <FMDB/FMDB.h>
 #import <FMDB/FMDB.h>
 //: #import "NTESFileLocationHelper.h"
@@ -84,7 +84,7 @@ typedef NS_ENUM(NSInteger, CustomNotificationStatus){
 };
 
 //: @interface NTESCustomNotificationDB ()
-@interface BelowDb ()
+@interface BelowReport ()
 //: @property (nonatomic,strong) FMDatabase *db;
 @property (nonatomic,strong) FMDatabase *invariable;
 //: @end
@@ -92,7 +92,7 @@ typedef NS_ENUM(NSInteger, CustomNotificationStatus){
 
 
 //: @implementation NTESCustomNotificationDB
-@implementation BelowDb
+@implementation BelowReport
 
 //: - (instancetype)init
 - (instancetype)init
@@ -270,7 +270,7 @@ typedef NS_ENUM(NSInteger, CustomNotificationStatus){
 
 
 //: + (instancetype)sharedInstance { static NTESCustomNotificationDB *sharedNTESCustomNotificationDB = nil; static dispatch_once_t pred; _dispatch_once(&pred, ^{ sharedNTESCustomNotificationDB = [[NTESCustomNotificationDB alloc] init]; }); return sharedNTESCustomNotificationDB; };
-+ (instancetype)instance { static BelowDb *sharedNTESCustomNotificationDB = nil; static dispatch_once_t pred; _dispatch_once(&pred, ^{ sharedNTESCustomNotificationDB = [[BelowDb alloc] init]; }); return sharedNTESCustomNotificationDB; }
++ (instancetype)instance { static BelowReport *sharedNTESCustomNotificationDB = nil; static dispatch_once_t pred; _dispatch_once(&pred, ^{ sharedNTESCustomNotificationDB = [[BelowReport alloc] init]; }); return sharedNTESCustomNotificationDB; }
 
 //: - (void)deleteAllNotification{
 - (void)mainNotification{

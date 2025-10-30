@@ -11,7 +11,7 @@
 // __M_A_C_R_O__
 
 //: @class NTESCustomNotificationDB;
-@class BelowDb;
+@class BelowReport;
 
 //: @interface NTESNotificationCenter : NSObject
 @interface NotificationProceed : NSObject

@@ -687,7 +687,7 @@
 //: #import "ZMONPrivacyPolicyView.h"
 #import "WayOddView.h"
 //: #import "AppDelegateManager.h"
-#import "Mass.h"
+#import "AppDelegateManager.h"
 //: #import "FFDropDownMenuView.h"
 #import "SinkPlaceForefrontView.h"
 
@@ -1808,7 +1808,7 @@
 - (void)onLogin:(NIMLoginStep)step {
 
     //: [AppDelegateManager sharedInstance].loginStep = step;
-    [Mass washOut].underlying = step;
+    [AppDelegateManager washOut].underlying = step;
 	[self setHairTriggerOutside:_outside];
 
     //: [super onLogin:step];

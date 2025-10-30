@@ -9,7 +9,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 //: @interface AppDelegateManager : NSObject
-@interface Mass : NSObject
+@interface AppDelegateManager : NSObject
 
 //: @property (strong, nonatomic) NSData *deviceToken;
 @property (strong, nonatomic) NSData *content;

@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  PanErr.h
+//  ReportUrlManager.h
 // Warning
 //
 //  Created by Netease on 2019/7/15.
@@ -19,7 +19,7 @@ typedef void(^NIMKitUrlCompletion)(NSString * _Nullable originalUrl, NSError * _
 NS_ASSUME_NONNULL_BEGIN
 
 //: @interface ZZZKitUrlManager : NSObject
-@interface PanErr : NSObject
+@interface ReportUrlManager : NSObject
 
 //: + (instancetype)shareManager;
 + (instancetype)resign;

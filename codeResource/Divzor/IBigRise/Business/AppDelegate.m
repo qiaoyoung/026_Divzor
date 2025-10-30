@@ -5,7 +5,7 @@
 //: #import "AppDelegate.h"
 #import "AppDelegate.h"
 //: #import "AppDelegateManager.h"
-#import "Mass.h"
+#import "AppDelegateManager.h"
 
  //
 //  AppDelegate.m
@@ -24,13 +24,13 @@
 //: - (void)applicationDidEnterBackground:(UIApplication *)application {
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     //: [[AppDelegateManager sharedInstance] applicationDidEnterBackground:application];
-    [[Mass washOut] placementConstant:application];
+    [[AppDelegateManager washOut] placementConstant:application];
 }
 
 //: - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     //: [[AppDelegateManager sharedInstance] application:app didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
-    [[Mass washOut] gravity:app inputThe:deviceToken];
+    [[AppDelegateManager washOut] gravity:app inputThe:deviceToken];
 }
 
 //: - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -38,7 +38,7 @@
 
 //    [GeneratedPluginRegistrant registerWithRegistry:self];
     //: [[AppDelegateManager sharedInstance] initDelegateWithWindow:self.window];
-    [[Mass washOut] initMore:self.window];
+    [[AppDelegateManager washOut] initMore:self.window];
     //: return YES;
     return YES;
 }
@@ -56,7 +56,7 @@
 //: - (void)applicationDidBecomeActive:(UIApplication *)application {
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     //: [[AppDelegateManager sharedInstance] applicationDidBecomeActive:application];
-    [[Mass washOut] facultyActive:application];
+    [[AppDelegateManager washOut] facultyActive:application];
 }
 
 //: - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options {

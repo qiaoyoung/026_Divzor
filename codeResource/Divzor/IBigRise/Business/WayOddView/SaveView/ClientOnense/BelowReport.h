@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  BelowDb.h
+//  BelowReport.h
 //  NIM
 //
 //  Created by chris on 15/5/26.
@@ -16,7 +16,7 @@
 //: @class NTESCustomNotificationObject;
 @class FleshlyPhysicalObject;
 //: @interface NTESCustomNotificationDB : NSObject
-@interface BelowDb : NSObject
+@interface BelowReport : NSObject
 
 //: - (void)markAllNotificationsAsRead;
 - (void)flash;

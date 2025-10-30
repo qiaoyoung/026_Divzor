@@ -32,7 +32,7 @@
 		B14657A52DC0B4E300C4D5B8 /* OutsideEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B146538E2DC0B4E300C4D5B8 /* OutsideEffectView.m */; };
 		B14657A62DC0B4E300C4D5B8 /* AdvancedPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653902DC0B4E300C4D5B8 /* AdvancedPrevious.m */; };
 		B14657A72DC0B4E300C4D5B8 /* SubmitViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653922DC0B4E300C4D5B8 /* SubmitViewCell.m */; };
-		B14657A82DC0B4E300C4D5B8 /* PanErr.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653942DC0B4E300C4D5B8 /* PanErr.m */; };
+		B14657A82DC0B4E300C4D5B8 /* ReportUrlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653942DC0B4E300C4D5B8 /* ReportUrlManager.m */; };
 		B14657A92DC0B4E300C4D5B8 /* SureFireView.m in Sources */ = {isa = PBXBuildFile; fileRef = B146539F2DC0B4E300C4D5B8 /* SureFireView.m */; };
 		B14657AA2DC0B4E300C4D5B8 /* EmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653A12DC0B4E300C4D5B8 /* EmptyView.m */; };
 		B14657AB2DC0B4E300C4D5B8 /* PersonInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653A32DC0B4E300C4D5B8 /* PersonInfo.m */; };
@@ -262,7 +262,7 @@
 		B14658A52DC0B4E300C4D5B8 /* SecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14655FA2DC0B4E300C4D5B8 /* SecurityViewController.m */; };
 		B14658A62DC0B4E300C4D5B8 /* UponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14655FC2DC0B4E300C4D5B8 /* UponViewController.m */; };
 		B14658A72DC0B4E300C4D5B8 /* ListYardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14655FE2DC0B4E300C4D5B8 /* ListYardViewController.m */; };
-		B14658A82DC0B4E300C4D5B8 /* BelowDb.m in Sources */ = {isa = PBXBuildFile; fileRef = B14656022DC0B4E300C4D5B8 /* BelowDb.m */; };
+		B14658A82DC0B4E300C4D5B8 /* BelowReport.m in Sources */ = {isa = PBXBuildFile; fileRef = B14656022DC0B4E300C4D5B8 /* BelowReport.m */; };
 		B14658A92DC0B4E300C4D5B8 /* FleshlyPhysicalObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B14656052DC0B4E300C4D5B8 /* FleshlyPhysicalObject.m */; };
 		B14658AA2DC0B4E300C4D5B8 /* QuestView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14656082DC0B4E300C4D5B8 /* QuestView.m */; };
 		B14658AB2DC0B4E300C4D5B8 /* ForefrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B146560A2DC0B4E300C4D5B8 /* ForefrontViewController.m */; };
@@ -378,7 +378,7 @@
 		B1503E162E9E374700B4611A /* IQUITextFieldView+Upon.m in Sources */ = {isa = PBXBuildFile; fileRef = B1503E042E9E374700B4611A /* IQUITextFieldView+Upon.m */; };
 		B1503E172E9E374700B4611A /* PlacePrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = B1503DF22E9E374700B4611A /* PlacePrevious.m */; };
 		B1503E182E9E374700B4611A /* GeneralToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B1503E002E9E374700B4611A /* GeneralToolbar.m */; };
-		B1F4ED862E7190BC00195A20 /* Mass.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F4ED852E7190BC00195A20 /* Mass.m */; };
+		B1F4ED862E7190BC00195A20 /* AppDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F4ED852E7190BC00195A20 /* AppDelegateManager.m */; };
 		B1F4ED8B2E719FF100195A20 /* PercentageWith.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F4ED8A2E719FF100195A20 /* PercentageWith.m */; };
 		B1F4ED8C2E719FF100195A20 /* BombardmentMinimumManageress.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F4ED882E719FF100195A20 /* BombardmentMinimumManageress.m */; };
 		B1F4EDAF2E71A10D00195A20 /* MeanPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F4ED982E71A10D00195A20 /* MeanPerson.m */; };
@@ -510,8 +510,8 @@
 		B14653902DC0B4E300C4D5B8 /* AdvancedPrevious.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvancedPrevious.m; sourceTree = "<group>"; };
 		B14653912DC0B4E300C4D5B8 /* SubmitViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubmitViewCell.h; sourceTree = "<group>"; };
 		B14653922DC0B4E300C4D5B8 /* SubmitViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubmitViewCell.m; sourceTree = "<group>"; };
-		B14653932DC0B4E300C4D5B8 /* PanErr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanErr.h; sourceTree = "<group>"; };
-		B14653942DC0B4E300C4D5B8 /* PanErr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanErr.m; sourceTree = "<group>"; };
+		B14653932DC0B4E300C4D5B8 /* ReportUrlManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportUrlManager.h; sourceTree = "<group>"; };
+		B14653942DC0B4E300C4D5B8 /* ReportUrlManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportUrlManager.m; sourceTree = "<group>"; };
 		B14653962DC0B4E300C4D5B8 /* FormatterFlashCancel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormatterFlashCancel.h; sourceTree = "<group>"; };
 		B14653972DC0B4E300C4D5B8 /* CarefreeFactoryGenerate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarefreeFactoryGenerate.h; sourceTree = "<group>"; };
 		B14653982DC0B4E300C4D5B8 /* ResolverParseIntimate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResolverParseIntimate.h; sourceTree = "<group>"; };
@@ -989,8 +989,8 @@
 		B14655FC2DC0B4E300C4D5B8 /* UponViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UponViewController.m; sourceTree = "<group>"; };
 		B14655FD2DC0B4E300C4D5B8 /* ListYardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListYardViewController.h; sourceTree = "<group>"; };
 		B14655FE2DC0B4E300C4D5B8 /* ListYardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListYardViewController.m; sourceTree = "<group>"; };
-		B14656012DC0B4E300C4D5B8 /* BelowDb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BelowDb.h; sourceTree = "<group>"; };
-		B14656022DC0B4E300C4D5B8 /* BelowDb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BelowDb.m; sourceTree = "<group>"; };
+		B14656012DC0B4E300C4D5B8 /* BelowReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BelowReport.h; sourceTree = "<group>"; };
+		B14656022DC0B4E300C4D5B8 /* BelowReport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BelowReport.m; sourceTree = "<group>"; };
 		B14656042DC0B4E300C4D5B8 /* FleshlyPhysicalObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FleshlyPhysicalObject.h; sourceTree = "<group>"; };
 		B14656052DC0B4E300C4D5B8 /* FleshlyPhysicalObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FleshlyPhysicalObject.m; sourceTree = "<group>"; };
 		B14656072DC0B4E300C4D5B8 /* QuestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestView.h; sourceTree = "<group>"; };
@@ -1230,8 +1230,8 @@
 		B1503E082E9E374700B4611A /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
 		B1503E092E9E374700B4611A /* IQUIViewController+Upon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Upon.h"; sourceTree = "<group>"; };
 		B1503E0A2E9E374700B4611A /* IQUIViewController+Upon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Upon.m"; sourceTree = "<group>"; };
-		B1F4ED842E7190BC00195A20 /* Mass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mass.h; sourceTree = "<group>"; };
-		B1F4ED852E7190BC00195A20 /* Mass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mass.m; sourceTree = "<group>"; };
+		B1F4ED842E7190BC00195A20 /* AppDelegateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateManager.h; sourceTree = "<group>"; };
+		B1F4ED852E7190BC00195A20 /* AppDelegateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegateManager.m; sourceTree = "<group>"; };
 		B1F4ED872E719FF100195A20 /* BombardmentMinimumManageress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BombardmentMinimumManageress.h; sourceTree = "<group>"; };
 		B1F4ED882E719FF100195A20 /* BombardmentMinimumManageress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BombardmentMinimumManageress.m; sourceTree = "<group>"; };
 		B1F4ED892E719FF100195A20 /* PercentageWith.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PercentageWith.h; sourceTree = "<group>"; };
@@ -1417,8 +1417,8 @@
 				B14653902DC0B4E300C4D5B8 /* AdvancedPrevious.m */,
 				B14653912DC0B4E300C4D5B8 /* SubmitViewCell.h */,
 				B14653922DC0B4E300C4D5B8 /* SubmitViewCell.m */,
-				B14653932DC0B4E300C4D5B8 /* PanErr.h */,
-				B14653942DC0B4E300C4D5B8 /* PanErr.m */,
+				B14653932DC0B4E300C4D5B8 /* ReportUrlManager.h */,
+				B14653942DC0B4E300C4D5B8 /* ReportUrlManager.m */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -2348,8 +2348,8 @@
 				B146563A2DC0B4E300C4D5B8 /* Object */,
 				B146564F2DC0B4E300C4D5B8 /* FactoryView */,
 				B146569C2DC0B4E300C4D5B8 /* ViewController */,
-				B14656012DC0B4E300C4D5B8 /* BelowDb.h */,
-				B14656022DC0B4E300C4D5B8 /* BelowDb.m */,
+				B14656012DC0B4E300C4D5B8 /* BelowReport.h */,
+				B14656022DC0B4E300C4D5B8 /* BelowReport.m */,
 				B14656042DC0B4E300C4D5B8 /* FleshlyPhysicalObject.h */,
 				B14656052DC0B4E300C4D5B8 /* FleshlyPhysicalObject.m */,
 				B14656072DC0B4E300C4D5B8 /* QuestView.h */,
@@ -2565,8 +2565,8 @@
 				B146572E2DC0B4E300C4D5B8 /* Divzor.pch */,
 				B146572F2DC0B4E300C4D5B8 /* AppDelegate.h */,
 				B14657302DC0B4E300C4D5B8 /* AppDelegate.m */,
-				B1F4ED842E7190BC00195A20 /* Mass.h */,
-				B1F4ED852E7190BC00195A20 /* Mass.m */,
+				B1F4ED842E7190BC00195A20 /* AppDelegateManager.h */,
+				B1F4ED852E7190BC00195A20 /* AppDelegateManager.m */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -2865,7 +2865,7 @@
 				B14657A52DC0B4E300C4D5B8 /* OutsideEffectView.m in Sources */,
 				B14657A62DC0B4E300C4D5B8 /* AdvancedPrevious.m in Sources */,
 				B14657A72DC0B4E300C4D5B8 /* SubmitViewCell.m in Sources */,
-				B14657A82DC0B4E300C4D5B8 /* PanErr.m in Sources */,
+				B14657A82DC0B4E300C4D5B8 /* ReportUrlManager.m in Sources */,
 				B14657A92DC0B4E300C4D5B8 /* SureFireView.m in Sources */,
 				B14657AA2DC0B4E300C4D5B8 /* EmptyView.m in Sources */,
 				B14657AB2DC0B4E300C4D5B8 /* PersonInfo.m in Sources */,
@@ -3042,7 +3042,7 @@
 				B14658562DC0B4E300C4D5B8 /* DisturbingViewController.m in Sources */,
 				B1F4EDE92E71A2A400195A20 /* UIView+Cloud.m in Sources */,
 				B14658572DC0B4E300C4D5B8 /* JumpViewController.m in Sources */,
-				B1F4ED862E7190BC00195A20 /* Mass.m in Sources */,
+				B1F4ED862E7190BC00195A20 /* AppDelegateManager.m in Sources */,
 				B14658592DC0B4E300C4D5B8 /* Extra.m in Sources */,
 				B146585B2DC0B4E300C4D5B8 /* WorldView.m in Sources */,
 				B146585E2DC0B4E300C4D5B8 /* PassEnableView.m in Sources */,
@@ -3114,7 +3114,7 @@
 				B1465F032DC0C09100C4D5B8 /* SpeakeasyView.m in Sources */,
 				B1465F042DC0C09100C4D5B8 /* NationalClimaticDataCenterViewController.m in Sources */,
 				B14658A72DC0B4E300C4D5B8 /* ListYardViewController.m in Sources */,
-				B14658A82DC0B4E300C4D5B8 /* BelowDb.m in Sources */,
+				B14658A82DC0B4E300C4D5B8 /* BelowReport.m in Sources */,
 				B14658A92DC0B4E300C4D5B8 /* FleshlyPhysicalObject.m in Sources */,
 				B14658AA2DC0B4E300C4D5B8 /* QuestView.m in Sources */,
 				B14658AB2DC0B4E300C4D5B8 /* ForefrontViewController.m in Sources */,

@@ -204,7 +204,7 @@ typedef struct {
 //: #import "NTESLanguageManager.h"
 #import "BombardmentMinimumManageress.h"
 //: #import "AppDelegateManager.h"
-#import "Mass.h"
+#import "AppDelegateManager.h"
 
 //: @implementation NIMUserDefaults (Util)
 
@@ -378,9 +378,9 @@ static const char *viewOpinionModError (NSString *value) {
     [[NSNotificationCenter defaultCenter] postNotificationName:[BuildData featureRefugeContent] object:nil];
 
     //: if ([AppDelegateManager sharedInstance].deviceToken) {
-    if ([Mass washOut].content) {
+    if ([AppDelegateManager washOut].content) {
         //: [[NIMSDK sharedSDK] updateApnsToken:[AppDelegateManager sharedInstance].deviceToken
-        [[NIMSDK sharedSDK] updateApnsToken:[Mass washOut].content
+        [[NIMSDK sharedSDK] updateApnsToken:[AppDelegateManager washOut].content
                            //: customContentKey:lang];
                            customContentKey:lang];
 

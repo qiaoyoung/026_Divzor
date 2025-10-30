@@ -773,7 +773,7 @@ typedef struct {
 
 // __M_A_C_R_O__
 //: #import "AppDelegateManager.h"
-#import "Mass.h"
+#import "AppDelegateManager.h"
 //: #import "ZZZLoginViewController.h"
 #import "UponViewController.h"
 //: #import "UIView+Toast.h"
@@ -832,7 +832,7 @@ typedef struct {
 #import "Reachability.h"
 
 //: @interface AppDelegateManager ()<NIMLoginManagerDelegate>
-@interface Mass ()<NIMLoginManagerDelegate>
+@interface AppDelegateManager ()<NIMLoginManagerDelegate>
 
 //: @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) UIWindow *anti;
@@ -847,7 +847,7 @@ typedef struct {
 @end
 
 //: @implementation AppDelegateManager
-@implementation Mass
+@implementation AppDelegateManager
 
 //: - (void)userPreferencesConfig {
 - (void)imaginaryBeing {
@@ -1257,7 +1257,7 @@ typedef struct {
     });
 
     //: [AppDelegateManager sharedInstance].deviceToken = deviceToken;
-    [Mass washOut].content = deviceToken;
+    [AppDelegateManager washOut].content = deviceToken;
 	[self setAnti:_propertyWindowwed];
 
 //    NSString *lang = [[NSUserDefaults standardUserDefaults] objectForKey:@"NSUserDefaultLanguage"];
@@ -1882,7 +1882,7 @@ typedef struct {
 //: + (instancetype)sharedInstance {
 + (instancetype)washOut {
     //: static AppDelegateManager *sharedInstance = nil;
-    static Mass *sharedInstance = nil;
+    static AppDelegateManager *sharedInstance = nil;
     //: static dispatch_once_t onceToken;
     static dispatch_once_t onceToken;
     //: _dispatch_once(&onceToken, ^{

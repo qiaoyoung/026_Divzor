@@ -139,7 +139,7 @@ Byte commonGlobalEvent[] = {21, 7, 96, 6, 87, 72, 195, 217, 217, 217, 217, 217, 
 //: #import "NSString+Warning.h"
 #import "NSString+Warning.h"
 //: #import "AppDelegateManager.h"
-#import "Mass.h"
+#import "AppDelegateManager.h"
 //: #import "ZZZAutoLoginManager.h"
 #import "RailUser.h"
 //: #import "SNDevice.h"

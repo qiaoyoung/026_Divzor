@@ -88,7 +88,7 @@ Byte viewTickMemoryMessage[] = {97, 19, 55, 13, 92, 201, 50, 187, 92, 73, 15, 88
 //: #import "UIImage+NTESColor.h"
 #import "UIImage+PersonBroadcast.h"
 //: #import "NTESCustomNotificationDB.h"
-#import "BelowDb.h"
+#import "BelowReport.h"
 //: #import "NTESNotificationCenter.h"
 #import "NotificationProceed.h"
 //: #import "NTESNavigationHandler.h"
@@ -475,7 +475,7 @@ typedef NS_ENUM(NSInteger, EnumUserMainTabType) {
 - (void)limbed:(NSNotification *)notification
 {
     //: NTESCustomNotificationDB *db = [NTESCustomNotificationDB sharedInstance];
-    BelowDb *db = [BelowDb instance];
+    BelowReport *db = [BelowReport instance];
     //: self.customSystemUnreadCount = db.unreadCount;
     self.wait = db.conformTo;
 	[self setDrama:_formatBehaviorQuantity];
@@ -491,7 +491,7 @@ typedef NS_ENUM(NSInteger, EnumUserMainTabType) {
 	[self setDrama:_formatBehaviorQuantity];
 //    self.systemUnreadCount   = [NIMSDK sharedSDK].systemNotificationManager.allUnreadCount;
     //: self.customSystemUnreadCount = [[NTESCustomNotificationDB sharedInstance] unreadCount];
-    self.wait = [[BelowDb instance] conformTo];
+    self.wait = [[BelowReport instance] conformTo];
     //: NSMutableArray *items = [[NSMutableArray alloc] init];
     NSMutableArray *items = [[NSMutableArray alloc] init];
 

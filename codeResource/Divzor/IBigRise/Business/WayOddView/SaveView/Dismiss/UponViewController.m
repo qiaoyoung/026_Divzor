@@ -617,7 +617,7 @@
 //: #import "NSString+Warning.h"
 #import "NSString+Warning.h"
 //: #import "AppDelegateManager.h"
-#import "Mass.h"
+#import "AppDelegateManager.h"
 //: #import "ZZZAutoLoginManager.h"
 #import "RailUser.h"
 //: #import "SNDevice.h"
@@ -799,9 +799,9 @@
                 //: [[NSNotificationCenter defaultCenter] postNotificationName:@"NTESNotificationLogout" object:nil];
                 [[NSNotificationCenter defaultCenter] postNotificationName:[[TextData sharedInstance] featureCrashImplementDevice] object:nil];
                 //: if ([AppDelegateManager sharedInstance].deviceToken) {
-                if ([Mass washOut].content) {
+                if ([AppDelegateManager washOut].content) {
                     //: [[NIMSDK sharedSDK] updateApnsToken:[AppDelegateManager sharedInstance].deviceToken
-                    [[NIMSDK sharedSDK] updateApnsToken:[Mass washOut].content
+                    [[NIMSDK sharedSDK] updateApnsToken:[AppDelegateManager washOut].content
                                        //: customContentKey:lang];
                                        customContentKey:lang];
 

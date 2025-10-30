@@ -75,7 +75,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  PanErr.m
+//  ReportUrlManager.m
 // Warning
 //
 //  Created by Netease on 2019/7/15.
@@ -84,7 +84,7 @@
 
 // __M_A_C_R_O__
 //: #import "ZZZKitUrlManager.h"
-#import "PanErr.h"
+#import "ReportUrlManager.h"
 //: #import "ZZZKitTimerHolder.h"
 #import "HolderJump.h"
 //: #import <UIKit/UIKit.h>
@@ -93,7 +93,7 @@
 #import <NIMSDK/NIMSDK.h>
 
 //: @interface ZZZKitUrlManager ()<ZZZKitTimerHolderDelegate>
-@interface PanErr ()<GrossDelegate>
+@interface ReportUrlManager ()<GrossDelegate>
 
 //: @property (nonatomic, assign) BOOL needSync;
 @property (nonatomic, assign) BOOL tweak;
@@ -109,7 +109,7 @@
 @end
 
 //: @implementation ZZZKitUrlManager
-@implementation PanErr
+@implementation ReportUrlManager
 
 //: - (void)onEnterBackground:(NSNotification *)note {
 - (void)onlies:(NSNotification *)note {
@@ -137,7 +137,7 @@
     //: _dispatch_once(&onceToken, ^{
     _dispatch_once(&onceToken, ^{
         //: instance = [[ZZZKitUrlManager alloc] init];
-        instance = [[PanErr alloc] init];
+        instance = [[ReportUrlManager alloc] init];
     //: });
     });
     //: return instance;

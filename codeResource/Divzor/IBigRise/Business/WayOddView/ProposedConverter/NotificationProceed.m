@@ -49,7 +49,7 @@ DistinguishData spacingChefEvent = (DistinguishData){155, (Byte []){246, 254, 23
 //: #import "NSDictionary+NTESJson.h"
 #import "NSDictionary+SeparateOut.h"
 //: #import "NTESCustomNotificationDB.h"
-#import "BelowDb.h"
+#import "BelowReport.h"
 //: #import "NTESCustomNotificationObject.h"
 #import "FleshlyPhysicalObject.h"
 //: #import "UIView+Toast.h"
@@ -423,7 +423,7 @@ DistinguishData spacingChefEvent = (DistinguishData){155, (Byte []){246, 254, 23
                     //: if (!notification.sendToOnlineUsersOnly) {
                     if (!notification.sendToOnlineUsersOnly) {
                         //: [[NTESCustomNotificationDB sharedInstance] saveNotification:object];
-                        [[BelowDb instance] spare:object];
+                        [[BelowReport instance] spare:object];
                     }
                     //: if (notification.setting.shouldBeCounted) {
                     if (notification.setting.shouldBeCounted) {

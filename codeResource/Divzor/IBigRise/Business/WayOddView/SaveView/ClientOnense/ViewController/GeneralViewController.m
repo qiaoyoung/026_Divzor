@@ -1616,7 +1616,7 @@
 //: #import "ZMONReportHisView.h"
 #import "WayView.h"
 //: #import "AppdelegateManager.h"
-#import "Mass.h"
+#import "AppDelegateManager.h"
 
 //: @import MobileCoreServices;
 @import MobileCoreServices;
@@ -4109,7 +4109,7 @@ RecognizeDelegate>
     [self.view addSubview:self.sumroduce];
 
     //: NSInteger step = [AppDelegateManager sharedInstance].loginStep;
-    NSInteger step = [Mass washOut].underlying;
+    NSInteger step = [AppDelegateManager washOut].underlying;
     //: [self.header refreshWithType:ListHeaderTypeNetStauts value:@(step)];
     [self.sumroduce earlier:ListHeaderTypeNetStauts installation:@(step)];
 }

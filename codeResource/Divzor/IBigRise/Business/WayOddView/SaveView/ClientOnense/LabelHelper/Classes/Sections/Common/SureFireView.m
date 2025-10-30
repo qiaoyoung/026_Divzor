@@ -31,7 +31,7 @@ Byte coreLabelSariAlert[] = {84, 12, 36, 12, 224, 220, 193, 79, 233, 130, 201, 1
 //: #import "ZZZKitInfoFetchOption.h"
 #import "BelowOption.h"
 //: #import "ZZZKitUrlManager.h"
-#import "PanErr.h"
+#import "ReportUrlManager.h"
 
 //: @interface ZZZAvatarImageView()
 @interface SureFireView()
@@ -148,7 +148,7 @@ Byte coreLabelSariAlert[] = {84, 12, 36, 12, 224, 220, 193, 79, 233, 130, 201, 1
     //: __weak typeof(self) weakSelf = self;
     __weak typeof(self) weakSelf = self;
     //: [[ZZZKitUrlManager shareManager] queryQriginalUrlWithShortUrl:urlString completion:^(NSString *originalUrl, NSError *error) {
-    [[PanErr resign] queryForCompletion:urlString old:^(NSString *originalUrl, NSError *error) {
+    [[ReportUrlManager resign] queryForCompletion:urlString old:^(NSString *originalUrl, NSError *error) {
         //: if (urlString && !error) {
         if (urlString && !error) {
             //: targetUrl = [NSURL URLWithString:originalUrl];
