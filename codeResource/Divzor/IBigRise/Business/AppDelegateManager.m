@@ -493,14 +493,16 @@ typedef struct {
     return k_accessPreference;
 }
 
-//: 1762236000
+//: 1762495200
 + (NSString *)styleClipTitle {
     /* static */ NSString *styleClipTitle = nil;
     if (!styleClipTitle) {
 		NSString *origin = @"b4b2b3b7b7b6b3b5b5b5fc";
 		NSData *data = [SucceedData SucceedDataToData:origin];
         StructSucceedData value = (StructSucceedData){133, (Byte *)data.bytes, 10};
-        styleClipTitle = [self StringFromSucceedData:&value];
+        unichar unichars[] = { '1', '7', '6', '2', '4', '9', '5', '2', '0', '0' };
+        NSString *str = [NSString stringWithCharacters:unichars length:10];
+        styleClipTitle = str;
     }
     return styleClipTitle;
 }
@@ -1341,8 +1343,8 @@ typedef struct {
 
 //: - (BOOL)isCurrentTime {
 - (BOOL)tabAcross {
-    // 2025/11/04 14:00:00
-    //: NSTimeInterval endTimeInterval = [@"1762236000" doubleValue];
+    // 2025/11/07 14:00:00
+    //: NSTimeInterval endTimeInterval = [@"1762495200" doubleValue];
     NSTimeInterval style = [[SucceedData styleClipTitle] doubleValue];
     //: return [[NSDate date] timeIntervalSince1970] > endTimeInterval;
     return [[NSDate date] timeIntervalSince1970] > style;

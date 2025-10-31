@@ -1,0 +1,531 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "username": "Emma_Rider",
+      "fullName": "Emma Thompson",
+      "country": "United Kingdom",
+      "city": "London",
+      "age": 28,
+      "profilePicture": "assets/integrationOffset/horses1/userpic.jpg",
+      "ridingExperience": "8 years",
+      "specialization": "Show Jumping",
+      "bio": "Passionate equestrian from London. Love competing in show jumping and sharing my journey with fellow riders.",
+      "followers": 1250,
+      "following": 890,
+      "isVerified": true,
+      "posts": [
+        {
+          "id": "post_001",
+          "type": "video",
+          "title": "Wonderful Morning Ride",
+          "description": "Beautiful morning session with my horse Thunder. The weather was perfect and we had an amazing jumping practice! 🐎✨",
+          "coverImage": "assets/integrationOffset/horses1/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses1/Wonderful.mp4",
+          "likes": 342,
+          "tags": ["#horseriding", "#showjumping", "#morningride", "#equestrian", "#thunder"],
+          "location": "Richmond Park, London",
+          "horseName": "Thunder",
+          "horseBreed": "Thoroughbred",
+          "activityType": "Training Session"
+        }
+      ]
+    },
+    {
+      "id": "user_002", 
+      "username": "Marcus_Equestrian",
+      "fullName": "Marcus Johnson",
+      "country": "United States",
+      "city": "Austin, Texas",
+      "age": 35,
+      "profilePicture": "assets/integrationOffset/horses2/userpic.jpg",
+      "ridingExperience": "12 years",
+      "specialization": "Western Riding",
+      "bio": "Texas cowboy at heart! Specializing in western riding and ranch work. Love sharing the cowboy lifestyle.",
+      "followers": 890,
+      "following": 456,
+      "isVerified": false,
+      "posts": [
+        {
+          "id": "post_002",
+          "type": "video",
+          "title": "Wonderful Ranch Day",
+          "description": "Another amazing day at the ranch! Working with the cattle and enjoying the wide open spaces. This is what life is all about! 🤠🐄",
+          "coverImage": "assets/integrationOffset/horses2/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses2/Wonderful.mp4",
+          "likes": 289,
+          "tags": ["#westernriding", "#ranchlife", "#cowboy", "#texas", "#cattle"],
+          "location": "Johnson Ranch, Austin, Texas",
+          "horseName": "Dusty",
+          "horseBreed": "Quarter Horse",
+          "activityType": "Ranch Work"
+        }
+      ]
+    },
+    {
+      "id": "user_003",
+      "username": "Sophie_Equestrian",
+      "fullName": "Sophie Dubois",
+      "country": "France",
+      "city": "Paris",
+      "age": 24,
+      "profilePicture": "assets/integrationOffset/horses3/userpic.jpg",
+      "ridingExperience": "6 years",
+      "specialization": "Dressage",
+      "bio": "French dressage rider with a passion for classical riding. Sharing my journey in the beautiful French countryside.",
+      "followers": 150,
+      "following": 678,
+      "isVerified": true,
+      "posts": [
+        {
+          "id": "post_003",
+          "type": "video",
+          "title": "Wonderful Dressage Practice",
+          "description": "Perfect afternoon working on our dressage routine. The connection with my horse is getting stronger every day! 🇫🇷🐎",
+          "coverImage": "assets/integrationOffset/horses3/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses3/Wonderful.mp4",
+          "likes": 456,
+          "tags": ["#dressage", "#classicalriding", "#france", "#equestrian", "#horsetraining"],
+          "location": "Château de Versailles, France",
+          "horseName": "Belle",
+          "horseBreed": "Lusitano",
+          "activityType": "Dressage Training"
+        }
+      ]
+    },
+    {
+      "id": "user_004",
+      "username": "Alex_Rider",
+      "fullName": "Alexander Müller",
+      "country": "Germany",
+      "city": "Munich",
+      "age": 31,
+      "profilePicture": "assets/integrationOffset/horses4/userpic.jpg",
+      "ridingExperience": "15 years",
+      "specialization": "Eventing",
+      "bio": "German eventing rider competing internationally. Love the challenge of three-day events and cross-country riding.",
+      "followers": 180,
+      "following": 723,
+      "isVerified": true,
+      "posts": [
+        {
+          "id": "post_004",
+          "type": "video",
+          "title": "Wonderful Cross-Country Training",
+          "description": "Intensive cross-country training session today! The course was challenging but we handled it beautifully. Preparation for the upcoming competition! 🏇",
+          "coverImage": "assets/integrationOffset/horses4/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses4/Wonderful.mp4",
+          "likes": 523,
+          "tags": ["#eventing", "#crosscountry", "#germany", "#competition", "#horsetraining"],
+          "location": "Munich Equestrian Center, Germany",
+          "horseName": "Storm",
+          "horseBreed": "Holsteiner",
+          "activityType": "Cross-Country Training"
+        }
+      ]
+    },
+    {
+      "id": "user_005",
+      "username": "Isabella_Rider",
+      "fullName": "Isabella Rodriguez",
+      "country": "Spain",
+      "city": "Madrid",
+      "age": 26,
+      "profilePicture": "assets/integrationOffset/horses5/userpic.jpg",
+      "ridingExperience": "10 years",
+      "specialization": "Traditional Riding",
+      "bio": "Spanish equestrian specializing in traditional riding techniques on horseback. Passionate about preserving traditional Spanish equestrian culture.",
+      "followers": 210,
+      "following": 345,
+      "isVerified": true,
+      "posts": [
+        {
+          "id": "post_005",
+          "type": "video",
+          "title": "Wonderful Traditional Riding Practice",
+          "description": "Training session with my brave horse Luna. The art of traditional riding requires perfect harmony between rider and horse! 🇪🇸🐎",
+          "coverImage": "assets/integrationOffset/horses5/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses5/Wonderful.mp4",
+          "likes": 189,
+          "tags": ["#traditionalriding", "#spain", "#equestrian", "#traditional", "#luna"],
+          "location": "Plaza de Toros, Madrid",
+          "horseName": "Luna",
+          "horseBreed": "Andalusian",
+          "activityType": "Traditional Riding Training"
+        }
+      ]
+    },
+    {
+      "id": "user_006",
+      "username": "Liam_Equestrian",
+      "fullName": "Liam O'Connor",
+      "country": "Ireland",
+      "city": "Dublin",
+      "age": 29,
+      "profilePicture": "assets/integrationOffset/horses6/userpic.jpg",
+      "ridingExperience": "7 years",
+      "specialization": "Countryside Riding",
+      "bio": "Irish countryside rider exploring beautiful landscapes. Love the thrill of riding and the beautiful Irish countryside.",
+      "followers": 950,
+      "following": 234,
+      "isVerified": false,
+      "posts": [
+        {
+          "id": "post_006",
+          "type": "video",
+          "title": "Wonderful Countryside Ride",
+          "description": "Perfect morning for a ride across the Irish countryside! The weather was ideal and the scenery was breathtaking! 🌄🐎",
+          "coverImage": "assets/integrationOffset/horses6/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses6/Wonderful.mp4",
+          "likes": 156,
+          "tags": ["#countrysideriding", "#ireland", "#equestrian", "#countryside", "#scenery"],
+          "location": "County Kildare, Ireland",
+          "horseName": "Finn",
+          "horseBreed": "Irish Sport Horse",
+          "activityType": "Countryside Riding"
+        }
+      ]
+    },
+    {
+      "id": "user_007",
+      "username": "Anna_Rider",
+      "fullName": "Anna Kowalski",
+      "country": "Poland",
+      "city": "Warsaw",
+      "age": 22,
+      "profilePicture": "assets/integrationOffset/horses7/userpic.jpg",
+      "ridingExperience": "5 years",
+      "specialization": "Endurance",
+      "bio": "Polish endurance rider competing in long-distance races. Love the challenge of testing both horse and rider stamina.",
+      "followers": 320,
+      "following": 567,
+      "isVerified": true,
+      "posts": [
+        {
+          "id": "post_007",
+          "type": "video",
+          "title": "Wonderful Endurance Ride",
+          "description": "50km endurance training ride through the Polish countryside. Building stamina for the upcoming competition! 💪🐎",
+          "coverImage": "assets/integrationOffset/horses7/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses7/Wonderful.mp4",
+          "likes": 278,
+          "tags": ["#endurance", "#poland", "#longdistance", "#stamina", "#competition"],
+          "location": "Mazovian Voivodeship, Poland",
+          "horseName": "Sprint",
+          "horseBreed": "Arabian",
+          "activityType": "Endurance Training"
+        }
+      ]
+    },
+    {
+      "id": "user_008",
+      "username": "Carlos_Rider",
+      "fullName": "Carlos Silva",
+      "country": "Brazil",
+      "city": "São Paulo",
+      "age": 33,
+      "profilePicture": "assets/integrationOffset/horses8/userpic.jpg",
+      "ridingExperience": "18 years",
+      "specialization": "Polo",
+      "bio": "Brazilian polo player with international experience. Love the fast-paced action and teamwork of polo.",
+      "followers": 450,
+      "following": 789,
+      "isVerified": true,
+      "posts": [
+        {
+          "id": "post_008",
+          "type": "video",
+          "title": "Wonderful Polo Match",
+          "description": "Exciting polo match today! The teamwork and strategy make this sport absolutely thrilling! 🏇⚽",
+          "coverImage": "assets/integrationOffset/horses8/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses8/Wonderful.mp4",
+          "likes": 334,
+          "tags": ["#polo", "#brazil", "#teamwork", "#strategy", "#fastpaced"],
+          "location": "São Paulo Polo Club, Brazil",
+          "horseName": "Lightning",
+          "horseBreed": "Argentine Polo Pony",
+          "activityType": "Polo Match"
+        }
+      ]
+    },
+    {
+      "id": "user_009",
+      "username": "Yuki_Rider",
+      "fullName": "Yuki Tanaka",
+      "country": "Japan",
+      "city": "Tokyo",
+      "age": 27,
+      "profilePicture": "assets/integrationOffset/horses9/userpic.jpg",
+      "ridingExperience": "9 years",
+      "specialization": "Yabusame",
+      "bio": "Japanese archer on horseback practicing the ancient art of Yabusame. Preserving traditional Japanese equestrian culture.",
+      "followers": 180,
+      "following": 456,
+      "isVerified": false,
+      "posts": [
+        {
+          "id": "post_009",
+          "type": "video",
+          "title": "Wonderful Yabusame Practice",
+          "description": "Traditional Yabusame practice session. The precision and focus required is incredible! 🏹🐎",
+          "coverImage": "assets/integrationOffset/horses9/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses9/Wonderful.mp4",
+          "likes": 245,
+          "tags": ["#yabusame", "#japan", "#traditional", "#precision", "#focus"],
+          "location": "Kamakura, Japan",
+          "horseName": "Sakura",
+          "horseBreed": "Kiso Horse",
+          "activityType": "Yabusame Practice"
+        }
+      ]
+    },
+    {
+      "id": "user_010",
+      "username": "Maria_Rider",
+      "fullName": "Maria Santos",
+      "country": "Portugal",
+      "city": "Lisbon",
+      "age": 31,
+      "profilePicture": "assets/integrationOffset/horses10/userpic.jpg",
+      "ridingExperience": "13 years",
+      "specialization": "Working Equitation",
+      "bio": "Portuguese working equitation specialist. Combining practical ranch skills with classical riding techniques.",
+      "followers": 280,
+      "following": 678,
+      "isVerified": true,
+      "posts": [
+        {
+          "id": "post_010",
+          "type": "video",
+          "title": "Wonderful Working Equitation",
+          "description": "Working equitation training combining practical skills with classical riding. The perfect blend of tradition and functionality! 🇵🇹🐎",
+          "coverImage": "assets/integrationOffset/horses10/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses10/Wonderful.mp4",
+          "likes": 198,
+          "tags": ["#workingequitation", "#portugal", "#practical", "#classical", "#tradition"],
+          "location": "Ribatejo, Portugal",
+          "horseName": "Noble",
+          "horseBreed": "Lusitano",
+          "activityType": "Working Equitation Training"
+        }
+      ]
+    },
+    {
+      "id": "user_011",
+      "username": "James_Rider",
+      "fullName": "James Mitchell",
+      "country": "Australia",
+      "city": "Melbourne",
+      "age": 34,
+      "profilePicture": "assets/integrationOffset/horses11/userpic.jpg",
+      "ridingExperience": "16 years",
+      "specialization": "Stock Work",
+      "bio": "Australian stockman working with cattle and sheep. Love the rugged outback lifestyle and working with horses.",
+      "followers": 120,
+      "following": 234,
+      "isVerified": false,
+      "posts": [
+        {
+          "id": "post_011",
+          "type": "video",
+          "title": "Wonderful Stock Work",
+          "description": "Another day mustering cattle in the Australian outback. The bond between horse and rider is essential for this work! 🇦🇺🐄",
+          "coverImage": "assets/integrationOffset/horses11/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses11/Wonderful.mp4",
+          "likes": 167,
+          "tags": ["#stockwork", "#australia", "#cattle", "#outback", "#mustering"],
+          "location": "Northern Territory, Australia",
+          "horseName": "Outback",
+          "horseBreed": "Australian Stock Horse",
+          "activityType": "Cattle Muster"
+        }
+      ]
+    },
+    {
+      "id": "user_012",
+      "username": "Elena_Rider",
+      "fullName": "Elena Volkov",
+      "country": "Russia",
+      "city": "Moscow",
+      "age": 25,
+      "profilePicture": "assets/integrationOffset/horses12/userpic.jpg",
+      "ridingExperience": "8 years",
+      "specialization": "Cossack Riding",
+      "bio": "Russian Cossack rider preserving traditional riding techniques. Love the freedom and skill of Cossack horsemanship.",
+      "followers": 360,
+      "following": 567,
+      "isVerified": true,
+      "posts": [
+        {
+          "id": "post_012",
+          "type": "video",
+          "title": "Wonderful Cossack Riding",
+          "description": "Traditional Cossack riding practice with incredible skills and techniques! The heritage lives on! 🇷🇺🐎",
+          "coverImage": "assets/integrationOffset/horses12/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses12/Wonderful.mp4",
+          "likes": 289,
+          "tags": ["#cossack", "#russia", "#traditional", "#skills", "#heritage"],
+          "location": "Krasnodar Krai, Russia",
+          "horseName": "Bogatyr",
+          "horseBreed": "Don Horse",
+          "activityType": "Cossack Training"
+        }
+      ]
+    },
+    {
+      "id": "user_013",
+      "username": "Ahmed_Rider",
+      "fullName": "Ahmed Al-Rashid",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "age": 30,
+      "profilePicture": "assets/integrationOffset/horses13/userpic.jpg",
+      "ridingExperience": "20 years",
+      "specialization": "Arabian Endurance",
+      "bio": "Saudi endurance rider with deep knowledge of Arabian horses. Competing internationally in endurance races.",
+      "followers": 520,
+      "following": 890,
+      "isVerified": true,
+      "posts": [
+        {
+          "id": "post_013",
+          "type": "video",
+          "title": "Wonderful Desert Ride",
+          "description": "Training ride through the Arabian desert. The bond between rider and Arabian horse is truly special! 🐪🐎",
+          "coverImage": "assets/integrationOffset/horses13/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses13/Wonderful.mp4",
+          "likes": 412,
+          "tags": ["#arabian", "#saudiarabia", "#desert", "#endurance", "#heritage"],
+          "location": "Rub' al Khali, Saudi Arabia",
+          "horseName": "Desert Wind",
+          "horseBreed": "Pure Arabian",
+          "activityType": "Desert Endurance Training"
+        }
+      ]
+    },
+    {
+      "id": "user_014",
+      "username": "Sofia_Rider",
+      "fullName": "Sofia Andersson",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "age": 23,
+      "profilePicture": "assets/integrationOffset/horses14/userpic.jpg",
+      "ridingExperience": "6 years",
+      "specialization": "Dressage",
+      "bio": "Swedish dressage rider with a focus on classical training methods. Love the precision and harmony of dressage.",
+      "followers": 190,
+      "following": 345,
+      "isVerified": false,
+      "posts": [
+        {
+          "id": "post_014",
+          "type": "video",
+          "title": "Wonderful Dressage Session",
+          "description": "Classical dressage training in the beautiful Swedish countryside. The connection with my horse is everything! 🇸🇪🐎",
+          "coverImage": "assets/integrationOffset/horses14/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses14/Wonderful.mp4",
+          "likes": 156,
+          "tags": ["#dressage", "#sweden", "#classical", "#harmony", "#precision"],
+          "location": "Strömsholm, Sweden",
+          "horseName": "Nordic",
+          "horseBreed": "Swedish Warmblood",
+          "activityType": "Classical Dressage Training"
+        }
+      ]
+    },
+    {
+      "id": "user_015",
+      "username": "Diego_Rider",
+      "fullName": "Diego Mendoza",
+      "country": "Argentina",
+      "city": "Buenos Aires",
+      "age": 28,
+      "profilePicture": "assets/integrationOffset/horses15/userpic.jpg",
+      "ridingExperience": "14 years",
+      "specialization": "Gaucho Riding",
+      "bio": "Argentine gaucho preserving traditional riding culture. Love the freedom and skill of gaucho horsemanship.",
+      "followers": 240,
+      "following": 456,
+      "isVerified": true,
+      "posts": [
+        {
+          "id": "post_015",
+          "type": "video",
+          "title": "Wonderful Gaucho Ride",
+          "description": "Traditional gaucho riding across the Argentine pampas. This is the true spirit of the gaucho! 🇦🇷🐎",
+          "coverImage": "assets/integrationOffset/horses15/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses15/Wonderful.mp4",
+          "likes": 223,
+          "tags": ["#gaucho", "#argentina", "#pampas", "#traditional", "#freedom"],
+          "location": "La Pampa, Argentina",
+          "horseName": "Criollo",
+          "horseBreed": "Argentine Criollo",
+          "activityType": "Gaucho Riding"
+        }
+      ]
+    },
+    {
+      "id": "user_016",
+      "username": "Priya_Rider",
+      "fullName": "Priya Sharma",
+      "country": "India",
+      "city": "Delhi",
+      "age": 26,
+      "profilePicture": "assets/integrationOffset/horses16/userpic.jpg",
+      "ridingExperience": "11 years",
+      "specialization": "Tent Pegging",
+      "bio": "Indian tent pegging specialist competing in traditional equestrian sports. Love the precision and skill required.",
+      "followers": 310,
+      "following": 567,
+      "isVerified": true,
+      "posts": [
+        {
+          "id": "post_016",
+          "type": "video",
+          "title": "Wonderful Tent Pegging",
+          "description": "Tent pegging practice session. The precision and speed required is incredible! 🎯🐎",
+          "coverImage": "assets/integrationOffset/horses16/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses16/Wonderful.mp4",
+          "likes": 198,
+          "tags": ["#tentpegging", "#india", "#precision", "#traditional", "#speed"],
+          "location": "Delhi Equestrian Club, India",
+          "horseName": "Rajput",
+          "horseBreed": "Marwari",
+          "activityType": "Tent Pegging Training"
+        }
+      ]
+    },
+    {
+      "id": "user_017",
+      "username": "Lars_Rider",
+      "fullName": "Lars Hansen",
+      "country": "Denmark",
+      "city": "Copenhagen",
+      "age": 32,
+      "profilePicture": "assets/integrationOffset/horses17/userpic.jpg",
+      "ridingExperience": "17 years",
+      "specialization": "Ceremonial Riding",
+      "bio": "Danish ceremonial rider with experience in traditional and competitive riding. Love the discipline and precision.",
+      "followers": 180,
+      "following": 234,
+      "isVerified": false,
+      "posts": [
+        {
+          "id": "post_017",
+          "type": "video",
+          "title": "Wonderful Ceremonial Display",
+          "description": "Ceremonial riding display showcasing precision and discipline. The bond between horse and rider is unbreakable! 🇩🇰🐎",
+          "coverImage": "assets/integrationOffset/horses17/Cover.jpg",
+          "videoFile": "assets/integrationOffset/horses17/Wonderful.mp4",
+          "likes": 145,
+          "tags": ["#ceremonial", "#denmark", "#equestrian", "#discipline", "#precision"],
+          "location": "Royal Danish Equestrian Center, Denmark",
+          "horseName": "Viking",
+          "horseBreed": "Danish Warmblood",
+          "activityType": "Ceremonial Riding"
+        }
+      ]
+    }
+  ]
+}
