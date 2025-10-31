@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>sliceReadTheme</key>
+    <string>FreeMarkTransit</string>
+    <key>imageOnFabric</key>
+    <string>ManifestPreloadDisplayAmid</string>
+    <key>rendererShadowFeatherlight</key>
+    <string>UtilityUpTrainAssemble</string>
+    <key>equalTerminalSelectorMultiply</key>
+    <string>BySilverDataSourceSplash</string>
+</dict>
+</plist>

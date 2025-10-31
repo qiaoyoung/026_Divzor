@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>throttleTimeline</key>
+    <string>FitQuillMakeUpdater</string>
+    <key>converterSymmetricBufferAdd</key>
+    <string>CollectorVaporFallbackHelper</string>
+    <key>granularViewModelPreload</key>
+    <string>AuroraConnectorTo</string>
+    <key>colorCrystal</key>
+    <string>ShaderSpiceIsletWord</string>
+</dict>
+</plist>

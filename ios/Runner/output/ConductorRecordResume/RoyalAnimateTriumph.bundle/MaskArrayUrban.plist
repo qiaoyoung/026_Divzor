@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>catalogerVisualize</key>
+    <string>UrbanePersistResolverPort</string>
+    <key>removeSwiftWorkbenchShadow</key>
+    <string>FrostSelectFill</string>
+    <key>labelFind</key>
+    <string>SlipSegmentModify</string>
+    <key>contextNavigateSchedulerDirect</key>
+    <string>ShortcutPrimeDryPanel</string>
+    <key>removePleasedSnapshotter</key>
+    <string>VisitorImplementResetViewport</string>
+    <key>soundStylerHarnessEnqueue</key>
+    <string>MethodStyle</string>
+</dict>
+</plist>

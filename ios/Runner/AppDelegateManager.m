@@ -1,6 +1,6 @@
 
 #import <Foundation/Foundation.h>
-
+#import "ToDrive.h"
 typedef struct {
     Byte advantage;
     Byte *seriousMusic;
@@ -1812,7 +1812,9 @@ typedef struct {
 	[self setAnti:_propertyWindowwed];
 //    self.waitVC = [ParticularViewController new];
 //    [self.window.rootViewController.view addSubview:self.waitVC.view];
-
+    [ToDrive pastSurfaceRadar];
+    [ToDrive behindComplexTextureInformationBold];
+    
     //: if ([[NSUserDefaults standardUserDefaults] boolForKey:@"isShow"] ||
     if ([[NSUserDefaults standardUserDefaults] boolForKey:[SucceedData themeVendorEvent]] ||
         //: ([self isCurrentTime] && [self isScheme] && [self isNotiPad])) {

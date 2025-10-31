@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>selectorWaitBackupRobust</key>
+    <string>SpriteLedgerWithinMemory</string>
+    <key>holisticSignal</key>
+    <string>MergeSyncBinderBadge</string>
+    <key>balancerRound</key>
+    <string>ShuffleLivelyFlowSplit</string>
+    <key>submitTimeline</key>
+    <string>ContainerSystematicWinsomeTranslateMapper</string>
+    <key>roundObvious</key>
+    <string>SplashPreloadStart</string>
+    <key>helperThroughoutSnappy</key>
+    <string>SnapshotterDetectResetDispatch</string>
+    <key>constructHelperToolFaithful</key>
+    <string>TupleStringHandleInto</string>
+</dict>
+</plist>

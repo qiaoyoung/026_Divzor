@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>candidSpeakThrottleHandler</key>
+    <string>CreatorDelegateWrite</string>
+    <key>projectorArtful</key>
+    <string>OutlineClipReference</string>
+    <key>emitterController</key>
+    <string>DeltaMeasureWait</string>
+    <key>accurateInsert</key>
+    <string>InsertSuperLedger</string>
+    <key>defineDispatchIterativeGlacier</key>
+    <string>CalibrateExtractRoundPoint</string>
+    <key>fromPresenter</key>
+    <string>DiamondThrottleTextureScheduler</string>
+    <key>forestFancy</key>
+    <string>GraphStemProudTransformable</string>
+    <key>schedulerMatrix</key>
+    <string>DeviceDefine</string>
+</dict>
+</plist>

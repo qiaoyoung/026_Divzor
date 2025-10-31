@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>parserForestQuiet</key>
+    <string>BinderPreviewRotatePreload</string>
+    <key>owlEnqueueBinder</key>
+    <string>FetchHistoryScrollView</string>
+    <key>blueprintHelperDecompress</key>
+    <string>TuplePackPush</string>
+    <key>pushLucid</key>
+    <string>StrengthCalculate</string>
+    <key>builderBlendFrom</key>
+    <string>MarkCautious</string>
+    <key>blitheSortAudio</key>
+    <string>TrainBreakAnalyze</string>
+    <key>driverTextureWriteFancy</key>
+    <string>FormatVoiceStep</string>
+</dict>
+</plist>

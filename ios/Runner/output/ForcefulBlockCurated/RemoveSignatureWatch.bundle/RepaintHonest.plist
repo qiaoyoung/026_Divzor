@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>clipPainter</key>
+    <string>PrintConsumePool</string>
+    <key>atEndlessConductorTable</key>
+    <string>InteractorBannerPlayful</string>
+    <key>bannerPreloadResolver</key>
+    <string>TupleParserFragment</string>
+    <key>subtleSchedulerInside</key>
+    <string>RegisterLoadSlideDeliver</string>
+</dict>
+</plist>

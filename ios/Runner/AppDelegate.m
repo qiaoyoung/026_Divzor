@@ -2,13 +2,22 @@
 #import <Flutter/Flutter.h>
 #import "GeneratedPluginRegistrant.h"
 #import "AppDelegateManager.h"
+#import "ThroughMarkParserShade.h"
+#import "IntimateTreatValidate.h"
+#import "ZealousPauseFrugalReset.h"
+#import "SelectEnumKineticTo.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [GeneratedPluginRegistrant registerWithRegistry:self];
+    [ThroughMarkParserShade layoutFineVigorousPluginForceful];
+    [ThroughMarkParserShade continueIcon];
+    [IntimateTreatValidate throughCleverUpdater];
     [[AppDelegateManager washOut] initMore:self.window];
+    [ZealousPauseFrugalReset findUnitBrokerReference];
+    [SelectEnumKineticTo hideDualFactoryGiftedSurface];
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
